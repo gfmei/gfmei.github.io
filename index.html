@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+
+<html lang="en" dir="ltr">
+    
+<head>
+<title>gfmei | Home</title>
+<meta charset="iso-8859-1">
+
+<!-- header to enable javascript -->
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.3.js"></script>
+
+<!-- header to import css files -->
+<link rel="stylesheet" href="styles/layout.css" type="text/css">
+
+<!-- header to enable javascript -->
+<script type='text/javascript'>
+    $(function(){
+      $('#disapp_menu u').css({cursor: "pointer"}).on('click', function(){
+          $(this).next('em').toggle();
+          })
+      });
+</script>
