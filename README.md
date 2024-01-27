@@ -1,4 +1,4 @@
-## Hi, 👋 I'm <a href="https://gfmei.github.io/gfmei" target="_blank">Guofeng Mei (Ryan)</a></sup>
+## Hi, 👋 I'm <a href="https://gfmei.github.io/gfmei" target="_blank">Guofeng (Ryan) Mei</a></sup>
 
 <a>
 <img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2000&pause=100&multiline=true&width=1000&height=80&lines=Researcher+%7C+PhD+Student+%7C+Algorithm+Engineer;AI+%7C+Computer+Vision+%7C+Optimization" alt="Typing SVG" />
