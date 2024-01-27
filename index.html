@@ -1,28 +1,592 @@
 <!DOCTYPE html>
-<html>
- <head>
-   <title>Guofeng Mei</title>
-  <link rel="stylesheet" href="css/styles.css">
- </head>
- <body>
-   <nav>
-     <ul>
-       <li><a href=”/”>Home</a></li>
-       <li><a href=”/about”>About</a></li>
-       <li><a href=”/resume”>Resume</a></li>
-       <li><a href=”/blog”>Blog</a></li>
-     </ul>
-   </nav>
-   <div class=”container”>
-     <div class=”blurb”>
-       <h1>Hi, I am Guofeng Mei!</h1>
-       <p>This is my first page for my personal website!</a></p>
-     </div>
-   </div>
-   <footer>
-   <ul>
-     <li><a href=”mailto:gfmeiwhu@outlook.com”>gfmeiwhu@outlook.com</a></li>
-   </ul>
-   </footer>
- </body>
+<html lang="en">
+<!-- Head -->
+<head>
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type">
+    <!-- Standard metadata -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1, shrink-to-fit=no" name="viewport">
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+    <title>Guofeng Mei</title>
+    <meta content="Guofeng Mei" name="author">
+    <meta content="Technologies of Vision (TeV), Fondazione Bruno Kessler, Italy. Office: FBK - DI Center - TeV, Via Sommarive, 18, 38123 Trento, Italy. Email: gfmeiwhu@gmail.com"
+          name="description">
+    <meta content="jekyll, jekyll-theme, academic-website, portfolio-website" name="keywords">
+
+    <!-- Bootstrap & MDB -->
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+          integrity="sha256-DF7Zhf293AJxJNTmh5zhoYYIMs2oXitRfBjY+9L//AY=" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/css/mdb.min.css"
+          integrity="sha256-jpjYvU3G3N6nrrBwXJoVEYI/0zw8htfFnhT9ljN3JJw=" rel="stylesheet">
+
+    <!-- Fonts & Icons -->
+    <link crossorigin="anonymous"
+          href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.15.4/css/all.min.css"
+          integrity="sha256-mUZM63G8m73Mcidfrv5E+Y61y7a12O5mW4ezU3bxqW4=" rel="stylesheet">
+    <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css"
+          integrity="sha256-i1+4qU2G2860dGGIOJscdC30s9beBXjFfzjWLjBRsBg=" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700%7CRoboto+Slab:100,300,400,500,700%7CMaterial+Icons"
+          rel="stylesheet"
+          type="text/css">
+
+    <!-- Code Syntax Highlighting -->
+    <link href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/github.css" id="highlight_theme_light"
+          media=""
+          rel="stylesheet">
+    <link href="data:image/svg+xml,&lt;svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22&gt;&lt;text y=%22.9em%22 font-size=%2290%22&gt;%F0%9F%8E%93&lt;/text&gt;&lt;/svg&gt;"
+          rel="shortcut icon">
+
+    <!-- Custom styles -->
+    <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="http://localhost:4000/" rel="canonical">
+
+    <!-- Dark Mode -->
+    <link href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" id="highlight_theme_dark"
+          media="none" rel="stylesheet">
+    <script src="/assets/js/theme.js"></script>
+    <script src="/assets/js/dark_mode.js"></script>
+</head>
+
+<!-- Body -->
+<body class="fixed-top-nav sticky-bottom-footer">
+<!-- Header -->
+<header>
+    <!-- Nav Bar -->
+    <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
+        <div class="container">
+            <!-- Navbar Toggle -->
+            <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
+                    class="navbar-toggler collapsed ml-auto" data-target="#navbarNav" data-toggle="collapse"
+                    type="button">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar top-bar"></span>
+                <span class="icon-bar middle-bar"></span>
+                <span class="icon-bar bottom-bar"></span>
+            </button>
+
+            <div class="collapse navbar-collapse text-right" id="navbarNav">
+                <ul class="navbar-nav ml-auto flex-nowrap">
+                    <!-- About -->
+                    <li class="nav-item active">
+                        <a class="nav-link" href="./">Home<span class="sr-only">(current)</span></a>
+                    </li>
+                    <!-- Other pages -->
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./publications/">Publications</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./resume/">Resume</a>
+                    </li>
+                    <li class="nav-item ">
+                        <a class="nav-link" href="./others/">Others</a>
+                    </li>
+                    <!-- Toogle theme mode -->
+                    <li class="toggle-container">
+                        <button id="light-toggle" title="Change theme">
+                            <i class="fas fa-moon"></i>
+                            <i class="fas fa-sun"></i>
+                        </button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- Scrolling Progress Bar -->
+    <progress id="progress" value="0">
+        <div class="progress-container">
+            <span class="progress-bar"></span>
+        </div>
+    </progress>
+</header>
+
+<!-- Content -->
+<div class="container mt-5">
+    <div class="post">
+        <article>
+            <div class="row">
+                <div class="col-sm-3">
+                    <img alt="Guofeng Mei" src="assets/img/th.png" style="width: 170px; border-radius: 10px;">
+                </div>
+                <div class="col-sm-9">
+                    <h1 class="post-title">Guofeng Mei</h1>
+                    <p>Technologies of Vision (TeV), Fondazione Bruno Kessler<br>
+                        Office: FBK - DI Center - TeV, Via Sommarive, 18, 38123 Trento, Italy<br>
+                        Email: <a href="mailto:gfmeiwhu@gmail.com">gfmeiwhu@gmail.com</a>
+                    </p>
+                    <div class="social">
+                        <div class="contact-icons">
+                            <a href="https://scholar.google.com/citations?user=VsmIGqsAAAAJ&hl=en"
+                               rel="external nofollow noopener" target="_blank" title="Google Scholar"><i
+                                    class="ai ai-google-scholar"></i></a>
+                            <a href="https://github.com/gfmei" rel="external nofollow noopener" target="_blank"
+                               title="GitHub"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/gfmei/" rel="external nofollow noopener"
+                               target="_blank"
+                               title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+                            <a href="https://dblp.org/pid/197/7875.html" rel="external nofollow noopener"
+                               target="_blank"
+                               title="DBLP"><i class="ai ai-dblp"></i></a>
+                            <a href="https://twitter.com/CvGfmei" rel="noopener noreferrer" target="_blank"
+                               title="Twitter"><i class="fab fa-twitter"></i></a>
+                            <a href="https://orcid.org/my-orcid?orcid=0000-0002-0494-5031" rel="noopener noreferrer"
+                               target="_blank"
+                               title="ORCID"><i class="fab fa-orcid"></i></a>
+                            <!-- Additional links can be added here -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--            &lt;!&ndash; Further content can be added here &ndash;&gt;-->
+            <!--        </article>-->
+            <!--    </div>-->
+            <!--</div>-->
+
+            <div class="clearfix">
+                <p>Hey, thanks for stopping by! 👋</p>
+
+                <p>
+                    Guofeng Mei currently serves as a researcher at Technologies of Vision (TeV), Fondazione Bruno
+                    Kessler, Italy, under the mentorship of Dr. <a
+                        href="https://scholar.google.co.uk/citations?user=BQ7li6AAAAAJ&hl=en">Fabio Poiesi</a>. He
+                    earned his Ph.D. in 2023 from the Faculty of Engineering and Information Technology at the
+                    University of Technology Sydney, Australia, supervised by Prof. <a
+                        href="https://scholar.google.com/citations?user=qrNPFTQAAAAJ&hl=en">Jian Zhang</a>. Before this,
+                    between 2013 and 2016, Guofeng completed his Master's degree at the School of Mathematics and
+                    Statistics, Wuhan University, China, under the supervision of Prof. <a
+                        href="https://scholar.google.com/citations?user=58ShSfwAAAAJ&hl=en">Xiaoqun Wu</a>.
+                </p>
+
+                <p>
+                    His research interests span optimization, computer vision, natural language processing, and machine
+                    learning. He particularly focuses on:
+                </p>
+
+                <ul>
+                    <li>3D vision (e.g., nerf, registration, segmentation, classification)</li>
+                    <li>Low-level vision (e.g., image/video restoration, super-resolution, denoising, deblurring, HDR
+                        deghosting)
+                    </li>
+                    <li>Multi-modalities (e.g., language-vision models)</li>
+                    <li>Depth estimation</li>
+                    <li>Semantic segmentation</li>
+                    <li>Object detection</li>
+                    <li>Efficient network design (e.g., pruning, knowledge distillation, quantization, unsupervised
+                        learning)
+                    </li>
+                    <li>Complex network</li>
+                </ul>
+
+                <style>
+                    .box {
+                        max-width: 100%;
+                        width: auto;
+                        height: auto;
+                        background-color: #404040;
+                        padding: 20px;
+                        border-radius: 10px;
+                        margin: 20px auto;
+                        color: #333;
+                    }
+                </style>
+            </div>
+
+            <div class="news">
+                <h2>News</h2>
+                <div class="table-responsive" style="max-height: 20vw">
+                    <table class="table table-sm table-borderless">
+                        <tr>
+                            <th scope="row">2024-01</th>
+                            <td>We have 1 paper accepted to <strong>IJCV 2024</strong>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2023-03</th>
+                            <td>We have 1 paper accepted to <strong>CVPR 2023</strong>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2022-10</th>
+                            <td>We have 1 paper accepted to <strong>BMVC 2022</strong>.</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+
+            <div class="publications">
+                <h2>Featured Publications</h2>
+                <ol class="bibliography">
+                    <!-- Publications list -->
+                    <!-- Each publication is structured in a similar way -->
+                    <!-- Example publication -->
+                    <h5>Publications in 2023</h5>
+                    <li>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="mei2023unsupervised">
+                                <div class="title">Unsupervised Deep Probabilistic Approach for Partial Point Cloud
+                                    Registration
+                                </div>
+                                <div class="author">
+                                    <em>Guofeng Mei</em>, Hao Tang, Xiaoshui Huang, Weijie Wang, Juan Liu, Jian Zhang,
+                                    Luc Van Gool, Qiang Wu
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> 2023, Vancouver, Canada</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://openaccess.thecvf.com/content/CVPR2023/papers/Mei_Unsupervised_Deep_Probabilistic_Approach_for_Partial_Point_Cloud_Registration_CVPR_2023_paper.pdf"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/UDPReg"
+                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- _layouts/bib.html -->
+                        <div class="row">
+                            <div class="col-sm-2 abbr"><abbr class="badge"><a
+                                    href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+                                    rel="external nofollow noopener" target="_blank">WACV</a></abbr></div>
+
+                            <!-- Entry bib key -->
+                            <div class="col-sm-10" id="mei2023overlap">
+
+                                <!-- Title -->
+                                <div class="title">Overlap-guided Gaussian Mixture Models for Point Cloud Registration
+                                </div>
+                                <!-- Author -->
+                                <div class="author">
+
+                                    <em>Guofeng Mei</em>, Fabio Poiesi, Cristiano Saltori, Jian Zhang, Elisa
+                                    Ricci, Nicu Sebe
+                                </div>
+
+                                <!-- <div class="periodical">
+                                  <em>In European Conference on Computer Vision</em> 2022
+                                </div> -->
+                                <div class="periodical">
+
+                                    In <em>WACV</em> 2023, Hawaii, USA
+
+                                </div>
+
+                                <!-- Links/Buttons -->
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://openaccess.thecvf.com/content/WACV2023/papers/Mei_Overlap-Guided_Gaussian_Mixture_Models_for_Point_Cloud_Registration_WACV_2023_paper.pdf"
+                                       rel="external nofollow noopener" role="button"
+                                       target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/ogmm"
+                                       rel="external nofollow noopener"
+                                       role="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr"><abbr class="badge"><a
+                                    href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+                                    rel="external nofollow noopener" target="_blank">IROS</a></abbr></div>
+
+                            <!-- Entry bib key -->
+                            <div class="col-sm-10" id="wu2023graph">
+
+                                <!-- Title -->
+                                <div class="title">Graph Matching Optimization Network for Point Cloud Registration
+                                </div>
+                                <!-- Author -->
+                                <div class="author">
+
+                                    Qianliang Wu, Yaqi Shen, Jian Zhang, <em>Guofeng Mei</em>, Haobo Jiang, YaqingDing,
+                                    Lei Luo, Jin Xie, Jian Yang
+                                </div>
+
+                                <!-- <div class="periodical">
+                                  <em>In European Conference on Computer Vision</em> 2022
+                                </div> -->
+                                <div class="periodical">
+
+                                    In <em>IROS</em> 2023, Romulus, USA
+
+                                </div>
+
+                                <!-- Links/Buttons -->
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0" href="https://arxiv.org/abs/2302.05844"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <!--            <a href="https://github.com/gfmei/ogmm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2 abbr"><abbr class="badge"><a
+                                    href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+                                    rel="external nofollow noopener" target="_blank">RA-L</a></abbr></div>
+
+                            <!-- Entry bib key -->
+                            <div class="col-sm-10" id="zhou2023attentive">
+
+                                <!-- Title -->
+                                <div class="title">Attentive Multimodal Fusion for Optical and Scene Flow
+                                </div>
+                                <!-- Author -->
+                                <div class="author">
+                                    Youjie Zhou, <em>Guofeng Mei</em>, Yiming Wang, Fabio Poiesi, Yi Wan
+                                </div>
+
+                                <!-- <div class="periodical">
+                                  <em>In European Conference on Computer Vision</em> 2022
+                                </div> -->
+                                <div class="periodical">
+
+                                    In <em>RA-L</em> (Q1), 2023
+
+                                </div>
+
+                                <!-- Links/Buttons -->
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0" href="https://ieeexplore.ieee.org/abstract/document/10197495"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <!--            <a href="https://github.com/gfmei/ogmm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2 abbr"><abbr class="badge"><a
+                                    href="https://en.wikipedia.org/wiki/IEEE_Transactions_on_Network_Science_and_Engineering"
+                                    rel="external nofollow noopener" target="_blank">TNSE</a></abbr></div>
+
+                            <!-- Entry bib key -->
+                            <div class="col-sm-10" id="liu2023unified">
+
+                                <!-- Title -->
+                                <div class="title">A unified inferring framework of multiplex epidemic networks under multiple interlayer interaction modes
+                                </div>
+                                <!-- Author -->
+                                <div class="author">
+                                    Juan Liu, <em>Guofeng Mei</em>, Xiaoqun Wu, Yuanqing Xia
+                                </div>
+
+                                <!-- <div class="periodical">
+                                  <em>In European Conference on Computer Vision</em> 2022
+                                </div> -->
+                                <div class="periodical">
+
+                                    In <em>TNSE</em> (Q1), 2023
+
+                                </div>
+
+                                <!-- Links/Buttons -->
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0" href="https://ieeexplore.ieee.org/abstract/document/10129106"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <!--            <a href="https://github.com/gfmei/ogmm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="row">
+                            <div class="col-sm-2 abbr"><abbr class="badge"><a
+                                    href="https://en.wikipedia.org/wiki/Neurocomputing_(journal)"
+                                    rel="external nofollow noopener" target="_blank">Neurocomputing</a></abbr></div>
+
+                            <!-- Entry bib key -->
+                            <div class="col-sm-10" id="huang2023cross">
+
+                                <!-- Title -->
+                                <div class="title">Cross-source point cloud registration: Challenges, progress and prospects
+                                </div>
+                                <!-- Author -->
+                                <div class="author">
+                                    Xiaoshui Huang, <em>Guofeng Mei</em>, Jian Zhang
+                                </div>
+
+                                <!-- <div class="periodical">
+                                  <em>In European Conference on Computer Vision</em> 2022
+                                </div> -->
+                                <div class="periodical">
+
+                                    In <em>Neurocomputing</em> (Q1),  2023
+
+                                </div>
+
+                                <!-- Links/Buttons -->
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0" href="https://www.sciencedirect.com/science/article/abs/pii/S0925231223005064"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <!--            <a href="https://github.com/gfmei/ogmm" class="btn btn-sm z-depth-0" role="button" rel="external nofollow noopener" target="_blank">Code</a>-->
+                                </div>
+                            </div>
+                        </div>
+
+                    </li>
+                    <!-- Additional publications follow the same structure -->
+                </ol>
+            </div>
+            <!-- <a href="https://clustrmaps.com/site/19ncr" title="Visit tracker" rel="external nofollow noopener" target="_blank"><img src="//www.clustrmaps.com/map_v2.png?d=jIdUd0dDYkE8CiqptfhnfiWcZHCc5p62dIsontyW-FQ&amp;cl=ffffff" style="width: 0px;"></a> -->
+        </article>
+
+    </div>
+
+</div>
+
+<!-- Footer -->
+<footer class="sticky-bottom mt-5">
+    <div class="container">
+        © Copyright 2015-2023 Guofeng Mei. Powered by <a href="https://jekyllrb.com/" rel="external nofollow noopener"
+                                                         target="_blank">Jekyll</a> with <a
+            href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>
+        theme.
+
+        Last updated: Jan 19, 2024.
+
+        <!-- Default Statcounter code for Guofeng Mei' homepage
+        https://gfmei.github.io/ -->
+        <script type="text/javascript">
+            var sc_project = 12830645;
+            var sc_invisible = 1;
+            var sc_security = "11b4016e";
+        </script>
+        <script async
+                src="https://www.statcounter.com/counter/counter.js"
+                type="text/javascript"></script>
+        <noscript>
+            <div class="statcounter"><a href="https://statcounter.com/" target="_blank"
+                                        title="Web Analytics
+        Made Easy - Statcounter"><img alt="Web Analytics Made Easy - Statcounter"
+                                      class="statcounter"
+                                      referrerPolicy="no-referrer-when-downgrade"
+                                      src="https://c.statcounter.com/12830645/0/11b4016e/1/"></a></div>
+        </noscript>
+        <!-- End of Statcounter Code -->
+
+    </div>
+</footer>
+
+
+<!-- JavaScripts -->
+<!-- jQuery -->
+<script crossorigin="anonymous"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4="
+        src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.min.js"></script>
+
+<!-- Bootsrap & MDB scripts -->
+<script crossorigin="anonymous"
+        integrity="sha256-fgLAgv7fyCGopR/gBNq2iW3ZKIdqIcyshnUULC4vex8="
+        src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+<script crossorigin="anonymous"
+        integrity="sha256-NdbiivsvWt7VYCt6hYNT3h/th9vSTL4EDWeGs5SN3DA="
+        src="https://cdn.jsdelivr.net/npm/mdbootstrap@4.20.0/js/mdb.min.js"></script>
+
+<!-- Masonry & imagesLoaded -->
+<script crossorigin="anonymous" defer
+        integrity="sha256-Nn1q/fx0H7SNLZMQ5Hw5JLaTRZp0yILA/FRexe19VdI="
+        src="https://cdn.jsdelivr.net/npm/masonry-layout@4.2.2/dist/masonry.pkgd.min.js"></script>
+<script defer src="https://cdn.jsdelivr.net/npm/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script defer src="/assets/js/masonry.js" type="text/javascript"></script>
+
+<!-- Medium Zoom JS -->
+<script crossorigin="anonymous" defer
+        integrity="sha256-EdPgYcPk/IIrw7FYeuJQexva49pVRZNmt3LculEr7zM="
+        src="https://cdn.jsdelivr.net/npm/medium-zoom@1.0.6/dist/medium-zoom.min.js"></script>
+<script defer src="/assets/js/zoom.js"></script><!-- Load Common JS -->
+<script defer src="/assets/js/common.js"></script>
+
+<!-- MathJax -->
+<script type="text/javascript">
+    window.MathJax = {
+        tex: {
+            tags: 'ams'
+        }
+    };
+</script>
+<script defer id="MathJax-script" src="https://cdn.jsdelivr.net/npm/mathjax@3.2.0/es5/tex-mml-chtml.js"
+        type="text/javascript"></script>
+<script defer src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+
+
+<!-- Scrolling Progress Bar -->
+<script type="text/javascript">
+    /*
+     * This JavaScript code has been adapted from the article
+     * https://css-tricks.com/reading-position-indicator/ authored by Pankaj Parashar,
+     * published on the website https://css-tricks.com on the 7th of May, 2014.
+     * Couple of changes were made to the original code to make it compatible
+     * with the `al-foio` theme.
+     */
+    const progressBar = $("#progress");
+    /*
+     * We set up the bar after all elements are done loading.
+     * In some cases, if the images in the page are larger than the intended
+     * size they'll have on the page, they'll be resized via CSS to accomodate
+     * the desired size. This mistake, however, breaks the computations as the
+     * scroll size is computed as soon as the elements finish loading.
+     * To account for this, a minimal delay was introduced before computing the
+     * values.
+     */
+    window.onload = function () {
+        setTimeout(progressBarSetup, 50);
+    };
+
+    /*
+     * We set up the bar according to the browser.
+     * If the browser supports the progress element we use that.
+     * Otherwise, we resize the bar thru CSS styling
+     */
+    function progressBarSetup() {
+        if ("max" in document.createElement("progress")) {
+            initializeProgressElement();
+            $(document).on("scroll", function () {
+                progressBar.attr({value: getCurrentScrollPosition()});
+            });
+            $(window).on("resize", initializeProgressElement);
+        } else {
+            resizeProgressBar();
+            $(document).on("scroll", resizeProgressBar);
+            $(window).on("resize", resizeProgressBar);
+        }
+    }
+
+    /*
+     * The vertical scroll position is the same as the number of pixels that
+     * are hidden from view above the scrollable area. Thus, a value > 0 is
+     * how much the user has scrolled from the top
+     */
+    function getCurrentScrollPosition() {
+        return $(window).scrollTop();
+    }
+
+    function initializeProgressElement() {
+        let navbarHeight = $("#navbar").outerHeight(true);
+        $("body").css({"padding-top": navbarHeight});
+        $("progress-container").css({"padding-top": navbarHeight});
+        progressBar.css({top: navbarHeight});
+        progressBar.attr({
+            max: getDistanceToScroll(),
+            value: getCurrentScrollPosition(),
+        });
+    }
+
+    /*
+     * The offset between the html document height and the browser viewport
+     * height will be greater than zero if vertical scroll is possible.
+     * This is the distance the user can scroll
+     */
+    function getDistanceToScroll() {
+        return $(document).height() - $(window).height();
+    }
+
+    function resizeProgressBar() {
+        progressBar.css({width: getWidthPercentage() + "%"});
+    }
+
+    // The scroll ratio equals the percentage to resize the bar
+    function getWidthPercentage() {
+        return (getCurrentScrollPosition() / getDistanceToScroll()) * 100;
+    }
+</script>
+
+</body>
 </html>
