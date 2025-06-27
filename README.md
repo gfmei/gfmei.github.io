@@ -1,7 +1,7 @@
 ## Hi, 👋 I'm <a href="https://gfmei.github.io" target="_blank">Guofeng (Ryan) Mei</a></sup>
 
 <a>
-<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2000&pause=100&multiline=true&width=1000&height=80&lines=Researcher+%7C+PhD+Student+%7C+Algorithm+Engineer;AI+%7C+Computer+Vision+%7C+Optimization" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Georgia&size=18&duration=2000&pause=100&multiline=true&width=1000&height=80&lines=Researcher+%7C+PhD+%7C+Algorithm+Engineer;AI+%7C+Computer+Vision+%7C+Optimization" alt="Typing SVG" />
 </a>
 
 ![](https://github-readme-stats.vercel.app/api?username=gfmei)
@@ -14,7 +14,7 @@
 
 * 💡 Open to collaborating on projects and innovative ideas.
 
-* 💻 Currently working on Point Cloud Registration, Unsupervised Learning, and Neural Rendering.
+* 💻 Currently working on 3DLLM, Point Cloud Registration, Unsupervised Learning, and Neural Rendering.
 
 <br/><!--**Mayandev/Mayandev** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 <br/>Here are some ideas to get you started:
