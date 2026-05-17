@@ -9,9 +9,16 @@
     <meta content="IE=edge" http-equiv="X-UA-Compatible">
     <title>Guofeng Mei</title>
     <meta content="Guofeng Mei" name="author">
-    <meta content="Technologies of Vision (TeV), Fondazione Bruno Kessler, Italy. Office: FBK - DI Center - TeV, Via Sommarive, 18, 38123 Trento, Italy. Email: gfmeiwhu@gmail.com"
+    <meta content="Guofeng (Ryan) Mei is a tenure-track researcher at Fondazione Bruno Kessler working on 3D vision-language models, point cloud understanding, embodied AI, and efficient learning."
           name="description">
-    <meta content="jekyll, jekyll-theme, academic-website, portfolio-website" name="keywords">
+    <meta content="Guofeng Mei, Ryan Mei, 3D vision, vision-language models, point cloud, embodied AI, computer vision"
+          name="keywords">
+    <meta content="Guofeng (Ryan) Mei" property="og:title">
+    <meta content="Tenure-track researcher at Fondazione Bruno Kessler working on 3D vision-language models, point cloud understanding, embodied AI, and efficient learning."
+          property="og:description">
+    <meta content="website" property="og:type">
+    <meta content="https://gfmei.github.io/" property="og:url">
+    <meta content="https://gfmei.github.io/assets/img/th.png" property="og:image">
 
     <!-- Bootstrap & MDB -->
     <link crossorigin="anonymous" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
@@ -38,7 +45,7 @@
 
     <!-- Custom styles -->
     <link href="/assets/css/main.css" rel="stylesheet">
-    <link href="http://localhost:4000/" rel="canonical">
+    <link href="https://gfmei.github.io/" rel="canonical">
 
     <!-- Dark Mode -->
     <link href="https://cdn.jsdelivr.net/gh/jwarby/jekyll-pygments-themes@master/native.css" id="highlight_theme_dark"
@@ -54,6 +61,7 @@
     <!-- Nav Bar -->
     <nav class="navbar navbar-light navbar-expand-sm fixed-top" id="navbar">
         <div class="container">
+            <a class="navbar-brand title font-weight-lighter" href="./">Guofeng Mei</a>
             <!-- Navbar Toggle -->
             <button aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"
                     class="navbar-toggler collapsed ml-auto" data-target="#navbarNav" data-toggle="collapse"
@@ -92,35 +100,25 @@
         </div>
     </nav>
     <!-- Scrolling Progress Bar -->
-    <progress id="progress" value="0">
-        <div class="progress-container">
-            <span class="progress-bar"></span>
-        </div>
-    </progress>
+    <progress id="progress" value="0"></progress>
+    <div class="progress-container">
+        <span class="progress-bar"></span>
+    </div>
 </header>
 
 <!-- Content -->
-<div class="container mt-5">
+<div class="container mt-5 home-container">
     <div class="post">
         <article>
-            <div class="row">
-                <div class="col-sm-3">
-                    <img alt="Guofeng Mei" src="assets/img/th.png" style="width: 170px; border-radius: 10px;">
-                </div>
-                <div class="col-sm-9">
-                    <h1 class="post-title">Guofeng (Ryan) Mei</h1>
-                    <p>Researcher of <a href="https://tev.fbk.eu/home"> Technologies of Vision (TeV)</a>,
-                        Fondazione Bruno Kessler (FBK) </p>
-
-                    <p>
-                        Address: FBK - DI Center - TeV, Via Sommarive, 18, 38123 Trento, Italy<br>
-                        Email: <a href="mailto:gfmeiwhu@gmail.com">gfmeiwhu@gmail.com</a>
-                    </p>
-
+            <section class="profile-hero">
+                <div class="profile-side">
+                    <div class="profile-photo-wrap">
+                        <img alt="Portrait of Guofeng Mei" class="profile-photo" src="assets/img/th.png">
+                    </div>
 
                     <div class="social">
                         <div class="contact-icons">
-                            <a href="https://scholar.google.com/citations?user=VsmIGqsAAAAJ&hl=en"
+                            <a href="https://scholar.google.com/citations?user=VsmIGqsAAAAJ&amp;hl=en"
                                rel="external nofollow noopener" target="_blank" title="Google Scholar"><i
                                     class="ai ai-google-scholar"></i></a>
                             <a href="https://github.com/gfmei" rel="external nofollow noopener" target="_blank"
@@ -133,38 +131,56 @@
                                title="DBLP"><i class="ai ai-dblp"></i></a>
                             <a href="https://twitter.com/CvGfmei" rel="noopener noreferrer" target="_blank"
                                title="Twitter"><i class="fab fa-twitter"></i></a>
-                            <a href="https://orcid.org/my-orcid?orcid=0000-0002-0494-5031" rel="noopener noreferrer"
+                            <a href="https://orcid.org/0000-0002-0494-5031" rel="noopener noreferrer"
                                target="_blank"
                                title="ORCID"><i class="fab fa-orcid"></i></a>
-                            <!-- Additional links can be added here -->
                         </div>
                     </div>
+                </div>
 
-                    <p><font color="#9900FF"> Never underestimate your power to change yourself!</font></p>
+                <div class="profile-intro">
+                    <p class="profile-kicker">Researcher in 3D vision, language, and embodied AI</p>
+                    <h1 class="post-title">Guofeng (Ryan) Mei</h1>
+                    <p class="profile-affiliation">Researcher at <a href="https://tev.fbk.eu/home"
+                                                                     rel="external nofollow noopener"
+                                                                     target="_blank">Technologies of Vision (TeV)</a>,
+                        Fondazione Bruno Kessler (FBK).</p>
+
+                    <p class="profile-summary">
+                        I work on 3D vision-language models, point cloud understanding, embodied AI, and efficient
+                        learning, with a focus on methods that connect geometry, semantics, and real-world interaction.
+                    </p>
+
+                    <div class="profile-actions">
+                        <a class="btn btn-sm z-depth-0" href="./publications/" role="button">Publications</a>
+                        <a class="btn btn-sm z-depth-0" href="./CV/" role="button">CV</a>
+                        <a class="btn btn-sm z-depth-0" href="mailto:gfmeiwhu@outlook.com" role="button">Email</a>
+                    </div>
+
+                    <div class="profile-contact">
+                        <span><i class="fas fa-map-marker-alt" style="margin-right:0.35rem;"></i>FBK - DI Center - TeV, Via Sommarive, 18, 38123 Trento, Italy</span>
+                    </div>
+
+                    <p class="profile-motto">"Never underestimate your power to change yourself!"</p>
 
                 </div>
-            </div>
-            <!--            &lt;!&ndash; Further content can be added here &ndash;&gt;-->
-            <!--        </article>-->
-            <!--    </div>-->
-            <!--</div>-->
+            </section>
 
-            <div class="clearfix" style="text-align: justify;">
-                <!--                <p>Never underestimate your power to change yourself!</p>-->
+            <section class="about-section">
 
                 <p>
                     Guofeng Mei (梅国锋) currently serves as a researcher at Technologies of Vision (TeV), Fondazione Bruno
-                    Kessler, Italy, under the mentorship of Dr. <a
-                        href="https://scholar.google.co.uk/citations?user=BQ7li6AAAAAJ&hl=en">Fabio Poiesi</a>. He
+                    Kessler, Italy. He works with Dr. <a
+                        href="https://scholar.google.co.uk/citations?user=BQ7li6AAAAAJ&amp;hl=en">Fabio Poiesi</a>. He
                     earned his Ph.D. in 2023 from the Faculty of Engineering and Information Technology at the
                     University of Technology Sydney, Australia, supervised by Prof. <a
-                        href="https://scholar.google.com/citations?user=qrNPFTQAAAAJ&hl=en">Jian Zhang</a>. Before this,
+                        href="https://scholar.google.com/citations?user=qrNPFTQAAAAJ&amp;hl=en">Jian Zhang</a>. Before this,
                     between 2013 and 2016, Guofeng completed his Master's degree at the School of Mathematics and
                     Statistics, Wuhan University, China, under the supervision of Prof. <a
-                        href="https://scholar.google.com/citations?user=58ShSfwAAAAJ&hl=en">Xiaoqun Wu</a>.
+                        href="https://scholar.google.com/citations?user=58ShSfwAAAAJ&amp;hl=en">Xiaoqun Wu</a>.
                     In addition, Guofeng has had the opportunity to be a visiting scholar at the Multimedia and Human
                     Understanding Group at the University of Trento, Italy, under the guidance of Prof. <a
-                        href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&hl=en"> Nicu Sebe</a>.
+                        href="https://scholar.google.com/citations?user=stFCYOAAAAAJ&amp;hl=en"> Nicu Sebe</a>.
                 </p>
 
                 <p>
@@ -172,91 +188,82 @@
                     learning. He particularly focuses on:
                 </p>
 
-                <ul>
-                    <li>3D vision language models  (e.g., 3DLLM), multi-modalities, 3D visual grounding</li>
-                    <li>3D point cloud registration, graph matching</li>
-                    <li>Low-level vision (e.g., image/video restoration, super-resolution, denoising, deblurring, HDR
-                        deghosting)
-                    </li>
-                    <li>3D instance segmentation, 3D semantic segmentation</li>
-                    <li>3D vision language or large language models for robotics</li>
-                    <li>Efficient learning (e.g., pruning, knowledge distillation, quantization, unsupervised
-                        learning)
-                    </li>
-                    <li>Complex network, optimization, optimal transport</li>
+                <ul class="research-tags">
+                    <li>3D vision-language models</li>
+                    <li>Multimodal learning</li>
+                    <li>3D visual grounding</li>
+                    <li>Point cloud registration</li>
+                    <li>Graph matching</li>
+                    <li>Image and video restoration</li>
+                    <li>3D instance segmentation</li>
+                    <li>Robotic perception</li>
+                    <li>Efficient learning</li>
+                    <li>Optimization and optimal transport</li>
                 </ul>
-                <style>
-                    .box {
-                        max-width: 100%;
-                        width: auto;
-                        height: auto;
-                        background-color: #404040;
-                        padding: 20px;
-                        border-radius: 10px;
-                        margin: 20px auto;
-                        color: #333;
-                    }
-                </style>
-            </div>
+            </section>
 
             <div class="news">
                 <h2>News</h2>
-                <div class="table-responsive" style="max-height: 20vw">
+                <div class="news-scroll-wrap"><div class="table-responsive news-scroll">
                     <table class="table table-sm table-borderless">
                         <tr>
-                            <th scope="row">2025-1</th>
-                            <td>We have 2 paper accepted to <strong>AAAI 2026</strong>.</td>
+                            <th scope="row">2026-04</th>
+                            <td>New 2026 publications were added from Google Scholar, including <strong>CVPR 2026</strong> and <strong>CVPRW/NTIRE 2026</strong> papers.</td>
                         </tr>
                         <tr>
                             <th scope="row">2025-06</th>
-                            <td>We have 1 paper accepted to <strong>ICCV 2025</strong>.</td>
+                            <td>One paper was accepted to <strong>ICCV 2025</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2025-06</th>
-                            <td>We have 2 paper accepted to <strong>IROS 2025</strong>.</td>
+                            <td>Two papers were accepted to <strong>IROS 2025</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2025-02</th>
-                            <td>We have 1 paper accepted to <strong>CVPR 2025</strong>.</td>
+                            <td>One paper was accepted to <strong>CVPR 2025</strong>.</td>
+                        </tr>
+                        <tr>
+                            <th scope="row">2025-01</th>
+                            <td>Two papers were accepted to <strong>AAAI 2026</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-11</th>
-                            <td>We have 2 papers accepted to <strong>3DV 2025</strong>.</td>
+                            <td>Two papers were accepted to <strong>3DV 2025</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-09</th>
-                            <td>We have 1 paper accepted to <strong>ACCV 2024</strong>.</td>
+                            <td>One paper was accepted to <strong>ACCV 2024</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-07</th>
-                            <td>We have 1 paper accepted to <strong>TCSS 2024</strong> another accepted to <strong>ICPR 2024</strong>.</td>
+                            <td>One paper was accepted to <strong>TCSS 2024</strong> and another to <strong>ICPR 2024</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-02</th>
-                            <td>We have 2 papers accepted to <strong>CVPR 2024</strong>.</td>
+                            <td>Two papers were accepted to <strong>CVPR 2024</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-02</th>
-                            <td>We have 1 paper accepted to <strong>IJCV 2024</strong>.</td>
+                            <td>One paper was accepted to <strong>IJCV 2024</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2024-01</th>
-                            <td>We have 1 paper accepted to <strong>ICRA 2024</strong>.</td>
+                            <td>One paper was accepted to <strong>ICRA 2024</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2023-03</th>
-                            <td>We have 1 paper accepted to <strong>CVPR 2023</strong>.</td>
+                            <td>One paper was accepted to <strong>CVPR 2023</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2022-10</th>
-                            <td>We have 1 paper accepted to <strong>BMVC 2022 (Oral)</strong>.</td>
+                            <td>One paper was accepted to <strong>BMVC 2022 (Oral)</strong>.</td>
                         </tr>
                         <tr>
                             <th scope="row">2022-02</th>
-                            <td>We have 1 paper accepted to <strong>ICME 2022 (Oral)</strong>.</td>
+                            <td>One paper was accepted to <strong>ICME 2022 (Oral)</strong>.</td>
                         </tr>
                     </table>
-                </div>
+                </div></div>
             </div>
 
             <div class="publications">
@@ -275,21 +282,167 @@
                         <div class="row">
                             <div class="col-sm-2 abbr">
                                 <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="mei2026fase3d">
+                                <div class="title">Efficient Encoder-Free Fourier-based 3D Large Multimodal Model</div>
+                                <div class="author">
+                                    <em>Guofeng Mei</em>, Wei Lin, Luigi Riz, Yujiao Wu, Fabio Poiesi, Yiming Wang
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*, CCF A), 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2602.23153"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://tev-fbk.github.io/Fase3D/"
+                                       rel="external nofollow noopener" role="button" target="_blank">Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="xiao2026unimatch">
+                                <div class="title">Universal 3D Shape Matching via Coarse-to-Fine Language Guidance</div>
+                                <div class="author">
+                                    Qinfeng Xiao<sup>†</sup>, <em>Guofeng Mei<sup>†</sup></em>, Bo Yang, Liying Zhang, Jian Zhang, Kit-lun Yick
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*, CCF A), 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2602.19112"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="qu2026t2ldm">
+                                <div class="title">A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation</div>
+                                <div class="author">
+                                    Wentao Qu<sup>†</sup>, <em>Guofeng Mei<sup>†</sup></em>, Yang Wu, Yongshun Gong, Xiaoshui Huang, Liang Xiao
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*, CCF A), 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2511.19004"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="xiao2026glass">
+                                <div class="title">GLASS: Graph and Vision-Language Assisted Semantic Shape Correspondence</div>
+                                <div class="author">
+                                    Qinfeng Xiao, <em>Guofeng Mei</em>, Qilong Liu, Chenyuan Yi, Fabio Poiesi, Jian Zhang, Bo Yang, Kit-lun Yick
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*), 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2603.07652"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://en.wikipedia.org/wiki/AAAI_Conference_on_Artificial_Intelligence"
+                                       rel="external nofollow noopener" target="_blank">AAAI</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="qu2025robust">
+                                <div class="title">Robust Single-Stage Fully Sparse 3D Object Detection via Detachable Latent Diffusion</div>
+                                <div class="author">
+                                    Wentao Qu, <em>Guofeng Mei</em>, Jing Wang, Yujiao Wu, Xiaoshui Huang, Liang Xiao
+                                </div>
+                                <div class="periodical">In <em>AAAI</em> (CCF A), 2026, Singapore</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/pdf/2508.03252"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/QWTforGithub/RSDNet"
+                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="jiao2026obstruction">
+                                <div class="title">Obstruction Reasoning for Robotic Grasping</div>
+                                <div class="author">
+                                    Runyu Jiao, Matteo Bortolon, Francesco Giuliari, Alice Fasoli, Sergio Povoli,
+                                    <em>Guofeng Mei</em>, Yiming Wang, Fabio Poiesi
+                                </div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*, CCF A), 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2511.23186"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://tev-fbk.github.io/UnoGrasp/"
+                                       rel="external nofollow noopener" role="button" target="_blank">Project</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://cvpr.thecvf.com/"
+                                       rel="external nofollow noopener" target="_blank">CVPRW</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="corsetti2026synthfun3d">
+                                <div class="title">Action-guided Generation of 3D Functionality Segmentation Data</div>
+                                <div class="author">
+                                    Jaime Corsetti, Francesco Giuliari, Davide Boscaini, Pedro Hermosilla, Andrea Pilzer,
+                                    <em>Guofeng Mei</em>, Alexandros Delitzas, Francis Engelmann, Fabio Poiesi
+                                </div>
+                                <div class="periodical">In <em>CVPR Workshops</em>, 2026</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2511.23230"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
                                     <a href="https://en.wikipedia.org/wiki/AAAI_Conference_on_Artificial_Intelligence"
                                        rel="external nofollow noopener" target="_blank">AAAI<br>Oral</a>
                                 </abbr>
                             </div>
                             <div class="col-sm-10" id="ren2025masked">
-                                <div class="title">
-                                    Masked Clustering Prediction for Unsupervised Point Cloud Pre-training
-                                </div>
+                                <div class="title">Masked Clustering Prediction for Unsupervised Point Cloud Pre-training</div>
                                 <div class="author">
                                     Bin Ren, Xiaoshui Huang<sup>†</sup>, Mengyuan Liu, Hong Liu, Fabio Poiesi, Nicu Sebe,
                                     <em>Guofeng Mei<sup>*</sup></em>
                                 </div>
-                                <div class="periodical">
-                                    In <em>AAAI</em> (CCF A), 2026, Singapore
-                                </div>
+                                <div class="periodical">In <em>AAAI</em> (CCF A), 2026, Singapore</div>
                                 <div class="links">
                                     <a class="btn btn-sm z-depth-0"
                                        href="https://arxiv.org/abs/2508.08910"
@@ -303,23 +456,21 @@
                         <div class="row">
                             <div class="col-sm-2 abbr">
                                 <abbr class="badge">
-                                    <a href="https://en.wikipedia.org/wiki/AAAI_Conference_on_Artificial_Intelligence"
-                                       rel="external nofollow noopener" target="_blank">AAAI</a>
+                                    <a href="https://cvlai.net/ntire/2026/"
+                                       rel="external nofollow noopener" target="_blank">NTIRE</a>
                                 </abbr>
                             </div>
-                            <div class="col-sm-10" id="qu2025robust">
-                                <div class="title">Robust Single-Stage Fully Sparse 3D Object Detection via Detachable Latent Diffusion
-                                </div>
+                            <div class="col-sm-10" id="ren2026ntire">
+                                <div class="title">The Eleventh NTIRE 2026 Efficient Super-Resolution Challenge Report</div>
                                 <div class="author">
-                                    Wentao Qu, <em>Guofeng Mei</em>, Jing Wang, Yujiao Wu, Xiaoshui Huang, Liang Xiao
+                                    Bin Ren, Hang Guo, Yan Shu, Jiaqi Ma, Ziteng Cui, Shuhong Liu,
+                                    <em>Guofeng Mei</em>, Lei Sun, Zongwei Wu, Fahad Shahbaz Khan, et al.
                                 </div>
-                                <div class="periodical">In <em>AAAI</em> (CCF A), 2026, Singapore</div>
+                                <div class="periodical">In <em>CVPR NTIRE Workshop</em>, 2026</div>
                                 <div class="links">
                                     <a class="btn btn-sm z-depth-0"
-                                       href="https://arxiv.org/pdf/2508.03252"
+                                       href="https://arxiv.org/abs/2604.03198"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                    <a class="btn btn-sm z-depth-0" href=https://github.com/QWTforGithub/RSDNet
-                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -329,27 +480,89 @@
                         <div class="row">
                             <div class="col-sm-2 abbr">
                                 <abbr class="badge">
-                                    <a href="https://en.wikipedia.org/wiki/International_Conference_on_Computer_Vision"
-                                       rel="external nofollow noopener" target="_blank">ICCV</a>
+                                    <a href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
+                                       rel="external nofollow noopener" target="_blank">CVPR</a>
                                 </abbr>
                             </div>
-                            <div class="col-sm-10" id="li2025PointGAC">
-                                <div class="title">PointGAC: Geometric-Aware Codebook for Masked Point Cloud Modeling
-                                </div>
+                            <div class="col-sm-10" id="mei2024perla">
+                                <div class="title">PerLA: Perceptive 3D Language Assistant</div>
                                 <div class="author">
-                                    Abiao Li, Chenlei Lv, Yuming Fang, Yifan Zuo, Jian Zhang, <em>Guofeng Mei</em>
+                                    <em>Guofeng Mei</em>, Wei Lin, Luigi Riz, Yujiao Wu, Fabio Poiesi, Yiming Wang
                                 </div>
-                                <div class="periodical">In <em>ICCV</em> (CCF A), 2025, Hawaii, USA</div>
+                                <div class="periodical">In <em>CVPR</em> (CORE A*, CCF A), 2025, Nashville, USA</div>
                                 <div class="links">
                                     <a class="btn btn-sm z-depth-0"
-                                       href="https://arxiv.org/pdf/2507.04801"
+                                       href="https://arxiv.org/pdf/2411.19774v1"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                    <a class="btn btn-sm z-depth-0" href="https://github.com/LAB123-tech/PointGAC"
+                                    <a class="btn btn-sm z-depth-0" href="https://gfmei.github.io/PerLA"
                                        rel="external nofollow noopener" role="button" target="_blank">Code</a>
                                 </div>
                             </div>
                         </div>
-
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://3dvconf.github.io/2025/"
+                                       rel="external nofollow noopener" target="_blank">3DV</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="mei2024vocabulary">
+                                <div class="title">Vocabulary-Free 3D Instance Segmentation with Vision and Language Assistant</div>
+                                <div class="author">
+                                    <em>Guofeng Mei</em>, Luigi Riz, Yiming Wang, Fabio Poiesi
+                                </div>
+                                <div class="periodical">In <em>International Conference on 3D Vision (3DV)</em>, 2025</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/pdf/2408.10652"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/PoVo"
+                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570650"
+                                       rel="external nofollow noopener" target="_blank">TNSE</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="liu2025tveg">
+                                <div class="title">TVEG: Model Selection of the Time-Varying Exponential Family Distributions Graphical Models</div>
+                                <div class="author">
+                                    Juan Liu, <em>Guofeng Mei</em>, Yuanqing Xia, Xiaoqun Wu, Jinhu Lü
+                                </div>
+                                <div class="periodical">In <em>IEEE Transactions on Network Science and Engineering</em>, 2025</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://ieeexplore.ieee.org/document/10930617"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-2 abbr">
+                                <abbr class="badge">
+                                    <a href="https://3dvconf.github.io/2025/"
+                                       rel="external nofollow noopener" target="_blank">3DV</a>
+                                </abbr>
+                            </div>
+                            <div class="col-sm-10" id="wang2025fully">
+                                <div class="title">Fully-Geometric Cross-Attention for Point Cloud Registration</div>
+                                <div class="author">
+                                    Weijie Wang, <em>Guofeng Mei</em>, Jian Zhang, Nicu Sebe, Bruno Lepri, Fabio Poiesi
+                                </div>
+                                <div class="periodical">In <em>International Conference on 3D Vision (3DV)</em>, 2025</div>
+                                <div class="links">
+                                    <a class="btn btn-sm z-depth-0"
+                                       href="https://arxiv.org/abs/2502.08285"
+                                       rel="external nofollow noopener" role="button" target="_blank">PDF</a>
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/twowwj/FLAT"
+                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
+                                </div>
+                            </div>
+                        </div>
                         <div class="row">
                             <div class="col-sm-2 abbr">
                                 <abbr class="badge">
@@ -358,10 +571,10 @@
                                 </abbr>
                             </div>
                             <div class="col-sm-10" id="jiao2025free">
-                                <div class="title">Free-form language-based robotic reasoning and grasping
-                                </div>
+                                <div class="title">Free-form Language-based Robotic Reasoning and Grasping</div>
                                 <div class="author">
-                                    Runyu Jiao, Alice Fasoli, Francesco Giuliari, Matteo Bortolon, Sergio Povoli, <em>Guofeng Mei</em>, Yiming Wang, Fabio Poiesi
+                                    Runyu Jiao, Alice Fasoli, Francesco Giuliari, Matteo Bortolon, Sergio Povoli,
+                                    <em>Guofeng Mei</em>, Yiming Wang, Fabio Poiesi
                                 </div>
                                 <div class="periodical">In <em>IROS</em> (CORE A), 2025, Hangzhou, China</div>
                                 <div class="links">
@@ -373,100 +586,28 @@
                                 </div>
                             </div>
                         </div>
-
                         <div class="row">
                             <div class="col-sm-2 abbr">
                                 <abbr class="badge">
-                                    <a href="https://en.wikipedia.org/wiki/Conference_on_Computer_Vision_and_Pattern_Recognition"
-                                       rel="external nofollow noopener" target="_blank">CVPR</a>
+                                    <a href="https://en.wikipedia.org/wiki/International_Conference_on_Computer_Vision"
+                                       rel="external nofollow noopener" target="_blank">ICCV</a>
                                 </abbr>
                             </div>
-                            <div class="col-sm-10" id="mei2024perla">
-                                <div class="title">PerLA: Perceptive 3D language assistant
-                                </div>
+                            <div class="col-sm-10" id="li2025PointGAC">
+                                <div class="title">PointGAC: Geometric-Aware Codebook for Masked Point Cloud Modeling</div>
                                 <div class="author">
-                                    <em>Guofeng Mei</em>, Wei Lin, Luigi Riz, Yujiao Wu, Fabio Poiesi, Yiming Wang
+                                    Abiao Li, Chenlei Lv, Yuming Fang, Yifan Zuo, Jian Zhang, <em>Guofeng Mei</em>
                                 </div>
-                                <div class="periodical">In <em>CVPR</em> (CORE A*), 2025, Nashville, USA</div>
+                                <div class="periodical">In <em>ICCV</em> (CORE A*, CCF A), 2025, Hawaii, USA</div>
                                 <div class="links">
                                     <a class="btn btn-sm z-depth-0"
-                                       href="https://arxiv.org/pdf/2411.19774v1"
+                                       href="https://arxiv.org/pdf/2507.04801"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                    <a class="btn btn-sm z-depth-0" href="https://gfmei.github.io/PerLA"
+                                    <a class="btn btn-sm z-depth-0" href="https://github.com/LAB123-tech/PointGAC"
                                        rel="external nofollow noopener" role="button" target="_blank">Code</a>
                                 </div>
                             </div>
                         </div>
-
-                        <div class="row">
-                                <div class="col-sm-2 abbr">
-                                    <abbr class="badge">
-                                        <a href="https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=6570650"
-                                           rel="external nofollow noopener" target="_blank">TCSS</a>
-                                    </abbr>
-                                </div>
-                                <div class="col-sm-10" id="liu2025tveg">
-                                    <div class="title">TVEG: Model Selection of the Time-Varying Exponential Family Distributions Graphical Models
-                                    </div>
-                                    <div class="author">
-                                        Juan Liu, <em>Guofeng Mei</em>, Yuanqing Xia, Xiaoqun Wu, Jinhu Lü
-                                    </div>
-                                    <div class="periodical">In <em>IEEE Transactions on Computational Social Systems, 2025</em></div>
-                                    <div class="links">
-                                        <a class="btn btn-sm z-depth-0"
-                                           href="https://ieeexplore.ieee.org/document/10930617"
-                                           rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                        <a class="btn btn-sm z-depth-0" href="https://ieeexplore.ieee.org/document/10930617"
-                                           rel="external nofollow noopener" role="button" target="_blank">Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="col-sm-2 abbr">
-                                    <abbr class="badge">
-                                        <a href="https://3dvconf.github.io/2025/"
-                                           rel="external nofollow noopener" target="_blank">3DV</a>
-                                    </abbr>
-                                </div>
-                                <div class="col-sm-10" id="mei2024vocabulary">
-                                    <div class="title"> Vocabulary-Free 3D Instance Segmentation with Vision and Language Assistant
-                                    </div>
-                                    <div class="author">
-                                        <em>Guofeng Mei</em>, Luigi Riz, Yiming Wang, Fabio Poiesi
-                                    </div>
-                                    <div class="periodical">In <em>International Conference on 3D Vision (3DV), 2025</em></div>
-                                    <div class="links">
-                                        <a class="btn btn-sm z-depth-0"
-                                           href="https://arxiv.org/pdf/2408.10652"
-                                           rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                        <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/PoVo"
-                                           rel="external nofollow noopener" role="button" target="_blank">Code</a>
-                                    </div>
-                                </div>
-                            </div>
-                        <div class="row">
-                                <div class="col-sm-2 abbr">
-                                    <abbr class="badge">
-                                        <a href="https://3dvconf.github.io/2025/"
-                                           rel="external nofollow noopener" target="_blank">3DV</a>
-                                    </abbr>
-                                </div>
-                                <div class="col-sm-10" id="wang2025fully">
-                                    <div class="title"> Fully-Geometric Cross-Attention for Point Cloud Registration
-                                    </div>
-                                    <div class="author">
-                                        Weijie Wang, <em>Guofeng Mei</em>,  Jian Zhang, Nicu Sebe, Bruno Lepri, Fabio Poiesi
-                                    </div>
-                                    <div class="periodical">In <em>International Conference on 3D Vision (3DV), 2025</em></div>
-                                    <div class="links">
-                                        <a class="btn btn-sm z-depth-0"
-                                           href="https://arxiv.org/abs/2502.08285"
-                                           rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                        <a class="btn btn-sm z-depth-0" href="https://github.com/twowwj/FLAT"
-                                           rel="external nofollow noopener" role="button" target="_blank">Code</a>
-                                    </div>
-                                </div>
-                            </div>
                     </li>
 
                     <li>
@@ -501,7 +642,7 @@
                                     <a class="btn btn-sm z-depth-0"
                                        href="https://ieeexplore.ieee.org/abstract/document/10778413"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                    <a href="https://github.com/youjie-zhou/FMF-SLAM.git " class="btn btn-sm z-depth-0"
+                                    <a href="https://github.com/youjie-zhou/FMF-SLAM.git" class="btn btn-sm z-depth-0"
                                        role="button" rel="external nofollow noopener" target="_blank">Code</a>
                                 </div>
                             </div>
@@ -617,8 +758,7 @@
                                     <a class="btn btn-sm z-depth-0"
                                        href="https://arxiv.org/pdf/2311.14960.pdf"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
-                                    <a class="btn btn-sm z-depth-0" href="https://github.com/xxxx"
-                                       rel="external nofollow noopener" role="button" target="_blank">Code (coming soon)</a>
+                                    <span class="btn btn-sm z-depth-0" style="opacity:0.5;cursor:default;">Code (coming soon)</span>
                                 </div>
                             </div>
                         </div>
@@ -641,9 +781,7 @@
                                 <div class="periodical">In <em>IJCV</em> (CORE A*), 2024 </div>
                                 <div class="links">
                                     <a class="btn btn-sm z-depth-0"
-                                       href="https://link.springer.com/article/10.1007/s11263-024-02027-5?utm_source=
-                                       rct_congratemailt&utm_medium=email&utm_campaign=
-                                       oa_20240308&utm_content=10.1007/s11263-024-02027-5"
+                                       href="https://link.springer.com/article/10.1007/s11263-024-02027-5"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
                                     <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/clurender"
                                        rel="external nofollow noopener" role="button" target="_blank">Code</a>
@@ -675,7 +813,7 @@
                                        href="https://openaccess.thecvf.com/content/CVPR2023/papers/Mei_Unsupervised_Deep_Probabilistic_Approach_for_Partial_Point_Cloud_Registration_CVPR_2023_paper.pdf"
                                        rel="external nofollow noopener" role="button" target="_blank">PDF</a>
                                     <a class="btn btn-sm z-depth-0" href="https://github.com/gfmei/UDPReg"
-                                       rel="external nofollow noopener" role="button" target="_blank">Code (coming soon)</a>
+                                       rel="external nofollow noopener" role="button" target="_blank">Code</a>
                                 </div>
                             </div>
                         </div>
@@ -982,12 +1120,9 @@
 <footer class="sticky-bottom mt-5">
 
     <div class="container">
-        © Copyright Guofeng Mei. Powered by <a href="https://jekyllrb.com/" rel="external nofollow noopener"
-                                                         target="_blank">Jekyll</a> with <a
-            href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a>
-        theme.
+        © Copyright Guofeng Mei.
 
-        Last updated: June 22, 2025.
+        Last updated: May 17, 2026.
 
         <!-- Default Statcounter code for Guofeng Mei' homepage
         https://gfmei.github.io/ -->
@@ -1011,6 +1146,11 @@
 
     </div>
 </footer>
+
+<div class="visitor-globe" aria-label="Visitor map">
+    <script type="text/javascript" id="clstr_globe"
+            src="//clustrmaps.com/globe.js?d=BPEynURnDWkSjD9ADXI4bkd2Up8CahEJw9e6Y0lPc38"></script>
+</div>
 
 
 <!-- JavaScripts -->
@@ -1143,9 +1283,3 @@
 
 </body>
 </html>
-
-<div style="width: 150px; height: 150px;"> <!-- Adjust width and height here to change the size of the globe -->
-    <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=BPEynURnDWkSjD9ADXI4bkd2Up8CahEJw9e6Y0lPc38"></script>
-</div>
-
-
