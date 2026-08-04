@@ -266,7 +266,9 @@ footer.sticky-bottom { border-top: 1px solid var(--global-divider-color); paddin
 
 .visitor-map-section p { margin: 0.35rem 0 1rem; color: var(--global-text-color-light); font-size: 0.9rem; }
 
-.visitor-globe { width: 180px; min-height: 180px; margin: 0 auto; }
+.visitor-map-link { display: block; width: min(100%, 620px); margin: 0 auto; }
+
+.visitor-map-image { display: block; width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 0.65rem; }
 
 .cv { margin-bottom: 40px; }
 
