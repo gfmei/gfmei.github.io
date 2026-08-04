@@ -137,6 +137,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
   .news-scroll { max-height: 16rem; }
 
+  .student-list { grid-template-columns: 1fr; }
+
   .publications ol.bibliography li .abbr { height: auto; }
 }
 
@@ -204,9 +206,17 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 #light-toggle:hover { color: var(--global-hover-color); }
 
-.news, .honors-awards { margin: 2.25rem 0; }
+.news, .student-supervision, .honors-awards { margin: 2.25rem 0; }
 
-.news h2, .honors-awards h2, .publications h2 { padding-bottom: 0.35rem; border-bottom: 1px solid var(--global-divider-color); }
+.news h2, .student-supervision h2, .honors-awards h2, .publications h2 { padding-bottom: 0.35rem; border-bottom: 1px solid var(--global-divider-color); }
+
+.student-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1rem; }
+
+.student-entry { padding: 1rem 1.1rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem; background: var(--global-card-bg-color); }
+
+.student-entry h3 { margin: 0 0 0.35rem; font-size: 1.05rem; }
+
+.student-entry p { margin: 0; color: var(--global-text-color-light); line-height: 1.5; }
 
 .honors-awards ul { margin: 1rem 0 0; padding-left: 1.25rem; }
 
@@ -250,7 +260,13 @@ footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration:
 
 footer.sticky-bottom { border-top: 1px solid var(--global-divider-color); padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
-.visitor-globe { width: 150px; min-height: 150px; margin: 1.5rem auto; }
+.visitor-map-section { max-width: 930px; margin: 2rem auto; padding: 1.5rem 1rem 0; border-top: 1px solid var(--global-divider-color); text-align: center; }
+
+.visitor-map-section h2 { margin: 0; color: var(--global-theme-color); font-size: 1.25rem; }
+
+.visitor-map-section p { margin: 0.35rem 0 1rem; color: var(--global-text-color-light); font-size: 0.9rem; }
+
+.visitor-globe { width: 180px; min-height: 180px; margin: 0 auto; }
 
 .cv { margin-bottom: 40px; }
 

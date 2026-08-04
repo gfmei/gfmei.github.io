@@ -1,6 +1,4 @@
 <div align="center">
-  <img src="assets/img/th.png" width="150" alt="Portrait of Guofeng Mei">
-
   <h1>Guofeng (Ryan) Mei</h1>
 
   <p><strong>Tenure-Track Researcher · 3D Computer Vision · Multimodal AI · Geometric Learning</strong></p>
