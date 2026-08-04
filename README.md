@@ -48,14 +48,13 @@ Explore the complete list on my [publications page](https://gfmei.github.io/publ
 ## GitHub activity
 
 <div align="center">
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=gfmei&amp;show_icons=true&amp;hide_border=true&amp;theme=github_dark">
-    <img height="165" src="https://github-readme-stats.vercel.app/api?username=gfmei&amp;show_icons=true&amp;hide_border=true&amp;theme=default" alt="Guofeng Mei's GitHub statistics">
-  </picture>
-  <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=gfmei&amp;layout=compact&amp;hide_border=true&amp;theme=github_dark">
-    <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=gfmei&amp;layout=compact&amp;hide_border=true&amp;theme=default" alt="Most-used languages">
-  </picture>
+  <a href="https://github.com/gfmei">
+    <img src="https://ghchart.rshah.org/2698BA/gfmei" alt="Guofeng Mei's GitHub contribution chart">
+  </a>
+  <br><br>
+  <a href="https://github.com/gfmei">
+    <img src="https://streak-stats.demolab.com?user=gfmei&amp;hide_border=true&amp;ring=2698BA&amp;fire=B509AC&amp;currStreakLabel=2698BA" alt="Guofeng Mei's GitHub contribution streak">
+  </a>
 </div>
 
 <div align="center">
