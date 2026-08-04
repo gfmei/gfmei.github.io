@@ -139,6 +139,8 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
   .student-list { grid-template-columns: 1fr; }
 
+  .talk-entry { grid-template-columns: 1fr; gap: 0.35rem; }
+
   .publications ol.bibliography li .abbr { height: auto; }
 }
 
@@ -206,9 +208,9 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 #light-toggle:hover { color: var(--global-hover-color); }
 
-.news, .student-supervision, .honors-awards { margin: 2.25rem 0; }
+.news, .student-supervision, .invited-talks, .honors-awards { margin: 2.25rem 0; }
 
-.news h2, .student-supervision h2, .honors-awards h2, .publications h2 { padding-bottom: 0.35rem; border-bottom: 1px solid var(--global-divider-color); }
+.news h2, .student-supervision h2, .invited-talks h2, .honors-awards h2, .publications h2 { padding-bottom: 0.35rem; border-bottom: 1px solid var(--global-divider-color); }
 
 .student-list { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.85rem; margin-top: 1rem; }
 
@@ -223,6 +225,14 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 .student-group strong, .student-group span { display: block; }
 
 .student-group span { margin-top: 0.2rem; color: var(--global-text-color-light); font-size: 0.92rem; line-height: 1.5; }
+
+.talk-entry { display: grid; grid-template-columns: 110px minmax(0, 1fr); gap: 1rem; margin-top: 1rem; padding: 1rem 1.1rem; border: 1px solid var(--global-divider-color); border-radius: 0.65rem; background: var(--global-card-bg-color); }
+
+.talk-date { color: var(--global-theme-color); font-weight: 500; }
+
+.talk-entry h3 { margin: 0 0 0.3rem; font-size: 1.05rem; }
+
+.talk-entry p { margin: 0; color: var(--global-text-color-light); line-height: 1.5; }
 
 .honors-awards ul { margin: 1rem 0 0; padding-left: 1.25rem; }
 
