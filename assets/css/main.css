@@ -260,7 +260,7 @@ footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration:
 
 footer.sticky-bottom { border-top: 1px solid var(--global-divider-color); padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
-.visitor-map-section { max-width: 930px; margin: 2rem auto; padding: 1.5rem 1rem 0; border-top: 1px solid var(--global-divider-color); text-align: center; }
+.visitor-map-section { width: 100%; margin: 3rem 0 0; padding: 2rem 0 0; border-top: 1px solid var(--global-text-color-light); text-align: center; }
 
 .visitor-map-section h2 { margin: 0; color: var(--global-theme-color); font-size: 1.25rem; }
 
