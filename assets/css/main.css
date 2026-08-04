@@ -266,18 +266,6 @@ footer.fixed-bottom a:hover { color: var(--global-theme-color); text-decoration:
 
 footer.sticky-bottom { border-top: 1px solid var(--global-divider-color); padding-top: 40px; padding-bottom: 40px; font-size: 0.9rem; }
 
-.visitor-map-section { width: 100%; margin: 3rem 0 0; padding: 2rem 0 0; border-top: 1px solid var(--global-text-color-light); text-align: center; }
-
-.visitor-map-section h2 { margin: 0; color: var(--global-theme-color); font-size: 1.25rem; }
-
-.visitor-map-section p { margin: 0.35rem 0 1rem; color: var(--global-text-color-light); font-size: 0.9rem; }
-
-.visitor-map-link { display: block; width: min(100%, 600px); margin: 0 auto; }
-
-.visitor-map-image { display: block; width: 100%; height: auto; margin: 0 auto; border: 1px solid var(--global-divider-color); border-radius: 0.65rem; filter: saturate(1.04) contrast(1.03); }
-
-.visitor-map-section .visitor-map-credit { margin-top: 0.6rem; font-size: 0.78rem; }
-
 .cv { margin-bottom: 40px; }
 
 .cv .card { background-color: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); }
