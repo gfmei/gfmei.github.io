@@ -1,0 +1,79 @@
+/* Homepage decoration, scoped to preserve the other pages. */
+.home-container { padding-top: 1rem; }
+.home-container .profile-hero { position: relative; padding: 2rem; margin-top: .5rem; border: 1px solid var(--global-divider-color); border-radius: 20px; overflow: hidden; background: radial-gradient(ellipse at 100% 0, rgba(61,159,187,.13), transparent 55%), radial-gradient(ellipse at 0 100%, rgba(181,9,172,.07), transparent 60%), var(--global-card-bg-color); }
+.home-container .profile-hero::before { content: ''; position: absolute; inset: 0; pointer-events: none; background-image: radial-gradient(var(--global-divider-color) .7px, transparent .7px); background-size: 18px 18px; opacity: .4; mask-image: linear-gradient(to left, #000, transparent 60%); }
+.profile-art { position: absolute; right: -65px; top: -45px; width: 340px; color: var(--global-theme-color); opacity: .09; pointer-events: none; }
+.profile-art svg { width: 100%; }
+.home-container .profile-side, .home-container .profile-intro { position: relative; z-index: 1; }
+.home-container .profile-photo-wrap { border-radius: 12px; padding: 5px; background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); box-shadow: 0 8px 24px rgba(0,0,0,.06); }
+.home-container .profile-photo { border-radius: 8px; box-shadow: none; }
+.home-container .profile-kicker { color: var(--global-theme-color); font-size: .73rem; line-height: 1.7; letter-spacing: .05em; }
+.home-container .profile-intro .post-title { font-size: clamp(2rem, 3.7vw, 2.9rem); font-weight: 500; line-height: 1.2; letter-spacing: -.035em; margin-bottom: .8rem; }
+.home-container .profile-intro .post-title span { color: var(--global-theme-color); background: linear-gradient(100deg, var(--global-theme-color), #438cae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.home-container .profile-affiliation { font-size: 1rem; line-height: 1.65; }
+.home-container .profile-summary { font-size: .98rem; line-height: 1.8; }
+.home-container .profile-actions .btn { border-radius: 7px; padding: .45rem .85rem; margin: 0; font-size: .8rem; background: var(--global-card-bg-color); }
+.home-container .profile-actions .btn:first-child { color: #fff; background: var(--global-theme-color); border-color: var(--global-theme-color); }
+.home-container .profile-actions .btn:first-child:hover { opacity: .85; }
+.home-container .profile-motto { font-size: .85rem; font-weight: 400; margin-top: .8rem; }
+.home-container .social .contact-icons { justify-content: center; width: 100%; gap: .7rem; font-size: 1.25rem; }
+.home-container .profile-side .social { width: 100%; }
+.home-container .collaboration-banner { background: linear-gradient(110deg, var(--global-code-bg-color), transparent), var(--global-card-bg-color); margin-bottom: 1.4rem; }
+.home-section-nav { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 2rem; }
+.home-section-nav a { display: inline-block; padding: .4rem .75rem; border: 1px solid var(--global-divider-color); border-radius: 7px; background: var(--global-card-bg-color); color: var(--global-text-color); font-size: .8rem; }
+.home-section-nav a:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); text-decoration: none; }
+.home-container section[id], .home-container div[id="news"], .home-container div[id="featured-publications"] { scroll-margin-top: 85px; }
+.home-container .about-section { padding: 1.5rem; border: 1px solid var(--global-divider-color); border-radius: 13px; background: var(--global-card-bg-color); }
+.home-container .about-section p { font-size: .94rem; line-height: 1.85; }
+.home-container .research-tags { gap: .55rem; margin-bottom: 0; }
+.home-container .research-tags li { font-size: .8rem; padding: .35rem .7rem; background: var(--global-code-bg-color); border-color: transparent; }
+.home-container .news h2, .home-container .publications h2, .home-container .invited-talks h2, .home-container .professional-service h2, .home-container .honors-awards h2 { display: flex; align-items: center; gap: .7rem; font-size: 1.5rem; font-weight: 500; letter-spacing: -.025em; padding-bottom: 0; border-bottom: 0; margin-bottom: 1.2rem; }
+.home-section-icon { width: 34px; height: 34px; display: flex; align-items: center; justify-content: center; background: var(--global-code-bg-color); color: var(--global-theme-color); border-radius: 9px; flex: none; }
+.home-section-icon i { font-size: .9rem; }
+.home-container .news-scroll-wrap { padding: .6rem 1.2rem; border: 1px solid var(--global-divider-color); border-radius: 13px; background: var(--global-card-bg-color); overflow: hidden; }
+.home-container .news-scroll-wrap::after { background: linear-gradient(to bottom, transparent, var(--global-card-bg-color)); height: 1.4rem; }
+.home-container .news-scroll { max-height: 20rem; scrollbar-width: thin; }
+.home-container .news table th { font-size: .8rem; font-weight: 500; width: 92px; color: var(--global-theme-color); white-space: nowrap; }
+.home-container .news table td { font-size: .88rem; line-height: 1.75; }
+.home-container .news table th, .home-container .news table td { padding: .65rem .3rem; border-bottom: 1px solid var(--global-divider-color); }
+.home-container .news table tr:last-child th, .home-container .news table tr:last-child td { border-bottom: 0; }
+.home-publications-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
+.home-publications-heading > a { font-size: .8rem; white-space: nowrap; }
+.home-contribution-note { font-size: .76rem; color: var(--global-text-color-light); margin-bottom: 1.4rem; }
+.home-container .publications ol.bibliography > li > h5 { display: flex; align-items: center; gap: .8rem; font-size: 1.08rem; font-weight: 500; margin: 2rem 0 1rem; }
+.home-container .publications ol.bibliography > li > h5::after { content: ''; border-top: 1px solid var(--global-divider-color); flex: 1; }
+.home-container .publications ol.bibliography > li > .row { margin: 0 0 .85rem; padding: 1.3rem .75rem; border: 1px solid var(--global-divider-color); border-radius: 12px; background: var(--global-card-bg-color); box-shadow: 0 3px 14px rgba(0,0,0,.025); transition: border-color .2s; }
+.home-container .publications ol.bibliography > li > .row:hover { border-color: var(--global-theme-color); }
+.home-container .publications ol.bibliography li .abbr abbr { border-radius: 6px; font-weight: 500; padding: .4rem .7rem; }
+.home-container .publications ol.bibliography li .title { font-size: 1rem; font-weight: 500; line-height: 1.55; }
+.home-container .publications ol.bibliography li .author, .home-container .publications ol.bibliography li .periodical { font-size: .88rem; line-height: 1.7; }
+.home-container .publications ol.bibliography li .links .btn { border-radius: 5px; padding: .3rem .65rem; font-size: .73rem; margin: .6rem .3rem 0 0; text-transform: none; }
+.home-container .invited-talks { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; }
+.home-container .invited-talks > h2 { grid-column: 1 / -1; margin-bottom: .2rem; }
+.home-container .talk-entry { grid-template-columns: 1fr; gap: .7rem; margin: 0; border-radius: 12px; padding: 1.3rem; border-top: 3px solid var(--global-theme-color); }
+.home-container .talk-date { font-size: .78rem; }
+.home-container .talk-entry h3 { font-size: 1rem; line-height: 1.5; }
+.home-container .talk-entry p { font-size: .86rem; }
+.home-container .professional-service { margin: 2.25rem 0; }
+.home-container .professional-service ul, .home-container .honors-awards ul { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: .8rem; list-style: none; columns: auto; padding: 0; }
+.home-container .professional-service li, .home-container .honors-awards li { position: relative; padding: .95rem 1.2rem; margin: 0; border: 1px solid var(--global-divider-color); border-radius: 10px; background: var(--global-card-bg-color); font-size: .88rem; line-height: 1.75; }
+.home-container .professional-service strong, .home-container .honors-awards strong { color: var(--global-theme-color); font-size: .78rem; display: block; margin-bottom: .2rem; }
+.home-container .honors-awards li:first-child { border-color: var(--global-theme-color); background: var(--global-code-bg-color); }
+.home-container a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+@media (max-width: 900px) { .home-container .profile-hero { padding: 1.5rem; gap: 1.4rem; } }
+@media (max-width: 575px) {
+  .home-container { padding-top: .5rem; }
+  .home-container .profile-hero { padding: 1.4rem 1rem; }
+  .home-container .profile-kicker { font-size: .67rem; }
+  .home-container .profile-intro .post-title { font-size: 2rem; }
+  .profile-art { width: 250px; right: -65px; top: 230px; }
+  .home-container .profile-contact { font-size: .79rem; }
+  .home-container .about-section { padding: 1.15rem; }
+  .home-container .news h2, .home-container .publications h2, .home-container .invited-talks h2, .home-container .professional-service h2, .home-container .honors-awards h2 { font-size: 1.25rem; }
+  .home-publications-heading { flex-wrap: wrap; gap: 0; margin-bottom: .8rem; }
+  .home-container .news-scroll-wrap { padding: .4rem .65rem; }
+  .home-container .news table th { width: 70px; font-size: .73rem; }
+  .home-container .news table td { font-size: .81rem; }
+  .home-container .invited-talks, .home-container .professional-service ul, .home-container .honors-awards ul { grid-template-columns: 1fr; }
+}
+@media (prefers-reduced-motion: reduce) { .home-container .publications ol.bibliography > li > .row { transition: none; } }

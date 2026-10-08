@@ -45,6 +45,7 @@
 
     <!-- Custom styles -->
     <link href="/assets/css/main.css" rel="stylesheet">
+    <link href="/assets/css/home.css" rel="stylesheet">
     <link href="https://gfmei.github.io/" rel="canonical">
 
     <!-- Dark Mode -->
@@ -111,6 +112,7 @@
     <div class="post">
         <article>
             <section class="profile-hero">
+                <div class="profile-art" aria-hidden="true"><svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="210" cy="150" r="110" stroke="currentColor" stroke-dasharray="3 6"/><ellipse cx="210" cy="150" rx="145" ry="58" transform="rotate(-28 210 150)" stroke="currentColor"/><path d="M210 40 L305 95 V205 L210 260 L115 205 V95 Z M115 95 L210 150 L305 95 M210 150 V260 M115 205 L210 150 L305 205" stroke="currentColor"/><g fill="currentColor"><circle cx="210" cy="40" r="4"/><circle cx="305" cy="95" r="4"/><circle cx="305" cy="205" r="4"/><circle cx="210" cy="260" r="4"/><circle cx="115" cy="205" r="4"/><circle cx="115" cy="95" r="4"/><circle cx="210" cy="150" r="5"/></g><path d="M55 55 H75 M65 45 V65 M330 245 H350 M340 235 V255" stroke="currentColor"/></svg></div>
                 <div class="profile-side">
                     <div class="profile-photo-wrap">
                         <img alt="Portrait of Guofeng Mei" class="profile-photo" src="assets/img/th.png">
@@ -140,7 +142,7 @@
 
                 <div class="profile-intro">
                     <p class="profile-kicker">Senior Researcher in 3D vision, language, and embodied AI</p>
-                    <h1 class="post-title">Guofeng (Ryan) Mei</h1>
+                    <h1 class="post-title">Guofeng <span>(Ryan) Mei</span></h1>
                     <p class="profile-affiliation">Senior Researcher at <a href="https://tev.fbk.eu/home"
                                                                      rel="external nofollow noopener"
                                                                      target="_blank">Technologies of Vision (TeV)</a>,
@@ -181,7 +183,11 @@
             </aside>
             <script src="/assets/js/collaboration.js" defer></script>
 
-            <section class="about-section">
+            <nav class="home-section-nav" aria-label="Homepage sections">
+                <a href="#about">About</a><a href="#news">News</a><a href="#featured-publications">Publications</a><a href="#talks">Talks</a><a href="#service">Service</a><a href="#awards">Awards</a>
+            </nav>
+
+            <section class="about-section" id="about">
 
                 <p>
                     Guofeng Mei (梅国锋) currently serves as a senior researcher at Technologies of Vision (TeV), Fondazione Bruno
@@ -218,8 +224,8 @@
                 </ul>
             </section>
 
-            <div class="news">
-                <h2>News</h2>
+            <div class="news" id="news">
+                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-bullhorn"></i></span>News</h2>
                 <div class="news-scroll-wrap"><div class="table-responsive news-scroll">
                     <table class="table table-sm table-borderless">
                         <tr>
@@ -290,13 +296,12 @@
                 </div></div>
             </div>
 
-            <div class="publications">
-            <h2>
-              Featured Publications
-              <span style="display:block; font-size:0.55em; font-weight:normal;">
-                (†Equal Contribution, *Corresponding Author(s))
-              </span>
-            </h2>
+            <div class="publications" id="featured-publications">
+            <div class="home-publications-heading">
+                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-file-alt"></i></span>Featured Publications</h2>
+                <a href="./publications/">Browse publications <span aria-hidden="true">↗</span></a>
+            </div>
+            <p class="home-contribution-note"><sup>†</sup> Equal contribution · <sup>*</sup> Corresponding author(s)</p>
                 <ol class="bibliography">
                     <!-- Publications list -->
                     <!-- Each publication is structured in a similar way -->
@@ -1150,8 +1155,8 @@
                     </section>
                 </div>
             </section> -->
-            <section class="invited-talks">
-                <h2>Invited Talks</h2>
+            <section class="invited-talks" id="talks">
+                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-microphone"></i></span>Invited Talks</h2>
                 <div class="talk-entry">
                     <div class="talk-date">August 2026</div>
                     <div>
@@ -1167,15 +1172,15 @@
                     </div>
                 </div>
             </section>
-            <section class="professional-service">
-                <h2>Professional Service</h2>
+            <section class="professional-service" id="service">
+                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-users"></i></span>Professional Service</h2>
                 <ul>
                     <li><strong>2026:</strong> Main Reviewer, NeurIPS 2026.</li>
                     <li><strong>2026:</strong> Organizer, <a href="https://cvlai.net/ntire/2026/" rel="external nofollow noopener" target="_blank">NTIRE 2026 Efficient Super-Resolution Challenge</a>, CVPR Workshops.</li>
                 </ul>
             </section>
-            <section class="honors-awards">
-                <h2>Honors and Awards</h2>
+            <section class="honors-awards" id="awards">
+                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-award"></i></span>Honors and Awards</h2>
                 <ul>
                     <li><strong>2026:</strong> NeurIPS 2026 Top Reviewer.</li>
                     <li><strong>2026:</strong> ECCV 2026 Outstanding Reviewer.</li>
@@ -1204,7 +1209,7 @@
     <div class="container">
         © Copyright Guofeng Mei.
 
-        Last updated: May 17, 2026.
+        Last updated: October 8, 2026.
 
         <!-- Default Statcounter code for Guofeng Mei' homepage
         https://gfmei.github.io/ -->
