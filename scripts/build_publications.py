@@ -100,6 +100,7 @@ featured_order = [
     'qu2026t2ldm',
 ]
 by_id = {paper['id']: paper for paper in papers}
+featured_order.sort(key=lambda paper_id: int(by_id[paper_id]['year']), reverse=True)
 cards = []
 for paper_id in featured_order:
     p = by_id[paper_id]
