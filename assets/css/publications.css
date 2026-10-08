@@ -1,0 +1,37 @@
+.publications-page { max-width: 1040px; padding-top: 1.5rem; }
+.publications-header { padding: 1rem 0 2rem; border-bottom: 1px solid var(--global-divider-color); }
+.publications-eyebrow { color: var(--global-theme-color); font-size: .78rem; letter-spacing: .14em; text-transform: uppercase; font-weight: 500; }
+.publications-header h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 500; letter-spacing: -.04em; margin-bottom: .8rem; }
+.publications-intro { font-size: 1.12rem; color: var(--global-text-color-light); max-width: 40rem; line-height: 1.7; }
+.publications-header-links { display: flex; flex-wrap: wrap; gap: .8rem 2rem; align-items: center; font-size: .88rem; }
+.publications-header-links span { color: var(--global-text-color-light); }
+.publication-controls { display: flex; gap: 1rem; margin-top: 2rem; }
+.publication-controls[hidden], .paper-card[hidden], .publication-year[hidden], #publication-empty[hidden] { display: none; }
+.publication-search { flex: 1; }
+.publication-controls label { display: block; font-size: .8rem; font-weight: 500; margin-bottom: .5rem; }
+.publication-controls input, .publication-controls select { width: 100%; min-height: 46px; border: 1px solid var(--global-divider-color); border-radius: 8px; background: var(--global-card-bg-color); color: var(--global-text-color); padding: .7rem .9rem; font: inherit; }
+.publication-controls input::placeholder { color: var(--global-text-color-light); }
+.publication-filter { min-width: 145px; }
+.publication-count { font-size: .82rem; color: var(--global-text-color-light); margin: 1.2rem 0 2rem; }
+.year-heading { display: flex; align-items: baseline; gap: 1rem; margin: 2.5rem 0 1rem; }
+.year-heading h2 { font-size: 1.6rem; font-weight: 500; margin: 0; letter-spacing: -.03em; }
+.year-heading span { color: var(--global-text-color-light); font-size: .8rem; }
+.year-heading::after { content: ''; flex: 1; border-top: 1px solid var(--global-divider-color); margin-left: .4rem; }
+.paper-list { list-style: none; padding: 0; margin: 0; display: grid; gap: 1rem; }
+.paper-card { padding: 1.5rem 1.7rem; border: 1px solid var(--global-divider-color); border-radius: 12px; background: var(--global-card-bg-color); transition: border-color .15s; scroll-margin-top: 90px; }
+.paper-card:hover { border-color: var(--global-theme-color); }
+.paper-meta { display: flex; align-items: center; gap: .8rem; margin-bottom: .8rem; font-size: .76rem; }
+.paper-meta > span:last-child { color: var(--global-text-color-light); }
+.venue-badge { border: 1px solid var(--global-divider-color); border-radius: 5px; padding: .23rem .55rem; color: var(--global-theme-color); font-weight: 500; }
+.paper-card h3 { font-size: 1.16rem; font-weight: 500; line-height: 1.5; letter-spacing: -.015em; margin-bottom: .6rem; }
+.paper-authors { font-size: .9rem; line-height: 1.65; margin-bottom: .35rem; }
+.paper-authors strong { font-weight: 500; }
+.paper-venue { color: var(--global-text-color-light); font-size: .85rem; line-height: 1.6; margin-bottom: 1rem; }
+.paper-venue em { color: inherit; }
+.paper-links { display: flex; flex-wrap: wrap; gap: .5rem; }
+.paper-links a { display: inline-block; border: 1px solid var(--global-divider-color); padding: .3rem .65rem; border-radius: 5px; font-size: .78rem; color: var(--global-text-color); }
+.paper-links a:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); text-decoration: none; }
+.publications-page a:focus-visible, .publication-controls input:focus-visible, .publication-controls select:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+#publication-empty { padding: 2rem; border: 1px dashed var(--global-divider-color); border-radius: 12px; }
+@media (max-width: 575px) { .publications-page { padding-top: .5rem; } .publications-header-links { align-items: flex-start; flex-direction: column; } .publication-controls { gap: .65rem; } .publication-filter { min-width: 105px; width: 105px; } .paper-card { padding: 1.2rem; } .paper-card h3 { font-size: 1.05rem; } }
+@media (prefers-reduced-motion: reduce) { .paper-card { transition: none; } }
