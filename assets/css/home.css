@@ -40,7 +40,6 @@ html[data-theme="dark"] .home-container { --home-muted-color: #b8bcc2; }
 .home-container .news table tr:last-child th, .home-container .news table tr:last-child td { border-bottom: 0; }
 .home-publications-heading { display: flex; align-items: center; justify-content: space-between; gap: 1rem; }
 .home-publications-heading > a { font-size: .8rem; white-space: nowrap; }
-.home-contribution-note { font-size: .76rem; color: var(--home-muted-color, var(--global-text-color-light)); margin-bottom: 1.4rem; }
 .home-container .publications ol.bibliography > li > h5 { display: flex; align-items: center; gap: .8rem; font-size: 1.08rem; font-weight: 500; margin: 2rem 0 1rem; }
 .home-container .publications ol.bibliography > li > h5::after { content: ''; border-top: 1px solid var(--global-divider-color); flex: 1; }
 .home-container .publications ol.bibliography > li > .row { margin: 0 0 .85rem; padding: 1.3rem .75rem; border: 1px solid var(--global-divider-color); border-radius: 12px; background: var(--global-card-bg-color); box-shadow: 0 3px 14px rgba(0,0,0,.025); transition: border-color .2s; }
