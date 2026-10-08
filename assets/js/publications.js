@@ -22,6 +22,17 @@
     count.textContent = `${visible} ${visible === 1 ? 'publication' : 'publications'}`;
     empty.hidden = visible !== 0;
   }
+  document.querySelectorAll('.publication-year-nav a').forEach(link => {
+    link.addEventListener('click', event => {
+      event.preventDefault();
+      search.value = '';
+      year.value = 'all';
+      filter();
+      const heading = document.querySelector(link.getAttribute('href'));
+      heading.scrollIntoView({ behavior: window.matchMedia('(prefers-reduced-motion: reduce)').matches ? 'instant' : 'smooth', block: 'start' });
+      history.replaceState(null, '', link.getAttribute('href'));
+    });
+  });
   search.addEventListener('input', filter);
   year.addEventListener('change', filter);
   // The page remains browsable without the Bootstrap JavaScript bundle.

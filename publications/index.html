@@ -90,11 +90,30 @@
 
     <main class="container mt-5 publications-page" id="main-content">
       <header class="publications-header">
-        <p class="publications-eyebrow">Research / Publications</p>
-        <h1>Selected Publications</h1>
-        <p class="publications-intro">Exploring 3D vision, multimodal learning, and geometric understanding.</p>
-        <div class="publications-header-links"><a href="https://scholar.google.com/citations?user=VsmIGqsAAAAJ&amp;hl=en" target="_blank" rel="external nofollow noopener">Full list on Google Scholar ↗</a><span><sup>†</sup> Equal contribution · <sup>*</sup> Corresponding author</span></div>
+        <div class="publications-hero-copy">
+          <p class="publications-eyebrow"><span aria-hidden="true"></span> Research / Publications</p>
+          <h1>Selected <span>Publications</span></h1>
+          <p class="publications-intro">Exploring 3D vision, multimodal learning, and geometric understanding.</p>
+          <div class="publication-topics" aria-label="Research themes"><span>3D Vision</span><span>Vision &amp; Language</span><span>Geometric Learning</span></div>
+          <div class="publications-header-links"><a href="https://scholar.google.com/citations?user=VsmIGqsAAAAJ&amp;hl=en" target="_blank" rel="external nofollow noopener">Full list on Google Scholar <span aria-hidden="true">↗</span></a></div>
+        </div>
+        <div class="publications-art" aria-hidden="true"><svg viewBox="0 0 500 350" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+                <defs><linearGradient id="geometry-gradient" x1="100" y1="50" x2="400" y2="300" gradientUnits="userSpaceOnUse"><stop stop-color="#ad48cf"/><stop offset="1" stop-color="#369fb9"/></linearGradient></defs>
+                <circle cx="250" cy="165" r="138" stroke="currentColor" stroke-opacity=".1" stroke-dasharray="3 7"/>
+                <ellipse cx="250" cy="165" rx="185" ry="65" transform="rotate(-25 250 165)" stroke="currentColor" stroke-opacity=".13"/>
+                <g stroke="url(#geometry-gradient)" stroke-width="1.2" opacity=".65"><path d="M110.0 145.0 L250.0 65.0"/><path d="M110.0 145.0 L250.0 225.0"/><path d="M127.5 155.0 L267.5 75.0"/><path d="M127.5 135.0 L267.5 215.0"/><path d="M145.0 165.0 L285.0 85.0"/><path d="M145.0 125.0 L285.0 205.0"/><path d="M162.5 175.0 L302.5 95.0"/><path d="M162.5 115.0 L302.5 195.0"/><path d="M180.0 185.0 L320.0 105.0"/><path d="M180.0 105.0 L320.0 185.0"/><path d="M197.5 195.0 L337.5 115.0"/><path d="M197.5 95.0 L337.5 175.0"/><path d="M215.0 205.0 L355.0 125.0"/><path d="M215.0 85.0 L355.0 165.0"/><path d="M232.5 215.0 L372.5 135.0"/><path d="M232.5 75.0 L372.5 155.0"/><path d="M250.0 225.0 L390.0 145.0"/><path d="M250.0 65.0 L390.0 145.0"/>
+                  <path d="M110 145 L250 225 L390 145 L250 65 Z M110 145 V215 L250 295 L390 215 V145 M250 225 V295"/>
+                  <path d="M145 165 V235 M180 185 V255 M215 205 V275 M285 205 V275 M320 185 V255 M355 165 V235" opacity=".45"/>
+                </g>
+                <g fill="url(#geometry-gradient)"><circle cx="110" cy="145" r="5"/><circle cx="250" cy="65" r="5"/><circle cx="390" cy="145" r="5"/><circle cx="250" cy="225" r="5"/><circle cx="250" cy="295" r="5"/><circle cx="145" cy="125" r="3"/><circle cx="320" cy="185" r="3"/><circle cx="285" cy="125" r="3"/></g>
+                <path d="M85 75 H125 M105 55 V95 M385 265 H415 M400 250 V280" stroke="currentColor" stroke-opacity=".25"/>
+              </svg><p>Geometry · Semantics · Intelligence</p></div>
       </header>
+      <div class="publication-overview">
+        <p><strong>25</strong> selected publications <span class="overview-divider" aria-hidden="true">/</span> <span>2024–2026</span></p>
+        <nav class="publication-year-nav" aria-label="Browse publications by year"><a href="#year-2026">2026 <span>09</span></a><a href="#year-2025">2025 <span>10</span></a><a href="#year-2024">2024 <span>06</span></a></nav>
+      </div>
+      <p class="publication-contributions"><sup>†</sup> Equal contribution <span aria-hidden="true">·</span> <sup>*</sup> Corresponding author</p>
       <div class="publication-controls" hidden>
         <div class="publication-search"><label for="paper-search">Search publications</label><input id="paper-search" type="search" placeholder="Title, author, or venue…"></div>
         <div class="publication-filter"><label for="paper-year">Year</label><select id="paper-year"><option value="all">All years</option><option value="2026">2026</option><option value="2025">2025</option><option value="2024">2024</option></select></div>
@@ -102,186 +121,211 @@
       <p id="publication-count" class="publication-count" role="status" aria-live="polite">25 publications</p>
       <div id="publication-results"><section class="publication-year" aria-labelledby="year-2026">
           <div class="year-heading"><h2 id="year-2026">2026</h2><span>9 papers</span></div>
-          <ol class="paper-list"><li class="paper-card" id="weijler2026latentrfm" data-year="2026">
+          <ol class="paper-list"><li class="paper-card" data-venue="neurips" id="weijler2026latentrfm" data-year="2026">
+              <span class="paper-number" aria-hidden="true">01</span>
               <div class="paper-meta"><span class="venue-badge">NeurIPS</span><span>2026</span></div>
               <h3>Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models</h3>
               <p class="paper-authors">Lisa Weijler, Irene Ballester, <strong>Guofeng Mei</strong>, Tolga Birdal, Pedro Hermosilla</p>
               <p class="paper-venue">NeurIPS, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2607.19120" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://lisaweijler.github.io/geometry-grounded-rfm/" target="_blank" rel="external nofollow noopener">Project</a><a href="https://scholar.google.it/citations?view_op=view_citation&amp;hl=it&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2607.19120" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://lisaweijler.github.io/geometry-grounded-rfm/" target="_blank" rel="external nofollow noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Project</a><a href="https://scholar.google.it/citations?view_op=view_citation&amp;hl=it&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="mei2026fase3d" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="mei2026fase3d" data-year="2026">
+              <span class="paper-number" aria-hidden="true">02</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2026</span></div>
               <h3>Efficient Encoder-Free Fourier-based 3D Large Multimodal Model</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, Wei Lin, Luigi Riz, Yujiao Wu, Fabio Poiesi, Yiming Wang</p>
               <p class="paper-venue"><em>CVPR</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2602.23153" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://tev-fbk.github.io/Fase3D/" target="_blank" rel="external nofollow noopener">Project</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:_Qo2XoVZTnwC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2602.23153" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://tev-fbk.github.io/Fase3D/" target="_blank" rel="external nofollow noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Project</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:_Qo2XoVZTnwC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="xiao2026unimatch" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="xiao2026unimatch" data-year="2026">
+              <span class="paper-number" aria-hidden="true">03</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2026</span></div>
               <h3>Universal 3D Shape Matching via Coarse-to-Fine Language Guidance</h3>
               <p class="paper-authors">Qinfeng Xiao<sup>†</sup>, <strong>Guofeng Mei<sup>†</sup></strong>, Bo Yang, Liying Zhang, Jian Zhang, Kit-lun Yick</p>
               <p class="paper-venue"><em>CVPR</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2602.19112" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:RHpTSmoSYBkC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2602.19112" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:RHpTSmoSYBkC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="qu2026t2ldm" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="qu2026t2ldm" data-year="2026">
+              <span class="paper-number" aria-hidden="true">04</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2026</span></div>
               <h3>A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation</h3>
               <p class="paper-authors">Wentao Qu<sup>†</sup>, <strong>Guofeng Mei<sup>†</sup></strong>, Yang Wu, Yongshun Gong, Xiaoshui Huang, Liang Xiao</p>
               <p class="paper-venue"><em>CVPR</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2511.19004" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:HDshCWvjkbEC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2511.19004" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:HDshCWvjkbEC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="xiao2026glass" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="xiao2026glass" data-year="2026">
+              <span class="paper-number" aria-hidden="true">05</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2026</span></div>
               <h3>GLASS: Graph and Vision-Language Assisted Semantic Shape Correspondence</h3>
               <p class="paper-authors">Qinfeng Xiao, <strong>Guofeng Mei</strong>, Qilong Liu, Chenyuan Yi, Fabio Poiesi, Jian Zhang, Bo Yang, Kit-lun Yick</p>
               <p class="paper-venue"><em>CVPR</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2603.07652" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:4JMBOYKVnBMC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2603.07652" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:4JMBOYKVnBMC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="qu2025robust" data-year="2026">
+<li class="paper-card" data-venue="aaai" id="qu2025robust" data-year="2026">
+              <span class="paper-number" aria-hidden="true">06</span>
               <div class="paper-meta"><span class="venue-badge">AAAI</span><span>2026</span></div>
               <h3>Robust Single-Stage Fully Sparse 3D Object Detection via Detachable Latent Diffusion</h3>
               <p class="paper-authors">Wentao Qu, <strong>Guofeng Mei</strong>, Jing Wang, Yujiao Wu, Xiaoshui Huang, Liang Xiao</p>
               <p class="paper-venue"><em>AAAI</em> (CCF A), 2026, Singapore</p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2508.03252" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/QWTforGithub/RSDNet" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:hC7cP41nSMkC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2508.03252" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/QWTforGithub/RSDNet" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:hC7cP41nSMkC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="jiao2026obstruction" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="jiao2026obstruction" data-year="2026">
+              <span class="paper-number" aria-hidden="true">07</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2026</span></div>
               <h3>Obstruction Reasoning for Robotic Grasping</h3>
               <p class="paper-authors">Runyu Jiao, Matteo Bortolon, Francesco Giuliari, Alice Fasoli, Sergio Povoli, <strong>Guofeng Mei</strong>, Yiming Wang, Fabio Poiesi</p>
               <p class="paper-venue"><em>CVPR</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2511.23186" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://tev-fbk.github.io/UnoGrasp/" target="_blank" rel="external nofollow noopener">Project</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:R3hNpaxXUhUC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2511.23186" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://tev-fbk.github.io/UnoGrasp/" target="_blank" rel="external nofollow noopener"><i class="fas fa-external-link-alt" aria-hidden="true"></i> Project</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:R3hNpaxXUhUC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="corsetti2026synthfun3d" data-year="2026">
+<li class="paper-card" data-venue="cvpr" id="corsetti2026synthfun3d" data-year="2026">
+              <span class="paper-number" aria-hidden="true">08</span>
               <div class="paper-meta"><span class="venue-badge">CVPR Workshops</span><span>2026</span></div>
               <h3>Action-guided Generation of 3D Functionality Segmentation Data</h3>
               <p class="paper-authors">Jaime Corsetti, Francesco Giuliari, Davide Boscaini, Pedro Hermosilla, Andrea Pilzer, <strong>Guofeng Mei</strong>, Alexandros Delitzas, Francis Engelmann, Fabio Poiesi</p>
               <p class="paper-venue"><em>CVPR Workshops</em>, 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2511.23230" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:TQgYirikUcIC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2511.23230" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:TQgYirikUcIC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="ren2025masked" data-year="2026">
+<li class="paper-card" data-venue="aaai" id="ren2025masked" data-year="2026">
+              <span class="paper-number" aria-hidden="true">09</span>
               <div class="paper-meta"><span class="venue-badge">AAAI · Oral</span><span>2026</span></div>
               <h3>Masked Clustering Prediction for Unsupervised Point Cloud Pre-training</h3>
               <p class="paper-authors">Bin Ren, Xiaoshui Huang<sup>†</sup>, Mengyuan Liu, Hong Liu, Fabio Poiesi, Nicu Sebe, <strong>Guofeng Mei<sup>*</sup></strong></p>
               <p class="paper-venue">AAAI (Oral), 2026</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2508.08910" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/Amazingren/maskclu" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:-f6ydRqryjwC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2508.08910" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/Amazingren/maskclu" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:-f6ydRqryjwC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li></ol>
         </section>
 <section class="publication-year" aria-labelledby="year-2025">
           <div class="year-heading"><h2 id="year-2025">2025</h2><span>10 papers</span></div>
-          <ol class="paper-list"><li class="paper-card" id="mei2024perla" data-year="2025">
+          <ol class="paper-list"><li class="paper-card" data-venue="cvpr" id="mei2024perla" data-year="2025">
+              <span class="paper-number" aria-hidden="true">10</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2025</span></div>
               <h3>PerLA: Perceptive 3D Language Assistant</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, Wei Lin, Luigi Riz, Yujiao Wu, Fabio Poiesi, Yiming Wang</p>
               <p class="paper-venue"><em>CVPR</em>, 2025, Nashville, USA</p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2411.19774v1" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://gfmei.github.io/PerLA" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:Wp0gIr-vW9MC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2411.19774v1" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://gfmei.github.io/PerLA" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:Wp0gIr-vW9MC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="mei2024vocabulary" data-year="2025">
+<li class="paper-card" data-venue="other" id="mei2024vocabulary" data-year="2025">
+              <span class="paper-number" aria-hidden="true">11</span>
               <div class="paper-meta"><span class="venue-badge">3DV</span><span>2025</span></div>
               <h3>Vocabulary-Free 3D Instance Segmentation with Vision and Language Assistant</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, Luigi Riz, Yiming Wang, Fabio Poiesi</p>
               <p class="paper-venue"><em>International Conference on 3D Vision (3DV)</em>, 2025</p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2408.10652" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/gfmei/PoVo" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:aqlVkmm33-oC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2408.10652" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/gfmei/PoVo" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:aqlVkmm33-oC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="liu2025tveg" data-year="2025">
+<li class="paper-card" data-venue="other" id="liu2025tveg" data-year="2025">
+              <span class="paper-number" aria-hidden="true">12</span>
               <div class="paper-meta"><span class="venue-badge">IEEE TNSE</span><span>2025</span></div>
               <h3>TVEG: Model Selection of the Time-Varying Exponential Family Distributions Graphical Models</h3>
               <p class="paper-authors">Juan Liu, <strong>Guofeng Mei</strong>, Yuanqing Xia, Xiaoqun Wu, Jinhu Lü</p>
               <p class="paper-venue"><em>IEEE Transactions on Network Science and Engineering</em>, 2025</p>
-              <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10930617" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:L8Ckcad2t8MC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10930617" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:L8Ckcad2t8MC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="wang2025fully" data-year="2025">
+<li class="paper-card" data-venue="other" id="wang2025fully" data-year="2025">
+              <span class="paper-number" aria-hidden="true">13</span>
               <div class="paper-meta"><span class="venue-badge">3DV</span><span>2025</span></div>
               <h3>Fully-Geometric Cross-Attention for Point Cloud Registration</h3>
               <p class="paper-authors">Weijie Wang, <strong>Guofeng Mei</strong>, Jian Zhang, Nicu Sebe, Bruno Lepri, Fabio Poiesi</p>
               <p class="paper-venue"><em>International Conference on 3D Vision (3DV)</em>, 2025</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2502.08285" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/twowwj/FLAT" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:QIV2ME_5wuYC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2502.08285" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/twowwj/FLAT" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:QIV2ME_5wuYC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="jiao2025free" data-year="2025">
+<li class="paper-card" data-venue="other" id="jiao2025free" data-year="2025">
+              <span class="paper-number" aria-hidden="true">14</span>
               <div class="paper-meta"><span class="venue-badge">IROS</span><span>2025</span></div>
               <h3>Free-form Language-based Robotic Reasoning and Grasping</h3>
               <p class="paper-authors">Runyu Jiao, Alice Fasoli, Francesco Giuliari, Matteo Bortolon, Sergio Povoli, <strong>Guofeng Mei</strong>, Yiming Wang, Fabio Poiesi</p>
               <p class="paper-venue"><em>IROS</em>, 2025, Hangzhou, China</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2503.13082" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://tev-fbk.github.io/FreeGrasp" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:7PzlFSSx8tAC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2503.13082" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://tev-fbk.github.io/FreeGrasp" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:7PzlFSSx8tAC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="li2025PointGAC" data-year="2025">
+<li class="paper-card" data-venue="other" id="li2025PointGAC" data-year="2025">
+              <span class="paper-number" aria-hidden="true">15</span>
               <div class="paper-meta"><span class="venue-badge">ICCV</span><span>2025</span></div>
               <h3>PointGAC: Geometric-Aware Codebook for Masked Point Cloud Modeling</h3>
               <p class="paper-authors">Abiao Li, Chenlei Lv, Yuming Fang, Yifan Zuo, Jian Zhang, <strong>Guofeng Mei</strong></p>
               <p class="paper-venue"><em>ICCV</em>, 2025, Hawaii, USA</p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2507.04801" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/LAB123-tech/PointGAC" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:mB3voiENLucC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2507.04801" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/LAB123-tech/PointGAC" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:mB3voiENLucC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="zhou2024multimodal" data-year="2025">
+<li class="paper-card" data-venue="other" id="zhou2024multimodal" data-year="2025">
+              <span class="paper-number" aria-hidden="true">16</span>
               <div class="paper-meta"><span class="venue-badge">IEEE RA-L</span><span>2025</span></div>
               <h3>Multimodal Fusion SLAM with Fourier Attention</h3>
               <p class="paper-authors">Youjie Zhou, <strong>Guofeng Mei</strong>, Yiming Wang, Yi Wan, Fabio Poiesi</p>
               <p class="paper-venue">IEEE Robotics and Automation Letters 10 (2), 1050–1057, 2025</p>
-              <div class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/10778413" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/youjie-zhou/FMF-SLAM.git" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:9ZlFYXVOiuMC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://ieeexplore.ieee.org/abstract/document/10778413" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/youjie-zhou/FMF-SLAM.git" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:9ZlFYXVOiuMC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="paper-9" data-year="2025">
+<li class="paper-card" data-venue="other" id="paper-9" data-year="2025">
+              <span class="paper-number" aria-hidden="true">17</span>
               <div class="paper-meta"><span class="venue-badge">Algorithms</span><span>2025</span></div>
               <h3>PISI: Physical Information Based Solver-Interactive Network Structure Reconstruction</h3>
               <p class="paper-authors">J Liu, <strong>Guofeng Mei</strong></p>
               <p class="paper-venue">Algorithms 18 (9), 584</p>
-              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:hFOr9nPyWt4C" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:hFOr9nPyWt4C" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="paper-11" data-year="2025">
+<li class="paper-card" data-venue="preprint" id="paper-11" data-year="2025">
+              <span class="paper-number" aria-hidden="true">18</span>
               <div class="paper-meta"><span class="venue-badge">Preprint</span><span>2025</span></div>
               <h3>Self-Supervised and Generalizable Tokenization for CLIP-Based 3D Understanding</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, B Ren, J Liu, L Riz, X Huang, X Zheng, Y Gong, MH Yang, N Sebe, ...</p>
               <p class="paper-venue">arXiv preprint arXiv:2505.18819</p>
-              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:IWHjjKOFINEC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:IWHjjKOFINEC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="paper-12" data-year="2025">
+<li class="paper-card" data-venue="preprint" id="paper-12" data-year="2025">
+              <span class="paper-number" aria-hidden="true">19</span>
               <div class="paper-meta"><span class="venue-badge">Preprint</span><span>2025</span></div>
               <h3>Adversarial robustness for unified multi-modal encoders via efficient calibration</h3>
               <p class="paper-authors">CT Liao, Z Chen, C Meng, TY Huang, X Cao, X Zheng</p>
               <p class="paper-venue">arXiv preprint arXiv:2505.11895</p>
-              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:ZeXyd9-uunAC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:ZeXyd9-uunAC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li></ol>
         </section>
 <section class="publication-year" aria-labelledby="year-2024">
           <div class="year-heading"><h2 id="year-2024">2024</h2><span>6 papers</span></div>
-          <ol class="paper-list"><li class="paper-card" id="ren2024bringing" data-year="2024">
+          <ol class="paper-list"><li class="paper-card" data-venue="other" id="ren2024bringing" data-year="2024">
+              <span class="paper-number" aria-hidden="true">20</span>
               <div class="paper-meta"><span class="venue-badge">ACCV</span><span>2024</span></div>
               <h3>Bringing masked autoencoders explicit contrastive properties for point cloud self-supervised learning</h3>
               <p class="paper-authors">Bin Ren, <strong>Guofeng Mei</strong>, Danda Pani Paudel, Weijie Wang, Yawei Li, Mengyuan Liu, Rita Cucchiara, Luc Van Gool, Nicu Sebe</p>
               <p class="paper-venue"><em>Asian Conference on Computer Vision (ACCV), 2024</em></p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2407.05862" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/Amazingren/Point-CMAE" target="_blank" rel="external nofollow noopener">Code</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2407.05862" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/Amazingren/Point-CMAE" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a></div>
             </li>
-<li class="paper-card" id="li2024gstran" data-year="2024">
+<li class="paper-card" data-venue="other" id="li2024gstran" data-year="2024">
+              <span class="paper-number" aria-hidden="true">21</span>
               <div class="paper-meta"><span class="venue-badge">ICPR</span><span>2024</span></div>
               <h3>GSTran: Joint Geometric and Semantic Coherence for Point Cloud Segmentation</h3>
               <p class="paper-authors">Abiao Li, Chenlei Lv, <strong>Guofeng Mei</strong>, Yifan Zuo, Jian Zhang, Yuming Fang</p>
               <p class="paper-venue"><em>International Conference on Pattern Recognition (ICPR), 2024</em></p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2408.11558" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/LAB123-tech/GSTran" target="_blank" rel="external nofollow noopener">Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:4DMP91E08xMC" target="_blank" rel="external nofollow noopener">Google Scholar</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2408.11558" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/LAB123-tech/GSTran" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a><a href="https://scholar.google.com/citations?view_op=view_citation&amp;hl=zh-CN&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:4DMP91E08xMC" target="_blank" rel="external nofollow noopener"><i class="fas fa-graduation-cap" aria-hidden="true"></i> Google Scholar</a></div>
             </li>
-<li class="paper-card" id="liu2024the" data-year="2024">
+<li class="paper-card" data-venue="other" id="liu2024the" data-year="2024">
+              <span class="paper-number" aria-hidden="true">22</span>
               <div class="paper-meta"><span class="venue-badge">IEEE TCSS</span><span>2024</span></div>
               <h3>The consistent transmission laws under the consistent intervention policy</h3>
               <p class="paper-authors">Juan Liu, <strong>Guofeng Mei</strong>, Yuanqing Xia</p>
               <p class="paper-venue"><em>IEEE Transactions on Computational Social Systems, 2024</em></p>
-              <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10614933" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://ieeexplore.ieee.org/document/10614933" target="_blank" rel="external nofollow noopener">Code</a></div>
+              <div class="paper-links"><a href="https://ieeexplore.ieee.org/document/10614933" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://ieeexplore.ieee.org/document/10614933" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a></div>
             </li>
-<li class="paper-card" id="mei2023geometrically" data-year="2024">
+<li class="paper-card" data-venue="cvpr" id="mei2023geometrically" data-year="2024">
+              <span class="paper-number" aria-hidden="true">23</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2024</span></div>
               <h3>Geometrically-driven Aggregation for Zero-shot 3D Point Cloud Understanding</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, Luigi Riz, Yiming Wang, Fabio Poiesi</p>
               <p class="paper-venue"><em>CVPR</em>, 2024, Seattle WA, USA</p>
-              <div class="paper-links"><a href="https://arxiv.org/abs/2312.02244" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/gfmei/GeoZe" target="_blank" rel="external nofollow noopener">Code</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/abs/2312.02244" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/gfmei/GeoZe" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a></div>
             </li>
-<li class="paper-card" id="zheng2023point" data-year="2024">
+<li class="paper-card" data-venue="cvpr" id="zheng2023point" data-year="2024">
+              <span class="paper-number" aria-hidden="true">24</span>
               <div class="paper-meta"><span class="venue-badge">CVPR</span><span>2024</span></div>
               <h3>Point Cloud Pre-training with Diffusion Models</h3>
               <p class="paper-authors">Xiao Zheng, Xiaoshui Huang, <strong>Guofeng Mei</strong>, Yuenan Hou, Zhaoyang Lyu, Bo Dai, Wanli Ouyang, Yongshun Gong</p>
               <p class="paper-venue"><em>CVPR</em>, 2024, Seattle WA, USA</p>
-              <div class="paper-links"><a href="https://arxiv.org/pdf/2311.14960.pdf" target="_blank" rel="external nofollow noopener">PDF</a></div>
+              <div class="paper-links"><a href="https://arxiv.org/pdf/2311.14960.pdf" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a></div>
             </li>
-<li class="paper-card" id="mei2024unsupervised" data-year="2024">
+<li class="paper-card" data-venue="other" id="mei2024unsupervised" data-year="2024">
+              <span class="paper-number" aria-hidden="true">25</span>
               <div class="paper-meta"><span class="venue-badge">IJCV</span><span>2024</span></div>
               <h3>Unsupervised Point Cloud Representation Learning by Clustering and Neural Rendering</h3>
               <p class="paper-authors"><strong>Guofeng Mei</strong>, Cristiano Saltori, Elisa Ricci, Nicu Sebe, Qiang Wu, Jian Zhang, Fabio Poiesi</p>
               <p class="paper-venue"><em>IJCV</em>, 2024</p>
-              <div class="paper-links"><a href="https://link.springer.com/article/10.1007/s11263-024-02027-5" target="_blank" rel="external nofollow noopener">PDF</a><a href="https://github.com/gfmei/clurender" target="_blank" rel="external nofollow noopener">Code</a></div>
+              <div class="paper-links"><a href="https://link.springer.com/article/10.1007/s11263-024-02027-5" target="_blank" rel="external nofollow noopener"><i class="far fa-file-pdf" aria-hidden="true"></i> PDF</a><a href="https://github.com/gfmei/clurender" target="_blank" rel="external nofollow noopener"><i class="fas fa-code" aria-hidden="true"></i> Code</a></div>
             </li></ol>
         </section></div>
       <p id="publication-empty" hidden>No publications match your search. Try another title, author, or venue.</p>
