@@ -44,7 +44,7 @@
 .publications-eyebrow { display: flex; align-items: center; gap: .55rem; font-size: .71rem; }
 .publications-eyebrow > span { width: 6px; height: 6px; border-radius: 50%; background: var(--global-theme-color); box-shadow: 0 0 0 4px rgba(181,9,172,.08); }
 .publications-header h1 { font-size: clamp(2.3rem, 4.4vw, 3.7rem); line-height: 1.08; margin: 1rem 0; }
-.publications-header h1 > span { display: block; color: var(--global-theme-color); background: linear-gradient(100deg, var(--global-theme-color), #438cae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+.publications-header h1 > span { display: inline; color: var(--global-theme-color); background: linear-gradient(100deg, var(--global-theme-color), #438cae); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 .publications-intro { max-width: 30rem; font-size: 1rem; margin-bottom: 1.2rem; }
 .publication-topics { display: flex; flex-wrap: wrap; gap: .5rem; margin-bottom: 1.4rem; }
 .publication-topics span { border: 1px solid var(--global-divider-color); background: var(--global-card-bg-color); border-radius: 999px; padding: .28rem .65rem; font-size: .73rem; }
