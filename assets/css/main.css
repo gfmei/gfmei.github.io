@@ -234,9 +234,13 @@ blockquote { background: var(--global-bg-color); border-left: 2px solid var(--gl
 
 .talk-entry p { margin: 0; color: var(--global-text-color-light); line-height: 1.5; }
 
-.honors-awards ul { margin: 1rem 0 0; padding-left: 1.25rem; }
+.honors-awards ul { margin: 1rem 0 0; padding-left: 1.25rem; columns: 2; column-gap: 3rem; }
 
-.honors-awards li { margin-bottom: 0.45rem; line-height: 1.55; }
+.honors-awards li { margin-bottom: 0.45rem; line-height: 1.55; break-inside: avoid; }
+
+@media (max-width: 767px) {
+  .honors-awards ul { columns: 1; }
+}
 
 .news { position: relative; }
 
