@@ -30,6 +30,7 @@ I received my Ph.D. in Computer Science from the [University of Technology Sydne
 
 ## Recent highlights
 
+- **NeurIPS 2026** — *[Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models](https://scholar.google.it/citations?view_op=view_citation&hl=it&user=VsmIGqsAAAAJ&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC)*
 - **CVPR 2026** — *Efficient Encoder-Free Fourier-based 3D Large Multimodal Model*
 - **CVPR 2026** — *Universal 3D Shape Matching via Coarse-to-Fine Language Guidance*
 - **CVPR 2026** — *A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation*
@@ -40,9 +41,11 @@ Explore the complete list on my [publications page](https://gfmei.github.io/publ
 
 ## Honors and service
 
+- Organizer: **[NTIRE 2026 Efficient Super-Resolution Challenge](https://cvlai.net/ntire/2026/)**, CVPR Workshops
+
 - Outstanding Reviewer: **ECCV 2026**, **ICCV 2025**, **CVPR 2025**, and **CVPR 2024**
 - Silver Reviewer: **ICML 2026**
-- Gold Reviewer: **NeurIPS 2024**
+- Top Reviewer Award: **NeurIPS 2024**
 - Reviewer for TPAMI, TIP, TMM, TVCG, TCSVT, RA-L, Pattern Recognition, CVPR, ICCV, ICML, ICLR, NeurIPS, ECCV, and other leading venues
 
 ## GitHub activity
