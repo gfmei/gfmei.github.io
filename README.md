@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Guofeng (Ryan) Mei</h1>
 
-  <p><strong>Tenure-Track Researcher · 3D Computer Vision · Multimodal AI · Geometric Learning</strong></p>
+  <p><strong>Senior Researcher · 3D Computer Vision · Multimodal AI · Geometric Learning</strong></p>
 
   <p>
     <a href="https://gfmei.github.io"><img src="https://img.shields.io/badge/Website-0066CC?style=flat-square&amp;logo=safari&amp;logoColor=white" alt="Website"></a>
@@ -15,7 +15,7 @@
 
 ## About me
 
-I am a tenure-track researcher at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. My research develops efficient and geometrically grounded AI systems that connect 3D perception, language, and real-world interaction.
+I am a senior researcher at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. My research develops efficient and geometrically grounded AI systems that connect 3D perception, language, and real-world interaction.
 
 I received my Ph.D. in Computer Science from the [University of Technology Sydney](https://www.uts.edu.au/) in 2023, supervised by Prof. Jian Zhang. I was also a visiting Ph.D. student at the University of Trento, working with Prof. Nicu Sebe.
 
