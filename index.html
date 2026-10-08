@@ -56,7 +56,7 @@
 </head>
 
 <!-- Body -->
-<body class="fixed-top-nav sticky-bottom-footer">
+<body class="fixed-top-nav sticky-bottom-footer home-page">
 <!-- Header -->
 <header>
     <!-- Nav Bar -->
@@ -112,7 +112,7 @@
     <div class="post">
         <article>
             <section class="profile-hero">
-                <div class="profile-art" aria-hidden="true"><svg viewBox="0 0 400 320" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="210" cy="150" r="110" stroke="currentColor" stroke-dasharray="3 6"/><ellipse cx="210" cy="150" rx="145" ry="58" transform="rotate(-28 210 150)" stroke="currentColor"/><path d="M210 40 L305 95 V205 L210 260 L115 205 V95 Z M115 95 L210 150 L305 95 M210 150 V260 M115 205 L210 150 L305 205" stroke="currentColor"/><g fill="currentColor"><circle cx="210" cy="40" r="4"/><circle cx="305" cy="95" r="4"/><circle cx="305" cy="205" r="4"/><circle cx="210" cy="260" r="4"/><circle cx="115" cy="205" r="4"/><circle cx="115" cy="95" r="4"/><circle cx="210" cy="150" r="5"/></g><path d="M55 55 H75 M65 45 V65 M330 245 H350 M340 235 V255" stroke="currentColor"/></svg></div>
+
                 <div class="profile-side">
                     <div class="profile-photo-wrap">
                         <img alt="Portrait of Guofeng Mei" class="profile-photo" src="assets/img/th.png">
@@ -167,6 +167,9 @@
                     <p class="profile-motto">"Never underestimate your power to change yourself!"</p>
 
                 </div>
+                <div class="profile-visual" aria-hidden="true">
+                    <img src="/assets/img/visuals/hero.svg" alt="" width="420" height="360" decoding="async">
+                </div>
             </section>
 
             <aside class="collaboration-banner" aria-labelledby="collaboration-heading">
@@ -192,30 +195,40 @@
                 <h2 id="research-heading"><span class="home-section-icon" aria-hidden="true"><i class="fas fa-compass"></i></span>Research Overview</h2>
                 <p class="home-section-intro">How can AI understand a 3D world, describe it in language, and use that understanding to act? My research connects geometric learning with multimodal perception, including learning representations without manual annotations and applying them to robotic interaction.</p>
                 <div class="research-area-grid">
-                    <article class="research-area">
-                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-cubes"></i></span>
-                        <h3>3D Vision &amp; Language</h3>
+                    <article class="research-area research-vision-language">
+                        <div class="research-visual" aria-hidden="true"><img src="/assets/img/visuals/vision-language.svg" alt="" width="420" height="280" loading="lazy" decoding="async"></div>
+                        <div class="research-copy">
+                            <h3>3D Vision &amp; Language</h3>
                         <p>I build models that connect point clouds with language for scene understanding, question answering, and semantic grounding. A central goal is to make 3D multimodal learning efficient and adaptable.</p>
+                        </div>
                     </article>
-                    <article class="research-area">
-                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></span>
-                        <h3>Point Cloud Registration</h3>
+                    <article class="research-area research-registration">
+                        <div class="research-visual" aria-hidden="true"><img src="/assets/img/visuals/registration.svg" alt="" width="420" height="280" loading="lazy" decoding="async"></div>
+                        <div class="research-copy">
+                            <h3>Point Cloud Registration</h3>
                         <p>I develop methods to align partially overlapping 3D point clouds. UDPReg combines probabilistic representations and distribution-level matching to learn registration without ground-truth transformations.</p>
+                        </div>
                     </article>
-                    <article class="research-area">
-                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-brain"></i></span>
-                        <h3>Unsupervised Learning</h3>
+                    <article class="research-area research-unsupervised">
+                        <div class="research-visual" aria-hidden="true"><img src="/assets/img/visuals/unsupervised.svg" alt="" width="420" height="280" loading="lazy" decoding="async"></div>
+                        <div class="research-copy">
+                            <h3>Unsupervised Learning</h3>
                         <p>I develop methods that learn transferable point cloud representations without manual annotations. CluRender combines soft clustering with neural rendering to learn from 3D geometry and 2D appearance.</p>
+                        </div>
                     </article>
-                    <article class="research-area">
-                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-robot"></i></span>
-                        <h3>Embodied Perception &amp; Interaction</h3>
+                    <article class="research-area research-embodied">
+                        <div class="research-visual" aria-hidden="true"><img src="/assets/img/visuals/embodied.svg" alt="" width="420" height="280" loading="lazy" decoding="async"></div>
+                        <div class="research-copy">
+                            <h3>Embodied Perception &amp; Interaction</h3>
                         <p>I explore how 3D perception supports robotic reasoning and grasping in complex scenes. My work connects scene understanding with decisions about how to interact with and retrieve objects.</p>
+                        </div>
                     </article>
-                    <article class="research-area">
-                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-globe"></i></span>
-                        <h3>3D Generation &amp; World Models</h3>
+                    <article class="research-area research-generation">
+                        <div class="research-visual" aria-hidden="true"><img src="/assets/img/visuals/generation.svg" alt="" width="420" height="280" loading="lazy" decoding="async"></div>
+                        <div class="research-copy">
+                            <h3>3D Generation &amp; World Models</h3>
                         <p>I study generative models that capture 3D scene structure and support controllable synthesis. T2LDM uses diffusion with self-conditioned representation guidance to generate detailed LiDAR scenes from text.</p>
+                        </div>
                     </article>
                 </div>
                 <p class="home-background">I earned my Ph.D. at the University of Technology Sydney in 2023, supervised by Prof. Jian Zhang, and now work with Dr. Fabio Poiesi at FBK. <a href="./CV/">More about my background <span aria-hidden="true">↗</span></a></p>
@@ -274,7 +287,7 @@
                             <th scope="row">2022-02</th>
                             <td>One paper was accepted to <strong>ICME 2022 (Oral)</strong>. Congratulations to all my collaborators!</td>
                         </tr>
-                                            </tbody></table>
+                        </tbody></table>
                     </div>
                 </div>
             </section>
@@ -285,16 +298,16 @@
                     <a href="./service/">All service activities <span aria-hidden="true">↗</span></a>
                 </div>
                 <div class="home-service-grid">
-                    <article class="home-service-card">
-                        <h3>Reviewer Recognition</h3>
+                    <article class="home-service-card recognition-card">
+                        <h3><span class="service-heading-icon" aria-hidden="true"><i class="fas fa-award"></i></span>Reviewer Recognition</h3>
                         <ul class="home-recognition-list">
-                            <li><strong>Top Reviewer</strong><span>NeurIPS · 2024, 2026</span></li>
-                            <li><strong>Outstanding Reviewer</strong><span>ECCV · 2026 / ICCV · 2025 / CVPR · 2024, 2025</span></li>
-                            <li><strong>Silver Reviewer</strong><span>ICML · 2026</span></li>
+                            <li><span class="recognition-mark" aria-hidden="true"><i class="fas fa-trophy"></i></span><div class="recognition-copy"><strong>Top Reviewer</strong><span>NeurIPS · 2024, 2026</span></div></li>
+                            <li><span class="recognition-mark" aria-hidden="true"><i class="fas fa-star"></i></span><div class="recognition-copy"><strong>Outstanding Reviewer</strong><span>ECCV · 2026 / ICCV · 2025 / CVPR · 2024, 2025</span></div></li>
+                            <li><span class="recognition-mark" aria-hidden="true"><i class="fas fa-medal"></i></span><div class="recognition-copy"><strong>Silver Reviewer</strong><span>ICML · 2026</span></div></li>
                         </ul>
                     </article>
-                    <article class="home-service-card">
-                        <h3>Academic Community</h3>
+                    <article class="home-service-card community-card">
+                        <h3><span class="service-heading-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></span>Academic Community</h3>
                         <p>I review for conferences including CVPR, ICCV, ECCV, NeurIPS, ICML, and ICLR, and journals including IEEE TPAMI, TIP, and Pattern Recognition.</p>
                         <p>Organizer of the <a href="./service/#challenge-organization">NTIRE 2026 Efficient Super-Resolution Challenge</a> at CVPR Workshops.</p>
                         <a class="home-detail-link" href="./service/#invited-talks">Invited talks <span aria-hidden="true">↗</span></a>
