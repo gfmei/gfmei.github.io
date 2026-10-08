@@ -108,7 +108,7 @@
 </header>
 
 <!-- Content -->
-<div class="container mt-5 home-container">
+<main class="container mt-5 home-container" id="main-content">
     <div class="post">
         <article>
             <section class="profile-hero">
@@ -185,48 +185,146 @@
             <script src="/assets/js/collaboration.js" defer></script>
 
             <nav class="home-section-nav" aria-label="Homepage sections">
-                <a href="#research">Research</a><a href="#news">News</a><a href="#explore">Explore</a>
+                <a href="#research">Research</a><a href="#featured-publications">Selected Work</a><a href="#news">News</a><a href="#academic-service">Service &amp; Recognition</a><a href="#explore">Explore</a>
             </nav>
 
-            <section class="research-overview" id="research">
-                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-compass"></i></span>Research Focus</h2>
+            <section class="research-overview" id="research" aria-labelledby="research-heading">
+                <h2 id="research-heading"><span class="home-section-icon" aria-hidden="true"><i class="fas fa-compass"></i></span>Research Overview</h2>
+                <p class="home-section-intro">How can AI understand a 3D world, describe it in language, and use that understanding to act? My research connects geometric learning with multimodal perception, including learning representations without manual annotations and applying them to robotic interaction.</p>
                 <div class="research-area-grid">
-                    <article class="research-area"><span class="research-area-icon" aria-hidden="true"><i class="fas fa-cubes"></i></span><h3>3D Vision &amp; Language</h3><p>Connecting 3D perception with language through multimodal models and semantic grounding.</p></article>
-                    <article class="research-area"><span class="research-area-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></span><h3>Point Cloud Understanding</h3><p>Learning geometric representations for point cloud registration, matching, and scene understanding.</p></article>
-                    <article class="research-area"><span class="research-area-icon" aria-hidden="true"><i class="fas fa-globe"></i></span><h3>World Models</h3><p>Building generative models of 3D scenes and their underlying geometry.</p></article>
-                    <article class="research-area"><span class="research-area-icon" aria-hidden="true"><i class="fas fa-robot"></i></span><h3>Embodied AI</h3><p>Connecting perception to robotic reasoning, grasping, and interaction.</p></article>
-                    <article class="research-area"><span class="research-area-icon" aria-hidden="true"><i class="fas fa-bolt"></i></span><h3>Efficient Learning</h3><p>Developing encoder-free architectures, compact representations, and self-supervised learning methods.</p></article>
+                    <article class="research-area">
+                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-cubes"></i></span>
+                        <h3>3D Vision &amp; Language</h3>
+                        <p>I build models that connect point clouds with language for scene understanding, question answering, and semantic grounding. A central goal is to make 3D multimodal learning efficient and adaptable.</p>
+                        <div class="research-examples"><a href="#work-mei2026fase3d">Selected work: Fase3D</a></div>
+                    </article>
+                    <article class="research-area">
+                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-project-diagram"></i></span>
+                        <h3>Point Cloud Registration</h3>
+                        <p>I develop methods to align partially overlapping 3D point clouds. UDPReg combines probabilistic representations and distribution-level matching to learn registration without ground-truth transformations.</p>
+                        <div class="research-examples"><a href="#work-mei2023unsupervised">Selected work: UDPReg (CVPR 2023)</a></div>
+                    </article>
+                    <article class="research-area">
+                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-brain"></i></span>
+                        <h3>Unsupervised Learning</h3>
+                        <p>I develop methods that learn transferable point cloud representations without manual annotations. CluRender combines soft clustering with neural rendering to learn from 3D geometry and 2D appearance.</p>
+                        <div class="research-examples"><a href="#work-mei2024unsupervised">Selected work: CluRender (IJCV 2024)</a></div>
+                    </article>
+                    <article class="research-area">
+                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-robot"></i></span>
+                        <h3>Embodied Perception &amp; Interaction</h3>
+                        <p>I explore how 3D perception supports robotic reasoning and grasping in complex scenes. My work connects scene understanding with decisions about how to interact with and retrieve objects.</p>
+                        <div class="research-examples"><a href="#work-jiao2026obstruction">Selected work: UNOGrasp</a></div>
+                    </article>
+                    <article class="research-area">
+                        <span class="research-area-icon" aria-hidden="true"><i class="fas fa-globe"></i></span>
+                        <h3>3D Generation &amp; World Models</h3>
+                        <p>I study generative models that capture 3D scene structure and support controllable synthesis. T2LDM uses diffusion with self-conditioned representation guidance to generate detailed LiDAR scenes from text.</p>
+                        <div class="research-examples"><a href="#work-qu2026t2ldm">Selected work: T2LDM</a></div>
+                    </article>
                 </div>
+                <p class="home-background">I earned my Ph.D. at the University of Technology Sydney in 2023, supervised by Prof. Jian Zhang, and now work with Dr. Fabio Poiesi at FBK. <a href="./CV/">More about my background <span aria-hidden="true">↗</span></a></p>
             </section>
 
-            <div class="news" id="news">
-                <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-bullhorn"></i></span>News</h2>
-                <div class="news-scroll-wrap"><div class="table-responsive news-scroll">
-                    <table class="table table-sm table-borderless">
-                        <tr>
-                            <th scope="row">2026-10</th>
-                            <td>One paper was accepted to <strong><a href="./publications/#weijler2026latentrfm">NeurIPS 2026</a></strong>. Congratulations to all my collaborators!</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2026-04</th>
-                            <td>Publication list updated with <strong>CVPR 2026</strong> and <strong>CVPRW 2026</strong> papers.</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2025-06</th>
-                            <td>One paper was accepted to <strong>ICCV 2025</strong>. Congratulations to all my collaborators!</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2025-06</th>
-                            <td>Two papers were accepted to <strong>IROS 2025</strong>. Congratulations to all my collaborators!</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2025-02</th>
-                            <td>One paper was accepted to <strong>CVPR 2025</strong>. Congratulations to all my collaborators!</td>
-                        </tr>
-                        <tr>
-                            <th scope="row">2025-01</th>
-                            <td>Two papers were accepted to <strong>AAAI 2026</strong>. Congratulations to all my collaborators!</td>
-                        </tr>
+            <section class="selected-work" id="featured-publications" aria-labelledby="selected-work-heading">
+                <div class="home-section-heading">
+                    <h2 id="selected-work-heading"><span class="home-section-icon" aria-hidden="true"><i class="fas fa-book-open"></i></span>Selected Work</h2>
+                    <a href="./publications/">All publications <span aria-hidden="true">↗</span></a>
+                </div>
+                <p class="home-section-intro">One representative paper for each research theme, with an emphasis on my first-author and co-first-author work.</p>
+                <p class="home-contribution-note"><sup>†</sup> Equal contribution · <sup>*</sup> Corresponding author</p>
+                <!-- selected-work:start -->
+                <div class="selected-work-grid">
+                    <article class="work-card" id="work-mei2026fase3d">
+                        <a class="work-image-link" href="./publications/#mei2026fase3d" aria-label="Publication details: Efficient Encoder-Free Fourier-based 3D Large Multimodal Model">
+                            <img src="/assets/img/research/fase3d.webp" alt="Fase3D teaser showing a 3D scene and multimodal language understanding" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>CVPR · 2026</span></div>
+                            <p class="work-category">3D Vision &amp; Language</p>
+                            <h3><a href="./publications/#mei2026fase3d">Efficient Encoder-Free Fourier-based 3D Large Multimodal Model</a></h3>
+                            <p class="work-summary">Fourier-based point cloud tokens connect 3D geometry to a language model without a separate 3D encoder.</p>
+                            <p class="work-authors"><strong>Guofeng Mei</strong>, W Lin, L Riz, Y Wu, Y Wang, F Poiesi</p>
+                            <p class="work-role">First author</p>
+                            <div class="work-links"><a href="https://arxiv.org/abs/2602.23153" target="_blank" rel="external nofollow noopener">PDF <span aria-hidden="true">↗</span></a><a href="https://tev-fbk.github.io/Fase3D/" target="_blank" rel="external nofollow noopener">Project <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="work-card" id="work-mei2023unsupervised">
+                        <a class="work-image-link" href="./publications/#mei2023unsupervised" aria-label="Publication details: Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration">
+                            <img src="/assets/img/research/udpreg.webp" alt="UDPReg architecture using point cloud features, Gaussian mixture representations, and distribution-level matching" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>CVPR · 2023</span></div>
+                            <p class="work-category">Point Cloud Registration</p>
+                            <h3><a href="./publications/#mei2023unsupervised">Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration</a></h3>
+                            <p class="work-summary">Gaussian mixture representations and distribution-level correspondences align partially overlapping point clouds without ground-truth transformation supervision.</p>
+                            <p class="work-authors"><strong>Guofeng Mei</strong>, H Tang, X Huang, W Wang, J Liu, J Zhang, LV Gool, Q Wu</p>
+                            <p class="work-role">First author</p>
+                            <div class="work-links"><a href="https://arxiv.org/abs/2303.13290" target="_blank" rel="external nofollow noopener">PDF <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="work-card" id="work-mei2024unsupervised">
+                        <a class="work-image-link" href="./publications/#mei2024unsupervised" aria-label="Publication details: Unsupervised Point Cloud Representation Learning by Clustering and Neural Rendering">
+                            <img src="/assets/img/research/clurender.webp" alt="CluRender architecture combining point cloud soft clustering and neural rendering" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>IJCV · 2024</span></div>
+                            <p class="work-category">Unsupervised Learning</p>
+                            <h3><a href="./publications/#mei2024unsupervised">Unsupervised Point Cloud Representation Learning by Clustering and Neural Rendering</a></h3>
+                            <p class="work-summary">Soft clustering and neural rendering learn transferable point cloud features from geometry and image appearance, without manual annotations or data augmentation.</p>
+                            <p class="work-authors"><strong>Guofeng Mei</strong>, C Saltori, E Ricci, N Sebe, Q Wu, J Zhang, F Poiesi</p>
+                            <p class="work-role">First author</p>
+                            <div class="work-links"><a href="https://link.springer.com/article/10.1007/s11263-024-02027-5" target="_blank" rel="external nofollow noopener">PDF <span aria-hidden="true">↗</span></a><a href="https://github.com/gfmei/clurender" target="_blank" rel="external nofollow noopener">Code <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="work-card" id="work-jiao2026obstruction">
+                        <a class="work-image-link" href="./publications/#jiao2026obstruction" aria-label="Publication details: Obstruction reasoning for robotic grasping">
+                            <img src="/assets/img/research/unograsp.webp" alt="UNOGrasp examples of grasping and removing objects that obstruct a target" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>CVPR · 2026</span></div>
+                            <p class="work-category">Embodied Perception &amp; Interaction</p>
+                            <h3><a href="./publications/#jiao2026obstruction">Obstruction reasoning for robotic grasping</a></h3>
+                            <p class="work-summary">UNOGrasp reasons about objects that obstruct a target and predicts grasps to support object retrieval in cluttered scenes.</p>
+                            <p class="work-authors">R Jiao, M Bortolon, F Giuliari, A Fasoli, S Povoli, <strong>Guofeng Mei</strong>, Y Wang, F Poiesi</p>
+                            <p class="work-role">Co-author</p>
+                            <div class="work-links"><a href="https://arxiv.org/abs/2511.23186" target="_blank" rel="external nofollow noopener">PDF <span aria-hidden="true">↗</span></a><a href="https://tev-fbk.github.io/UnoGrasp/" target="_blank" rel="external nofollow noopener">Project <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                    <article class="work-card" id="work-qu2026t2ldm">
+                        <a class="work-image-link" href="./publications/#qu2026t2ldm" aria-label="Publication details: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation">
+                            <img src="/assets/img/research/t2ldm-framework.webp" alt="T2LDM overall framework showing the text encoder, denoising network, and self-conditioned guidance network" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>CVPR · 2026</span></div>
+                            <p class="work-category">3D Generation &amp; World Models</p>
+                            <h3><a href="./publications/#qu2026t2ldm">A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation</a></h3>
+                            <p class="work-summary">Self-conditioned representation guidance helps a text-to-LiDAR diffusion model generate realistic 3D scenes with detailed objects and controllable scene content.</p>
+                            <p class="work-authors">W Qu, <strong>Guofeng Mei</strong>, Y Wu, Y Gong, X Huang, L Xiao</p>
+                            <p class="work-role">Second author</p>
+                            <div class="work-links"><a href="https://arxiv.org/abs/2511.19004" target="_blank" rel="external nofollow noopener">PDF <span aria-hidden="true">↗</span></a><a href="https://github.com/QWTforGithub/T2LDM" target="_blank" rel="external nofollow noopener">Code <span aria-hidden="true">↗</span></a></div>
+                        </div>
+                    </article>
+                </div>
+                <!-- selected-work:end -->
+            </section>
+
+            <section class="news" id="news" aria-labelledby="news-heading">
+                <h2 id="news-heading"><span class="home-section-icon" aria-hidden="true"><i class="fas fa-bullhorn"></i></span>News</h2>
+                <div class="news-panel"><table class="table table-sm table-borderless">
+                    <tbody>
+                        <tr><th scope="row">2026-10</th><td>Recognized as a <strong>NeurIPS 2026 Top Reviewer</strong>.</td></tr>
+                        <tr><th scope="row">2026-10</th><td><a href="./publications/#weijler2026latentrfm">Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models</a> was accepted to <strong>NeurIPS 2026</strong>.</td></tr>
+                        <tr><th scope="row">2026-08</th><td>Gave an invited talk, <strong>“Can AI Understand and Predict the Physical World?”</strong>, at Shandong University Summer School.</td></tr>
+                        <tr><th scope="row">2026</th><td>New <strong>CVPR 2026</strong> work includes <a href="#work-mei2026fase3d">Fase3D</a>, <a href="./publications/#xiao2026glass">GLASS</a>, and <a href="#work-jiao2026obstruction">UNOGrasp</a>.</td></tr>
+                        <tr><th scope="row">2026</th><td>Received <strong>ECCV Outstanding Reviewer</strong> and <strong>ICML Silver Reviewer</strong> recognition.</td></tr>
+                        <tr><th scope="row">2025-06</th><td>Papers accepted to <strong>ICCV 2025</strong> and <strong>IROS 2025</strong>.</td></tr>
+                        <tr><th scope="row">2025-02</th><td><a href="./publications/#mei2024perla">PerLA</a> was accepted to <strong>CVPR 2025</strong>.</td></tr>
+                    </tbody>
+                </table></div>
+                <details class="news-archive">
+                    <summary>Earlier news</summary>
+                    <div class="news-panel"><table class="table table-sm table-borderless"><tbody>
                         <tr>
                             <th scope="row">2024-11</th>
                             <td>Two papers were accepted to <strong>3DV 2025</strong>. Congratulations to all my collaborators!</td>
@@ -267,9 +365,32 @@
                             <th scope="row">2022-02</th>
                             <td>One paper was accepted to <strong>ICME 2022 (Oral)</strong>. Congratulations to all my collaborators!</td>
                         </tr>
-                    </table>
-                </div></div>
-            </div>
+                    </tbody></table></div>
+                </details>
+            </section>
+
+            <section class="home-service" id="academic-service" aria-labelledby="service-heading">
+                <div class="home-section-heading">
+                    <h2 id="service-heading"><span class="home-section-icon" aria-hidden="true"><i class="fas fa-award"></i></span>Service &amp; Recognition</h2>
+                    <a href="./service/">All service activities <span aria-hidden="true">↗</span></a>
+                </div>
+                <div class="home-service-grid">
+                    <article class="home-service-card">
+                        <h3>Reviewer Recognition</h3>
+                        <ul class="home-recognition-list">
+                            <li><strong>Top Reviewer</strong><span>NeurIPS · 2024, 2026</span></li>
+                            <li><strong>Outstanding Reviewer</strong><span>ECCV · 2026 / ICCV · 2025 / CVPR · 2024, 2025</span></li>
+                            <li><strong>Silver Reviewer</strong><span>ICML · 2026</span></li>
+                        </ul>
+                    </article>
+                    <article class="home-service-card">
+                        <h3>Academic Community</h3>
+                        <p>I review for conferences including CVPR, ICCV, ECCV, NeurIPS, ICML, and ICLR, and journals including IEEE TPAMI, TIP, and Pattern Recognition.</p>
+                        <p>Organizer of the <a href="./service/#challenge-organization">NTIRE 2026 Efficient Super-Resolution Challenge</a> at CVPR Workshops.</p>
+                        <a class="home-detail-link" href="./service/#invited-talks">Invited talks <span aria-hidden="true">↗</span></a>
+                    </article>
+                </div>
+            </section>
 
             <section class="site-explore" id="explore">
                 <h2><span class="home-section-icon" aria-hidden="true"><i class="fas fa-layer-group"></i></span>Explore</h2>
@@ -283,7 +404,7 @@
 
     </div>
 
-</div>
+</main>
 
 
 <!-- Footer -->

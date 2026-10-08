@@ -44,3 +44,17 @@ I welcome research collaborations in these areas. [Get in touch](mailto:gfmeiwhu
   <br>
   <em>“Never underestimate your power to change yourself!”</em>
 </div>
+
+## Updating the website
+
+Publication records live in `assets/data/publications.json`. A record with a
+`featured` field appears on the homepage; its image, summary, and role are maintained
+there. Regenerate both lists after editing records:
+
+```sh
+python3 scripts/build_publications.py
+```
+
+Homepage copy, news, and service highlights live in `index.html`. Research
+figures and their source URLs are in `assets/img/research/`. Preview locally with
+`python3 -m http.server 8000`.

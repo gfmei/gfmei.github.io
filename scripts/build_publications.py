@@ -93,3 +93,45 @@ text = text.replace('<h1>Selected <span>Publications</span></h1>', '<h1>Research
 text = text.replace('Selected publications by Guofeng Mei', 'Publications and preprints by Guofeng Mei')
 page.write_text(text)
 print(f'Rendered {len(papers)} research works.')
+
+# Homepage cards share authors, contribution markers, and links with the full list.
+featured_order = [
+    'mei2026fase3d', 'mei2023unsupervised', 'mei2024unsupervised', 'jiao2026obstruction',
+    'qu2026t2ldm',
+]
+by_id = {paper['id']: paper for paper in papers}
+cards = []
+for paper_id in featured_order:
+    p = by_id[paper_id]
+    featured = p['featured']
+    links = ''.join(
+        f'<a href="{esc(link["url"])}" target="_blank" rel="external nofollow noopener">{esc(link["label"])} <span aria-hidden="true">↗</span></a>'
+        for link in p['links'] if link['label'] != 'Google Scholar'
+    )
+    distinction = (f'<span class="work-distinction">{esc(featured["distinction"])}</span>'
+                   if featured.get('distinction') else '')
+    cards.append(f'''                    <article class="work-card" id="work-{esc(p['id'])}">
+                        <a class="work-image-link" href="./publications/#{esc(p['id'])}" aria-label="Publication details: {esc(p['title'])}">
+                            <img src="{esc(featured['image'])}" alt="{esc(featured['alt'])}" width="960" height="540" loading="lazy" decoding="async">
+                        </a>
+                        <div class="work-body">
+                            <div class="work-meta"><span>{esc(venue_badge(p))} · {esc(p['year'])}</span>{distinction}</div>
+                            <p class="work-category">{esc(featured['category'])}</p>
+                            <h3><a href="./publications/#{esc(p['id'])}">{esc(p['title'])}</a></h3>
+                            <p class="work-summary">{esc(featured['summary'])}</p>
+                            <p class="work-authors">{author_line(p)}</p>
+                            <p class="work-role">{esc(featured['role'])}</p>
+                            <div class="work-links">{links}</div>
+                        </div>
+                    </article>''')
+home = ROOT / 'index.html'
+home_text = home.read_text()
+start_marker = '<!-- selected-work:start -->'
+end_marker = '<!-- selected-work:end -->'
+start = home_text.index(start_marker) + len(start_marker)
+end = home_text.index(end_marker, start)
+home_text = (home_text[:start] + '\n                <div class="selected-work-grid">\n'
+             + '\n'.join(cards) + '\n                </div>\n                '
+             + home_text[end:])
+home.write_text(home_text)
+print(f'Rendered {len(cards)} homepage highlights.')

@@ -90,7 +90,14 @@
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:R3hNpaxXUhUC"
         }
       ],
-      "scholar_id": "VsmIGqsAAAAJ:R3hNpaxXUhUC"
+      "scholar_id": "VsmIGqsAAAAJ:R3hNpaxXUhUC",
+      "featured": {
+        "image": "/assets/img/research/unograsp.webp",
+        "category": "Embodied Perception & Interaction",
+        "summary": "UNOGrasp reasons about objects that obstruct a target and predicts grasps to support object retrieval in cluttered scenes.",
+        "alt": "UNOGrasp examples of grasping and removing objects that obstruct a target",
+        "role": "Co-author"
+      }
     },
     {
       "id": "corsetti2026synthfun3d",
@@ -144,15 +151,22 @@
           "url": "https://arxiv.org/abs/2511.19004"
         },
         {
+          "label": "Code",
+          "url": "https://github.com/QWTforGithub/T2LDM"
+        },
+        {
           "label": "Google Scholar",
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:HDshCWvjkbEC"
         }
       ],
       "scholar_id": "VsmIGqsAAAAJ:HDshCWvjkbEC",
-      "equal_contributors": [
-        0,
-        1
-      ]
+      "featured": {
+        "image": "/assets/img/research/t2ldm-framework.webp",
+        "category": "3D Generation & World Models",
+        "summary": "Self-conditioned representation guidance helps a text-to-LiDAR diffusion model generate realistic 3D scenes with detailed objects and controllable scene content.",
+        "alt": "T2LDM overall framework showing the text encoder, denoising network, and self-conditioned guidance network",
+        "role": "Second author"
+      }
     },
     {
       "id": "xiao2026glass",
@@ -180,7 +194,11 @@
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:4JMBOYKVnBMC"
         }
       ],
-      "scholar_id": "VsmIGqsAAAAJ:4JMBOYKVnBMC"
+      "scholar_id": "VsmIGqsAAAAJ:4JMBOYKVnBMC",
+      "equal_contributors": [
+        0,
+        1
+      ]
     },
     {
       "id": "mei2026fase3d",
@@ -210,7 +228,14 @@
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:_Qo2XoVZTnwC"
         }
       ],
-      "scholar_id": "VsmIGqsAAAAJ:_Qo2XoVZTnwC"
+      "scholar_id": "VsmIGqsAAAAJ:_Qo2XoVZTnwC",
+      "featured": {
+        "image": "/assets/img/research/fase3d.webp",
+        "category": "3D Vision & Language",
+        "summary": "Fourier-based point cloud tokens connect 3D geometry to a language model without a separate 3D encoder.",
+        "alt": "Fase3D teaser showing a 3D scene and multimodal language understanding",
+        "role": "First author"
+      }
     },
     {
       "id": "xiao2026unimatch",
@@ -590,7 +615,7 @@
     },
     {
       "id": "mei2024unsupervised",
-      "title": "Unsupervised point cloud representation learning by clustering and neural rendering",
+      "title": "Unsupervised Point Cloud Representation Learning by Clustering and Neural Rendering",
       "authors": [
         "G Mei",
         "C Saltori",
@@ -617,7 +642,14 @@
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:YOwf2qJgpHMC"
         }
       ],
-      "scholar_id": "VsmIGqsAAAAJ:YOwf2qJgpHMC"
+      "scholar_id": "VsmIGqsAAAAJ:YOwf2qJgpHMC",
+      "featured": {
+        "image": "/assets/img/research/clurender.webp",
+        "category": "Unsupervised Learning",
+        "summary": "Soft clustering and neural rendering learn transferable point cloud features from geometry and image appearance, without manual annotations or data augmentation.",
+        "alt": "CluRender architecture combining point cloud soft clustering and neural rendering",
+        "role": "First author"
+      }
     },
     {
       "id": "liu2024the",
@@ -890,18 +922,21 @@
       "links": [
         {
           "label": "PDF",
-          "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Mei_Unsupervised_Deep_Probabilistic_Approach_for_Partial_Point_Cloud_Registration_CVPR_2023_paper.pdf"
-        },
-        {
-          "label": "Code",
-          "url": "https://github.com/gfmei/UDPReg"
+          "url": "https://arxiv.org/abs/2303.13290"
         },
         {
           "label": "Google Scholar",
           "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:hqOjcs7Dif8C"
         }
       ],
-      "scholar_id": "VsmIGqsAAAAJ:hqOjcs7Dif8C"
+      "scholar_id": "VsmIGqsAAAAJ:hqOjcs7Dif8C",
+      "featured": {
+        "image": "/assets/img/research/udpreg.webp",
+        "category": "Point Cloud Registration",
+        "summary": "Gaussian mixture representations and distribution-level correspondences align partially overlapping point clouds without ground-truth transformation supervision.",
+        "alt": "UDPReg architecture using point cloud features, Gaussian mixture representations, and distribution-level matching",
+        "role": "First author"
+      }
     },
     {
       "id": "mei2023overlap",
