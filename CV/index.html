@@ -35,6 +35,13 @@
 
     
     <link rel="stylesheet" href="/assets/css/main.css">
+    <link rel="stylesheet" href="/assets/css/cv.css">
+    <!-- Institution logo sources (local copies):
+      UTS: https://www.uts.edu.au/globalassets/resizer/restricted/media/all-pages-sitewide/header/restricteduts-logoheader.svg
+      Wuhan University: https://en.whu.edu.cn/newnet/images/icon_1.png
+      FBK: https://www.fbk.eu/wp-content/themes/fbk-foundation/images/sprites/logos/fbk-foundation-small.png
+      University of Trento: https://www.unitn.it/sites/default/files/2025-01/logo_unirento_www.png
+    -->
     <link rel="canonical" href="https://gfmei.github.io/CV/">
     
     <!-- Dark Mode -->
@@ -111,13 +118,17 @@
 
 
     <!-- Content -->
-    <div class="container mt-5">
+    <main class="container mt-5 cv-container" id="main-content">
       <!-- page.html -->
         <div class="post">
 
           <header class="post-header cv-header">
+            <p class="cv-eyebrow">Research / Curriculum Vitae</p>
             <h1 class="post-title">Curriculum Vitae</h1>
-            <p class="post-description">Guofeng (Ryan) Mei · Researcher in 3D Computer Vision, Machine Learning, and Deep Learning</p>
+            <p class="post-description">Guofeng (Ryan) Mei · 3D Computer Vision &amp; Machine Learning</p>
+            <nav class="cv-jump-links" aria-label="CV sections">
+              <a href="#experience">Experience</a><a href="#cv-publications">Publications</a><a href="#cv-skills">Skills</a><a href="#cv-service">Service</a><a href="#cv-awards">Awards</a>
+            </nav>
           </header>
 
           <article class="cv-page">
@@ -135,69 +146,71 @@
               </div>
             </section>
 
-            <section class="cv-section">
-              <h2>Work and Research Experience</h2>
-              <div class="cv-item">
-                <div class="cv-date">May 2023 - Current</div>
-                <div>
-                  <h3>Researcher</h3>
-                  <p>Fondazione Bruno Kessler, Trento, Italy</p>
-                  <ul>
-                    <li>Conduct research in AI, 3D vision, and vision-language models.</li>
-                    <li>Develop and evaluate models for 3D scene understanding and multimodal learning.</li>
-                    <li>Supervise Ph.D. students and support junior researchers.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="cv-item">
-                <div class="cv-date">Aug. 2019 - Mar. 2023</div>
-                <div>
-                  <h3>Ph.D. Researcher</h3>
-                  <p>University of Technology Sydney, Sydney, Australia</p>
-                  <ul>
-                    <li>Researched robust 3D point cloud registration, correspondence estimation, and geometric feature learning.</li>
-                    <li>Designed unsupervised learning methods for 3D point cloud representation learning.</li>
-                  </ul>
-                </div>
-              </div>
-              <div class="cv-item">
-                <div class="cv-date">2016 - 2019</div>
-                <div>
-                  <h3>Algorithm Engineer roles</h3>
-                  <p>Xiaomi Corporation, Mogu Inc., ZTE Corporation, and Eisoo Ltd.</p>
-                  <ul>
-                    <li>Worked on NLP, recommendation, search, anomaly detection, distributed data processing, and computer vision applications.</li>
-                  </ul>
-                </div>
-              </div>
+            <section class="cv-section cv-experience" id="experience">
+              <h2><span aria-hidden="true">📖</span> Experience</h2>
+              <h3 class="cv-experience-heading">Education</h3>
+              <div class="cv-experience-grid"><div class="cv-experience-entry">
+                  <div class="institution-logo"><img src="/assets/img/institutions/uts.svg" alt="" width="80" height="80" loading="lazy"></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">Aug. 2019 – Mar. 2023</p>
+                    <h4>Ph.D. in Computer Science</h4>
+                    <p class="cv-institution"><a href="https://www.uts.edu.au/" target="_blank" rel="external nofollow noopener">University of Technology Sydney</a></p>
+                    <p class="cv-location">Sydney, Australia</p>
+                    <p class="cv-entry-detail"><strong>Supervisor:</strong> Prof. Jian Zhang</p><p class="cv-entry-detail"><strong>Thesis:</strong> Robust 3D Point Cloud Registration Based on Deep Learning and Optimization</p>
+                  </div>
+                </div><div class="cv-experience-entry">
+                  <div class="institution-logo institution-wuhan"><img src="/assets/img/institutions/wuhan.png" alt="" width="80" height="80" loading="lazy"></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">Sep. 2013 – Jun. 2016</p>
+                    <h4>M.Sc. in Computational Mathematics</h4>
+                    <p class="cv-institution"><a href="https://en.whu.edu.cn/" target="_blank" rel="external nofollow noopener">Wuhan University</a></p>
+                    <p class="cv-location">Wuhan, China</p>
+                    <p class="cv-entry-detail"><strong>Supervisor:</strong> Prof. Xiaoqun Wu</p><p class="cv-entry-detail"><strong>Thesis:</strong> Optimization-based Structure Identification in Complex Networks</p>
+                  </div>
+                </div></div>
+              <h3 class="cv-experience-heading">Work and Research Experience</h3>
+              <div class="cv-experience-grid"><div class="cv-experience-entry">
+                  <div class="institution-logo"><img src="/assets/img/institutions/fbk.png" alt="" width="80" height="80" loading="lazy"></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">May 2023 – Present</p>
+                    <h4>Researcher</h4>
+                    <p class="cv-institution"><a href="https://www.fbk.eu/en/" target="_blank" rel="external nofollow noopener">Fondazione Bruno Kessler</a></p>
+                    <p class="cv-location">Trento, Italy</p>
+                    <ul class="cv-entry-detail"><li>Conduct research in AI, 3D vision, and vision-language models.</li><li>Develop and evaluate models for 3D scene understanding and multimodal learning.</li><li>Supervise Ph.D. students and support junior researchers.</li></ul>
+                  </div>
+                </div><div class="cv-experience-entry">
+                  <div class="institution-logo"><img src="/assets/img/institutions/uts.svg" alt="" width="80" height="80" loading="lazy"></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">Aug. 2019 – Mar. 2023</p>
+                    <h4>Ph.D. Researcher</h4>
+                    <p class="cv-institution"><a href="https://www.uts.edu.au/" target="_blank" rel="external nofollow noopener">University of Technology Sydney</a></p>
+                    <p class="cv-location">Sydney, Australia</p>
+                    <ul class="cv-entry-detail"><li>Researched robust 3D point cloud registration, correspondence estimation, and geometric feature learning.</li><li>Designed unsupervised learning methods for 3D point cloud representation learning.</li></ul>
+                  </div>
+                </div><div class="cv-experience-entry">
+                  <div class="institution-logo"><i class="fas fa-briefcase" aria-hidden="true"></i></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">2016 – 2019</p>
+                    <h4>Algorithm Engineer</h4>
+                    <p class="cv-institution">Xiaomi Corporation · ZTE Corporation</p>
+                    <p class="cv-location"></p>
+                    <p class="cv-entry-detail">Worked on NLP, recommendation, search, anomaly detection, distributed data processing, and computer vision applications.</p>
+                  </div>
+                </div></div>
+              <h3 class="cv-experience-heading">Visiting Research</h3>
+              <div class="cv-experience-grid"><div class="cv-experience-entry">
+                  <div class="institution-logo"><img src="/assets/img/institutions/trento.png" alt="" width="80" height="80" loading="lazy"></div>
+                  <div class="cv-entry-body">
+                    <p class="cv-entry-date">Jan. 2022 – Aug. 2022</p>
+                    <h4>Visiting Ph.D. Student</h4>
+                    <p class="cv-institution"><a href="https://www.unitn.it/en" target="_blank" rel="external nofollow noopener">University of Trento</a></p>
+                    <p class="cv-location">Trento, Italy</p>
+                    <p class="cv-entry-detail"><strong>Supervisor:</strong> Prof. Nicu Sebe</p><p class="cv-entry-detail"><strong>Research:</strong> Unsupervised 3D Point Cloud Representation Learning</p>
+                  </div>
+                </div></div>
             </section>
 
-            <section class="cv-section">
-              <h2>Education</h2>
-              <div class="cv-item">
-                <div class="cv-date">Aug. 2019 - Mar. 2023</div>
-                <div>
-                  <h3>Ph.D. in Computer Science</h3>
-                  <p>University of Technology Sydney, Australia. Thesis: Robust 3D Point Cloud Registration Based on Deep Learning and Optimization. Supervisor: Prof. Jian Zhang.</p>
-                </div>
-              </div>
-              <div class="cv-item">
-                <div class="cv-date">Jan. 2022 - Aug. 2022</div>
-                <div>
-                  <h3>Visiting Ph.D. Student</h3>
-                  <p>University of Trento, Italy. Research topic: Unsupervised 3D Point Cloud Representation Learning. Supervisor: Prof. Nicu Sebe.</p>
-                </div>
-              </div>
-              <div class="cv-item">
-                <div class="cv-date">Sep. 2013 - Jun. 2016</div>
-                <div>
-                  <h3>M.Sc. in Computational Mathematics</h3>
-                  <p>Wuhan University, China. Thesis: Optimization-based Structure Identification in Complex Networks. Supervisor: Prof. Xiaoqun Wu.</p>
-                </div>
-              </div>
-            </section>
-
-            <section class="cv-section">
+            <section class="cv-section" id="cv-publications">
               <h2>Selected Publications</h2>
               <ol class="cv-publications">
                 <li>Lisa Weijler, Irene Ballester, <strong>Guofeng Mei</strong>, Tolga Birdal, Pedro Hermosilla. <a href="https://scholar.google.it/citations?view_op=view_citation&amp;hl=it&amp;user=VsmIGqsAAAAJ&amp;sortby=pubdate&amp;citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC" rel="external nofollow noopener" target="_blank">Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models</a>. <em>NeurIPS</em>, 2026.</li>
@@ -213,7 +226,7 @@
               <p class="cv-note"><sup>†</sup>Equal contribution. See the <a href="../publications/">publications page</a> for a longer list.</p>
             </section>
 
-            <section class="cv-section">
+            <section class="cv-section" id="cv-skills">
               <h2>Skills</h2>
               <div class="cv-skill-grid">
                 <p><strong>Programming:</strong> Python, C/C++, Java, Scala, MATLAB</p>
@@ -224,14 +237,14 @@
               </div>
             </section>
 
-            <section class="cv-section">
+            <section class="cv-section" id="cv-service">
               <h2>Professional Service</h2>
               <p><strong>Organizer:</strong> <a href="https://cvlai.net/ntire/2026/" rel="external nofollow noopener" target="_blank">NTIRE 2026 Efficient Super-Resolution Challenge</a>, CVPR Workshops, 2026.</p>
               <p><strong>Journal reviewer:</strong> TPAMI, TIP, TMM, TMC, TVCG, TCSVT, CIM, RA-L, PR, and CVIU.</p>
               <p><strong>Conference reviewer:</strong> CVPR, ICCV, ICML, ICLR, NeurIPS, ECCV, ACM MM, ICRA, WACV, BMVC, ICME, ICASSP, and IROS.</p>
             </section>
 
-            <section class="cv-section">
+            <section class="cv-section" id="cv-awards">
               <h2>Honors and Awards</h2>
               <ul class="cv-compact-list">
                 <li>Outstanding Reviewer, ECCV Program Committee, 2026.</li>
@@ -256,12 +269,12 @@
 
         </div>
 
-    </div>
+    </main>
 
     <!-- Footer -->
     <footer class="sticky-bottom mt-5">
       <div class="container">
-        © Copyright 2015-2023 Guofeng Mei. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
+        © Copyright Guofeng Mei. Powered by <a href="https://jekyllrb.com/" target="_blank" rel="external nofollow noopener">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio" rel="external nofollow noopener" target="_blank">al-folio</a> theme.
 
       </div>
     </footer>

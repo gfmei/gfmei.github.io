@@ -1,0 +1,49 @@
+.cv-container { max-width: 1140px; padding-top: 1.5rem; }
+.cv-header { margin-bottom: 2rem; }
+.cv-eyebrow { color: var(--global-theme-color); font-size: .78rem; font-weight: 500; letter-spacing: .14em; text-transform: uppercase; margin-bottom: .8rem; }
+.cv-header h1 { font-size: clamp(2.2rem, 5vw, 3.5rem); font-weight: 500; letter-spacing: -.04em; }
+.cv-header .post-description { font-size: 1.08rem; line-height: 1.7; color: var(--global-text-color-light); }
+.cv-jump-links { display: flex; flex-wrap: wrap; gap: .6rem; margin-top: 1.2rem; }
+.cv-jump-links a { padding: .35rem .8rem; border: 1px solid var(--global-divider-color); border-radius: 6px; font-size: .82rem; color: var(--global-text-color); }
+.cv-jump-links a:hover { color: var(--global-theme-color); border-color: var(--global-theme-color); text-decoration: none; }
+.cv-container a:focus-visible { outline: 2px solid var(--global-theme-color); outline-offset: 4px; }
+.cv-page { font-size: .98rem; }
+.cv-page .cv-section { padding: 2rem 0; scroll-margin-top: 85px; }
+.cv-page .cv-section h2 { color: var(--global-text-color); font-size: 1.75rem; font-weight: 500; letter-spacing: -.025em; margin-bottom: 1.5rem; }
+.cv-summary { max-width: 100%; }
+.cv-summary > p { max-width: 54rem; line-height: 1.8; }
+.cv-contact-grid { background: var(--global-card-bg-color); border: 1px solid var(--global-divider-color); border-radius: 10px; padding: 1rem 1.2rem; gap: .65rem 1.5rem; font-size: .88rem; }
+.cv-contact-grid span:last-child { grid-column: 1 / -1; }
+.cv-experience h2 { display: flex; align-items: center; gap: .7rem; padding-bottom: 1.3rem; border-bottom: 1px solid var(--global-divider-color); }
+.cv-experience h2 span { font-size: 1.55rem; }
+.cv-experience .cv-experience-heading { font-size: 1.25rem; font-weight: 500; margin: 2rem 0 1.6rem; }
+.cv-experience-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); column-gap: 3rem; row-gap: 2.3rem; }
+.cv-experience-entry { display: grid; grid-template-columns: 80px minmax(0, 1fr); gap: 1.1rem; align-items: start; }
+.institution-logo { width: 80px; height: 80px; display: flex; align-items: center; justify-content: center; border-radius: 7px; background: #fff; border: 1px solid #e9e9ec; overflow: hidden; margin-top: .2rem; }
+.institution-logo img { width: 100%; height: 100%; object-fit: contain; }
+.institution-wuhan { background: #183f38; justify-content: flex-start; padding: 5px; }
+.institution-wuhan img { width: auto; max-width: none; height: 68px; flex: none; }
+.institution-logo i { font-size: 1.8rem; color: #65758b; }
+.cv-experience-entry .cv-entry-date { font-size: .9rem; font-weight: 500; margin-bottom: .35rem; color: var(--global-theme-color); }
+.cv-entry-body h4 { font-size: 1.1rem; line-height: 1.45; font-weight: 500; margin: 0 0 .45rem; }
+.cv-entry-body .cv-institution { font-size: .95rem; font-weight: 500; line-height: 1.6; margin-bottom: .1rem; }
+.cv-institution a { color: var(--global-text-color); }
+.cv-institution a:hover { color: var(--global-theme-color); }
+.cv-entry-body .cv-location { color: var(--global-text-color-light); font-size: .86rem; margin-bottom: .8rem; }
+.cv-entry-body .cv-location:empty { display: none; }
+.cv-entry-body .cv-entry-detail { font-size: .86rem; line-height: 1.7; margin-bottom: .45rem; }
+.cv-entry-body ul { padding-left: 1rem; margin-top: 0; }
+.cv-entry-body li { margin-bottom: .35rem; }
+.cv-publications { padding-left: 1.4rem; }
+.cv-publications li { padding: .8rem .5rem; border-bottom: 1px solid var(--global-divider-color); line-height: 1.75; margin-bottom: .2rem; }
+.cv-publications li:last-child { border-bottom: 0; }
+.cv-publications li::marker { color: var(--global-theme-color); font-weight: 500; }
+.cv-note { margin-top: 1rem; }
+.cv-skill-grid { gap: .9rem; }
+.cv-skill-grid p { border: 1px solid var(--global-divider-color); border-radius: 8px; padding: 1rem; margin: 0; background: var(--global-card-bg-color); font-size: .9rem; }
+.cv-skill-grid strong { display: block; margin-bottom: .3rem; }
+.cv-compact-list { columns: 2; column-gap: 3rem; }
+.cv-compact-list li { break-inside: avoid; padding-bottom: .55rem; font-size: .9rem; }
+@media (max-width: 850px) { .cv-experience-grid { grid-template-columns: 1fr; row-gap: 1.8rem; } }
+@media (max-width: 575px) { .cv-container { padding-top: .5rem; } .cv-experience-entry { grid-template-columns: 62px minmax(0, 1fr); gap: .9rem; } .institution-logo { width: 62px; height: 62px; } .institution-wuhan img { height: 51px; } .cv-compact-list { columns: 1; } .cv-page .cv-section h2 { font-size: 1.5rem; } .cv-contact-grid { padding: 1rem; } }
+@media print { html, html[data-theme="dark"] { --global-bg-color: #fff; --global-card-bg-color: #fff; --global-text-color: #000; --global-text-color-light: #555; --global-theme-color: #333; --global-divider-color: #ddd; } #navbar, #progress, .progress-container, .cv-jump-links, footer { display: none !important; } body { padding: 0 !important; background: #fff !important; } .cv-container { max-width: none; margin-top: 0 !important; padding-top: 0; } .cv-experience-entry, .cv-skill-grid p { break-inside: avoid; } .cv-experience-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; } .cv-page .cv-section { padding: 1rem 0; } }
