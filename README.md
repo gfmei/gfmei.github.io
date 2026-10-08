@@ -15,39 +15,18 @@
 
 ## About me
 
-I am a senior researcher at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. My research develops efficient and geometrically grounded AI systems that connect 3D perception, language, and real-world interaction.
+I am a Senior Researcher at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. I work on 3D vision-language models, point cloud understanding, world models, embodied AI, and efficient learning.
 
-I received my Ph.D. in Computer Science from the [University of Technology Sydney](https://www.uts.edu.au/) in 2023, supervised by Prof. Jian Zhang. I was also a visiting Ph.D. student at the University of Trento, working with Prof. Nicu Sebe.
+I welcome research collaborations in these areas. [Get in touch](mailto:gfmeiwhu@outlook.com).
 
-## Research
+## Explore
 
-| | Focus |
+| Page | Content |
 |---|---|
-| 🧊 | **3D vision and language** — large multimodal models, visual grounding, and open-vocabulary understanding |
-| 📐 | **Geometric learning** — point cloud registration, matching, representation learning, and optimal transport |
-| 🤖 | **Embodied AI** — scene understanding, robotic reasoning, and interaction |
-| ⚡ | **Efficient learning** — encoder-free architectures, Fourier representations, and self-supervised learning |
-
-## Recent highlights
-
-- **NeurIPS 2026** — *[Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models](https://scholar.google.it/citations?view_op=view_citation&hl=it&user=VsmIGqsAAAAJ&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC)*
-- **CVPR 2026** — *Efficient Encoder-Free Fourier-based 3D Large Multimodal Model*
-- **CVPR 2026** — *Universal 3D Shape Matching via Coarse-to-Fine Language Guidance*
-- **CVPR 2026** — *A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation*
-- **CVPR 2025** — *PerLA: Perceptive 3D Language Assistant*
-- **CVPR 2024 Highlight** — *Geometrically-driven Aggregation for Zero-shot 3D Point Cloud Understanding*
-
-Explore the complete list on my [publications page](https://gfmei.github.io/publications/).
-
-## Honors and service
-
-- Organizer: **[NTIRE 2026 Efficient Super-Resolution Challenge](https://cvlai.net/ntire/2026/)**, CVPR Workshops
-
-- Outstanding Reviewer: **ECCV 2026**, **ICCV 2025**, **CVPR 2025**, and **CVPR 2024**
-- Silver Reviewer: **ICML 2026**
-- Top Reviewer: **NeurIPS 2026**
-- Top Reviewer Award: **NeurIPS 2024**
-- Reviewer for TPAMI, TIP, TMM, TVCG, TCSVT, RA-L, Pattern Recognition, CVPR, ICCV, ICML, ICLR, NeurIPS, ECCV, and other leading venues
+| [Home](https://gfmei.github.io/) | Research overview, collaboration, and news |
+| [Publications](https://gfmei.github.io/publications/) | Conference papers, journal articles, preprints, and manuscripts |
+| [CV](https://gfmei.github.io/CV/) | Education, work experience, skills, patent, and honors |
+| [Service](https://gfmei.github.io/others/) | Challenge organization, conference and journal reviewing, and invited talks |
 
 ## GitHub activity
 

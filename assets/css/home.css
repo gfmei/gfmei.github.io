@@ -77,3 +77,20 @@
   .home-container .invited-talks, .home-container .professional-service ul, .home-container .honors-awards ul { grid-template-columns: 1fr; }
 }
 @media (prefers-reduced-motion: reduce) { .home-container .publications ol.bibliography > li > .row { transition: none; } }
+.research-overview, .site-explore { margin: 2rem 0; }
+.home-container .research-overview h2, .home-container .site-explore h2 { display: flex; align-items: center; gap: .7rem; font-size: 1.5rem; font-weight: 500; margin-bottom: 1.2rem; }
+.research-area-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: .9rem; }
+.research-area { padding: 1.3rem; border: 1px solid var(--global-divider-color); border-radius: 12px; background: var(--global-card-bg-color); }
+.research-area-icon { display: inline-flex; align-items: center; justify-content: center; width: 34px; height: 34px; border-radius: 9px; background: var(--global-code-bg-color); color: var(--global-theme-color); margin-bottom: .9rem; }
+.research-area h3 { font-size: 1rem; font-weight: 500; line-height: 1.5; }
+.research-area p { margin: .5rem 0 0; color: var(--global-text-color-light); font-size: .85rem; line-height: 1.75; }
+.site-explore-grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 1rem; }
+.site-explore-card { display: block; padding: 1.4rem; border: 1px solid var(--global-divider-color); border-radius: 12px; color: var(--global-text-color); background: var(--global-card-bg-color); }
+.site-explore-card:hover { border-color: var(--global-theme-color); color: var(--global-text-color); text-decoration: none; }
+.site-explore-card > i { color: var(--global-theme-color); margin-bottom: 1rem; font-size: 1.1rem; }
+.site-explore-card h3 { font-size: 1.1rem; font-weight: 500; }
+.site-explore-card p { color: var(--global-text-color-light); font-size: .87rem; line-height: 1.7; }
+.site-explore-card > span { color: var(--global-theme-color); font-size: .8rem; }
+.site-explore-card > span span { color: inherit; }
+@media (max-width: 850px) { .research-area-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 575px) { .research-area-grid, .site-explore-grid { grid-template-columns: 1fr; } .home-container .research-overview h2, .home-container .site-explore h2 { font-size: 1.25rem; } }

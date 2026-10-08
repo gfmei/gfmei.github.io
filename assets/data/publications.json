@@ -1,0 +1,1343 @@
+{
+  "source_url": "https://scholar.google.it/citations?hl=it&user=VsmIGqsAAAAJ&view_op=list_works&sortby=pubdate",
+  "checked_on": "2026-10-08",
+  "year_convention": "Conference edition for conference papers; Scholar publication year for journals and preprints. Undated manuscripts have no inferred year.",
+  "papers": [
+    {
+      "id": "weijler2026latentrfm",
+      "title": "Latent Riemannian Flow Matching for Geometry-Grounded 3D Foundation Models",
+      "authors": [
+        "L Weijler",
+        "I Ballester",
+        "G Mei",
+        "T Birdal",
+        "P Hermosilla"
+      ],
+      "venue": "NeurIPS",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2607.19120"
+        },
+        {
+          "label": "Project",
+          "url": "https://lisaweijler.github.io/geometry-grounded-rfm/"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:k_IJM867U9cC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:k_IJM867U9cC"
+    },
+    {
+      "id": "paper-iH-uZ7U-co4C",
+      "title": "T2LDM++: A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation",
+      "authors": [
+        "W Qu",
+        "Q Zhang",
+        "C Wang",
+        "G Mei",
+        "Y Liu",
+        "X Huang",
+        "GH Lee",
+        "L Xiao"
+      ],
+      "venue": "arXiv preprint arXiv:2606.30147",
+      "year": "2026",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2606.30147"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:iH-uZ7U-co4C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:iH-uZ7U-co4C"
+    },
+    {
+      "id": "jiao2026obstruction",
+      "title": "Obstruction reasoning for robotic grasping",
+      "authors": [
+        "R Jiao",
+        "M Bortolon",
+        "F Giuliari",
+        "A Fasoli",
+        "S Povoli",
+        "G Mei",
+        "Y Wang",
+        "F Poiesi"
+      ],
+      "venue": "CVPR",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2511.23186"
+        },
+        {
+          "label": "Project",
+          "url": "https://tev-fbk.github.io/UnoGrasp/"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:R3hNpaxXUhUC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:R3hNpaxXUhUC"
+    },
+    {
+      "id": "corsetti2026synthfun3d",
+      "title": "Action-guided generation of 3D functionality segmentation data",
+      "authors": [
+        "J Corsetti",
+        "F Giuliari",
+        "D Boscaini",
+        "P Hermosilla",
+        "A Pilzer",
+        "G Mei",
+        "A Delitzas",
+        "et al."
+      ],
+      "venue": "CVPR Workshops",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2511.23230"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:TQgYirikUcIC"
+        },
+        {
+          "label": "Supplementary",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:r0BpntZqJG4C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:TQgYirikUcIC"
+    },
+    {
+      "id": "qu2026t2ldm",
+      "title": "A Self-Conditioned Representation Guided Diffusion Model for Realistic Text-to-LiDAR Scene Generation",
+      "authors": [
+        "W Qu",
+        "G Mei",
+        "Y Wu",
+        "Y Gong",
+        "X Huang",
+        "L Xiao"
+      ],
+      "venue": "CVPR",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2511.19004"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:HDshCWvjkbEC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:HDshCWvjkbEC",
+      "equal_contributors": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "xiao2026glass",
+      "title": "GLASS: Graph and Vision-Language Assisted Semantic Shape Correspondence",
+      "authors": [
+        "Q Xiao",
+        "G Mei",
+        "Q Liu",
+        "C Yi",
+        "F Poiesi",
+        "J Zhang",
+        "B Yang",
+        "Y Kit-lun"
+      ],
+      "venue": "CVPR",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2603.07652"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:4JMBOYKVnBMC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:4JMBOYKVnBMC"
+    },
+    {
+      "id": "mei2026fase3d",
+      "title": "Efficient Encoder-Free Fourier-based 3D Large Multimodal Model",
+      "authors": [
+        "G Mei",
+        "W Lin",
+        "L Riz",
+        "Y Wu",
+        "Y Wang",
+        "F Poiesi"
+      ],
+      "venue": "CVPR",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2602.23153"
+        },
+        {
+          "label": "Project",
+          "url": "https://tev-fbk.github.io/Fase3D/"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:_Qo2XoVZTnwC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:_Qo2XoVZTnwC"
+    },
+    {
+      "id": "xiao2026unimatch",
+      "title": "Universal 3D Shape Matching via Coarse-to-Fine Language Guidance",
+      "authors": [
+        "Q Xiao",
+        "G Mei",
+        "B Yang",
+        "L Zhang",
+        "J Zhang",
+        "K Yick"
+      ],
+      "venue": "CVPR",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2602.19112"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:RHpTSmoSYBkC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:RHpTSmoSYBkC",
+      "equal_contributors": [
+        0,
+        1
+      ]
+    },
+    {
+      "id": "ren2025masked",
+      "title": "Masked Clustering Prediction for Unsupervised Point Cloud Pre-training",
+      "authors": [
+        "B Ren",
+        "X Huang",
+        "M Liu",
+        "H Liu",
+        "F Poiesi",
+        "N Sebe",
+        "G Mei"
+      ],
+      "venue": "AAAI · Oral",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2508.08910"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Amazingren/maskclu"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:-f6ydRqryjwC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:-f6ydRqryjwC",
+      "corresponding_authors": [
+        6
+      ]
+    },
+    {
+      "id": "qu2025robust",
+      "title": "Robust Single-Stage Fully Sparse 3D Object Detection via Detachable Latent Diffusion",
+      "authors": [
+        "W Qu",
+        "G Mei",
+        "J Wang",
+        "Y Wu",
+        "X Huang",
+        "L Xiao"
+      ],
+      "venue": "AAAI",
+      "year": "2026",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2508.03252"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/QWTforGithub/RSDNet"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:hC7cP41nSMkC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:hC7cP41nSMkC"
+    },
+    {
+      "id": "li2025PointGAC",
+      "title": "PointGAC: Geometric-Aware Codebook for Masked Point Cloud Modeling",
+      "authors": [
+        "A Li",
+        "C Lv",
+        "Y Fang",
+        "Y Zuo",
+        "J Zhang",
+        "G Mei"
+      ],
+      "venue": "ICCV",
+      "year": "2025",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2507.04801"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/LAB123-tech/PointGAC"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:mB3voiENLucC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:mB3voiENLucC"
+    },
+    {
+      "id": "paper-9",
+      "title": "PISI: Physical Information Based Solver-Interactive Network Structure Reconstruction",
+      "authors": [
+        "J Liu",
+        "G Mei"
+      ],
+      "venue": "Algorithms 18 (9), 584",
+      "year": "2025",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:hFOr9nPyWt4C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:hFOr9nPyWt4C"
+    },
+    {
+      "id": "mei2024perla",
+      "title": "PerLA: Perceptive 3D language assistant",
+      "authors": [
+        "G Mei",
+        "W Lin",
+        "L Riz",
+        "Y Wu",
+        "F Poiesi",
+        "Y Wang"
+      ],
+      "venue": "CVPR",
+      "year": "2025",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2411.19774v1"
+        },
+        {
+          "label": "Code",
+          "url": "https://gfmei.github.io/PerLA"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:Wp0gIr-vW9MC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:Wp0gIr-vW9MC"
+    },
+    {
+      "id": "paper-11",
+      "title": "Parameter-Efficient CLIP Adaptation for 3D Understanding via Unified Tokenization",
+      "authors": [
+        "G Mei",
+        "Q Xiao",
+        "B Ren",
+        "L Riz",
+        "J Liu",
+        "X Huang",
+        "X Zheng",
+        "N Sebe",
+        "MH Yang",
+        "F Poiesi"
+      ],
+      "venue": "arXiv preprint arXiv:2505.18819",
+      "year": "2025",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2505.18819"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:IWHjjKOFINEC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:IWHjjKOFINEC"
+    },
+    {
+      "id": "liu2025tveg",
+      "title": "TVEG: Model Selection of the Time-Varying Exponential Family Distributions Graphical Models",
+      "authors": [
+        "J Liu",
+        "G Mei",
+        "Y Xia",
+        "X Wu",
+        "J Lü"
+      ],
+      "venue": "IEEE Transactions on Network Science and Engineering 12 (4), 2666-2678",
+      "year": "2025",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/document/10930617"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:L8Ckcad2t8MC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:L8Ckcad2t8MC"
+    },
+    {
+      "id": "jiao2025free",
+      "title": "Free-form language-based robotic reasoning and grasping",
+      "authors": [
+        "R Jiao",
+        "A Fasoli",
+        "F Giuliari",
+        "M Bortolon",
+        "S Povoli",
+        "G Mei",
+        "Y Wang",
+        "F Poiesi"
+      ],
+      "venue": "IROS",
+      "year": "2025",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2503.13082"
+        },
+        {
+          "label": "Code",
+          "url": "https://tev-fbk.github.io/FreeGrasp"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:7PzlFSSx8tAC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:7PzlFSSx8tAC"
+    },
+    {
+      "id": "wang2025fully",
+      "title": "Fully-Geometric Cross-Attention for Point Cloud Registration",
+      "authors": [
+        "W Wang",
+        "G Mei",
+        "J Zhang",
+        "N Sebe",
+        "B Lepri",
+        "F Poiesi"
+      ],
+      "venue": "3DV",
+      "year": "2025",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2502.08285"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/twowwj/FLAT"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:QIV2ME_5wuYC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:QIV2ME_5wuYC"
+    },
+    {
+      "id": "mei2024vocabulary",
+      "title": "Vocabulary-Free 3D Instance Segmentation with Vision and Language Assistant",
+      "authors": [
+        "G Mei",
+        "L Riz",
+        "Y Wang",
+        "F Poiesi"
+      ],
+      "venue": "3DV",
+      "year": "2025",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2408.10652"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/PoVo"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:aqlVkmm33-oC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:aqlVkmm33-oC"
+    },
+    {
+      "id": "zhou2024multimodal",
+      "title": "Multimodal fusion SLAM with Fourier attention",
+      "authors": [
+        "Y Zhou",
+        "G Mei",
+        "Y Wang",
+        "Y Wan",
+        "F Poiesi"
+      ],
+      "venue": "IEEE Robotics and Automation Letters 10 (2), 1050-1057",
+      "year": "2024",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10778413"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/youjie-zhou/FMF-SLAM.git"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:9ZlFYXVOiuMC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:9ZlFYXVOiuMC"
+    },
+    {
+      "id": "li2024gstran",
+      "title": "GSTran: Joint Geometric and Semantic Coherence for Point Cloud Segmentation",
+      "authors": [
+        "A Li",
+        "C Lv",
+        "G Mei",
+        "Y Zuo",
+        "J Zhang",
+        "Y Fang"
+      ],
+      "venue": "ICPR",
+      "year": "2024",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2408.11558"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/LAB123-tech/GSTran"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:4DMP91E08xMC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:4DMP91E08xMC"
+    },
+    {
+      "id": "mei2024unsupervised",
+      "title": "Unsupervised point cloud representation learning by clustering and neural rendering",
+      "authors": [
+        "G Mei",
+        "C Saltori",
+        "E Ricci",
+        "N Sebe",
+        "Q Wu",
+        "J Zhang",
+        "F Poiesi"
+      ],
+      "venue": "International Journal of Computer Vision 132 (8), 3251-3269",
+      "year": "2024",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://link.springer.com/article/10.1007/s11263-024-02027-5"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/clurender"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:YOwf2qJgpHMC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:YOwf2qJgpHMC"
+    },
+    {
+      "id": "liu2024the",
+      "title": "The Consistent Transmission Laws Under the Consistent Intervention Policy",
+      "authors": [
+        "J Liu",
+        "G Mei",
+        "Y Xia"
+      ],
+      "venue": "IEEE Transactions on Computational Social Systems 12 (1), 248-258",
+      "year": "2024",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/document/10614933"
+        },
+        {
+          "label": "Code",
+          "url": "https://ieeexplore.ieee.org/document/10614933"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:qxL8FJ1GzNcC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:qxL8FJ1GzNcC"
+    },
+    {
+      "id": "ren2024bringing",
+      "title": "Bringing masked autoencoders explicit contrastive properties for point cloud self-supervised learning",
+      "authors": [
+        "B Ren",
+        "G Mei",
+        "DP Paudel",
+        "W Wang",
+        "Y Li",
+        "M Liu",
+        "R Cucchiara",
+        "L Van Gool",
+        "et al."
+      ],
+      "venue": "ACCV",
+      "year": "2024",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2407.05862"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/Amazingren/Point-CMAE"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:4TOpqqG69KYC"
+        },
+        {
+          "label": "Supplementary",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:mVmsd5A6BfQC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:4TOpqqG69KYC"
+    },
+    {
+      "id": "paper-dhFuZR0502QC",
+      "title": "Zeroreg: Zero-shot point cloud registration with foundation models",
+      "authors": [
+        "W Wang",
+        "W Ren",
+        "G Mei",
+        "B Ren",
+        "X Huang",
+        "F Poiesi",
+        "N Sebe",
+        "B Lepri"
+      ],
+      "venue": "arXiv preprint arXiv:2312.03032",
+      "year": "2023",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2312.03032"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:dhFuZR0502QC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:dhFuZR0502QC"
+    },
+    {
+      "id": "mei2023geometrically",
+      "title": "Geometrically-driven Aggregation for Zero-shot 3D Point Cloud Understanding",
+      "authors": [
+        "G Mei",
+        "L Riz",
+        "Y Wang",
+        "F Poiesi"
+      ],
+      "venue": "CVPR",
+      "year": "2024",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2312.02244"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/GeoZe"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:Zph67rFs4hoC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:Zph67rFs4hoC"
+    },
+    {
+      "id": "zheng2023point",
+      "title": "Point Cloud Pre-training with Diffusion Models",
+      "authors": [
+        "X Zheng",
+        "X Huang",
+        "G Mei",
+        "Y Hou",
+        "Z Lyu",
+        "B Dai",
+        "W Ouyang",
+        "Y Gong"
+      ],
+      "venue": "CVPR",
+      "year": "2024",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/pdf/2311.14960.pdf"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:kNdYIx-mwKoC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:kNdYIx-mwKoC"
+    },
+    {
+      "id": "wu2023graph",
+      "title": "Graph matching optimization network for point cloud registration",
+      "authors": [
+        "Q Wu",
+        "Y Shen",
+        "H Jiang",
+        "G Mei",
+        "Y Ding",
+        "L Luo",
+        "J Xie",
+        "J Yang"
+      ],
+      "venue": "IROS",
+      "year": "2023",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2302.05844"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:0EnyYjriUFMC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:0EnyYjriUFMC"
+    },
+    {
+      "id": "huang2023cross",
+      "title": "Cross-source point cloud registration: Challenges, progress and prospects",
+      "authors": [
+        "X Huang",
+        "G Mei",
+        "J Zhang"
+      ],
+      "venue": "Neurocomputing 548, 126383",
+      "year": "2023",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://www.sciencedirect.com/science/article/abs/pii/S0925231223005064"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:8k81kl-MbHgC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:8k81kl-MbHgC"
+    },
+    {
+      "id": "zhou2023attentive",
+      "title": "Attentive multimodal fusion for optical and scene flow",
+      "authors": [
+        "Y Zhou",
+        "G Mei",
+        "Y Wang",
+        "F Poiesi",
+        "Y Wan"
+      ],
+      "venue": "IEEE Robotics and Automation Letters 8 (10), 6091-6098",
+      "year": "2023",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10197495"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/jiesico/FusionRAFT"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:MXK_kJrjxJIC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:MXK_kJrjxJIC"
+    },
+    {
+      "id": "liu2023unified",
+      "title": "A unified inferring framework of multiplex epidemic networks under multiple interlayer interaction modes",
+      "authors": [
+        "J Liu",
+        "G Mei",
+        "X Wu",
+        "Y Xia"
+      ],
+      "venue": "IEEE Transactions on Network Science and Engineering 10 (6), 3943-3952",
+      "year": "2023",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/abstract/document/10129106"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:5nxA0vEk-isC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:5nxA0vEk-isC"
+    },
+    {
+      "id": "mei2023unsupervised",
+      "title": "Unsupervised Deep Probabilistic Approach for Partial Point Cloud Registration",
+      "authors": [
+        "G Mei",
+        "H Tang",
+        "X Huang",
+        "W Wang",
+        "J Liu",
+        "J Zhang",
+        "LV Gool",
+        "Q Wu"
+      ],
+      "venue": "CVPR",
+      "year": "2023",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://openaccess.thecvf.com/content/CVPR2023/papers/Mei_Unsupervised_Deep_Probabilistic_Approach_for_Partial_Point_Cloud_Registration_CVPR_2023_paper.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/UDPReg"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:hqOjcs7Dif8C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:hqOjcs7Dif8C"
+    },
+    {
+      "id": "mei2023overlap",
+      "title": "Overlap-guided Gaussian Mixture Model for Point Cloud Registration",
+      "authors": [
+        "G Mei",
+        "F Poiesi",
+        "C Saltori",
+        "J Zhang",
+        "E Ricci",
+        "N Sebe"
+      ],
+      "venue": "WACV",
+      "year": "2023",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://openaccess.thecvf.com/content/WACV2023/papers/Mei_Overlap-Guided_Gaussian_Mixture_Models_for_Point_Cloud_Registration_WACV_2023_paper.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/ogmm"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:Se3iqnhoufwC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:Se3iqnhoufwC"
+    },
+    {
+      "id": "guofeng2022data",
+      "title": "Data Augmentation-free Unsupervised Learning for 3D Point Cloud Understanding",
+      "authors": [
+        "G Mei",
+        "C Saltori",
+        "F Poiesi",
+        "J Zhang",
+        "E Ricci",
+        "N Sebe",
+        "Q Wu"
+      ],
+      "venue": "BMVC · Oral",
+      "year": "2022",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://bmvc2022.mpi-inf.mpg.de/1049.pdf"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/gfmei/clurender"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:roLk4NBRz8UC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:roLk4NBRz8UC"
+    },
+    {
+      "id": "paper-ufrVoPGSRksC",
+      "title": "Robust real-world point cloud registration by inlier detection",
+      "authors": [
+        "X Huang",
+        "Y Wang",
+        "S Li",
+        "G Mei",
+        "Z Xu",
+        "Y Wang",
+        "J Zhang",
+        "M Bennamoun"
+      ],
+      "venue": "Computer Vision and Image Understanding 224, 103556",
+      "year": "2022",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:ufrVoPGSRksC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:ufrVoPGSRksC"
+    },
+    {
+      "id": "paper-LkGwnXOMwfcC",
+      "title": "Partial Point Cloud Registration via Soft Segmentation",
+      "authors": [
+        "G Mei",
+        "X Huang",
+        "J Zhang",
+        "Q Wu"
+      ],
+      "venue": "ICIP",
+      "year": "2022",
+      "type": "conference",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:LkGwnXOMwfcC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:LkGwnXOMwfcC"
+    },
+    {
+      "id": "mei2022overlap",
+      "title": "Overlap-Guided Coarse-to-Fine Correspondence Prediction for Point Cloud Registration",
+      "authors": [
+        "G Mei",
+        "X Huang",
+        "J Zhang",
+        "Q Wu"
+      ],
+      "venue": "ICME · Oral",
+      "year": "2022",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/document/9859814"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:WF5omc3nYNoC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:WF5omc3nYNoC"
+    },
+    {
+      "id": "paper-YsMSGLbcyi4C",
+      "title": "Unsupervised Point Cloud Pre-Training via Contrasting and Clustering",
+      "authors": [
+        "G Mei",
+        "X Huang",
+        "J Liu",
+        "J Zhang",
+        "Q Wu"
+      ],
+      "venue": "ICIP",
+      "year": "2022",
+      "type": "conference",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:YsMSGLbcyi4C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:YsMSGLbcyi4C"
+    },
+    {
+      "id": "paper-W7OEmFMy1HYC",
+      "title": "COTReg: Coupled optimal transport based point cloud registration",
+      "authors": [
+        "G Mei",
+        "X Huang",
+        "L Yu",
+        "J Zhang",
+        "M Bennamoun"
+      ],
+      "venue": "arXiv preprint arXiv:2112.14381",
+      "year": "2021",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2112.14381"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:W7OEmFMy1HYC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:W7OEmFMy1HYC"
+    },
+    {
+      "id": "paper-Tyk-4Ss8FVUC",
+      "title": "GenReg: deep generative method for fast point cloud registration",
+      "authors": [
+        "X Huang",
+        "Z Xu",
+        "G Mei",
+        "S Li",
+        "J Zhang",
+        "Y Zuo",
+        "Y Wang"
+      ],
+      "venue": "arXiv preprint arXiv:2111.11783",
+      "year": "2021",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2111.11783"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:Tyk-4Ss8FVUC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:Tyk-4Ss8FVUC"
+    },
+    {
+      "id": "paper-zYLM7Y9cAGgC",
+      "title": "A comprehensive survey on point cloud registration",
+      "authors": [
+        "X Huang",
+        "G Mei",
+        "J Zhang",
+        "R Abbas"
+      ],
+      "venue": "arXiv preprint arXiv:2103.02690",
+      "year": "2021",
+      "type": "preprint",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2103.02690"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:zYLM7Y9cAGgC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:zYLM7Y9cAGgC"
+    },
+    {
+      "id": "paper-Y0pCki6q_DkC",
+      "title": "Point Cloud Registration with Self-supervised Feature Learning and Beam Search",
+      "authors": [
+        "G Mei"
+      ],
+      "venue": "DICTA",
+      "year": "2021",
+      "type": "conference",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:Y0pCki6q_DkC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:Y0pCki6q_DkC"
+    },
+    {
+      "id": "huang2020feature",
+      "title": "Feature-metric registration: A fast semi-supervised approach for robust point cloud registration without correspondences",
+      "authors": [
+        "X Huang",
+        "G Mei",
+        "J Zhang"
+      ],
+      "venue": "CVPR",
+      "year": "2020",
+      "type": "conference",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://arxiv.org/abs/2005.01014"
+        },
+        {
+          "label": "Code",
+          "url": "https://github.com/XiaoshuiHuang/fmr"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:IjCSPb-OGe4C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:IjCSPb-OGe4C"
+    },
+    {
+      "id": "paper-9yKSN-GCB0IC",
+      "title": "Robust reconstruction of continuously time-varying topologies of weighted networks",
+      "authors": [
+        "J Liu",
+        "G Mei",
+        "X Wu",
+        "J Lü"
+      ],
+      "venue": "IEEE Transactions on Circuits and Systems I: Regular Papers 65 (9), 2970-2982",
+      "year": "2018",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:9yKSN-GCB0IC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:9yKSN-GCB0IC"
+    },
+    {
+      "id": "mei2017compressive",
+      "title": "Compressive-sensing-based structure identification for multilayer networks",
+      "authors": [
+        "G Mei",
+        "X Wu",
+        "Y Wang",
+        "M Hu",
+        "JA Lu",
+        "G Chen"
+      ],
+      "venue": "IEEE Transactions on Cybernetics 48 (2), 754-764",
+      "year": "2017",
+      "type": "journal",
+      "links": [
+        {
+          "label": "PDF",
+          "url": "https://ieeexplore.ieee.org/abstract/document/7850964?casa_token=Y-1d9FlzOrsAAAAA:mzDW0NALXmJDBozP3PjQp4u96mxbCBSBsfZfMY9iZ7t4dAoJkB8OAfUHImOGvxoPFiUWv8m4mbI"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:d1gkVwhDpl0C"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:d1gkVwhDpl0C"
+    },
+    {
+      "id": "paper-u-x6o8ySG0sC",
+      "title": "Finite‐time stabilization of complex dynamical networks via optimal control",
+      "authors": [
+        "G Mei",
+        "X Wu",
+        "D Ning",
+        "JA Lu"
+      ],
+      "venue": "Complexity 21 (S1), 417-425",
+      "year": "2016",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:u-x6o8ySG0sC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:u-x6o8ySG0sC"
+    },
+    {
+      "id": "paper-u5HHmVD_uO8C",
+      "title": "Identifying structures of continuously-varying weighted networks",
+      "authors": [
+        "G Mei",
+        "X Wu",
+        "G Chen",
+        "J Lu"
+      ],
+      "venue": "Scientific Reports 6 (1), 26649",
+      "year": "2016",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:u5HHmVD_uO8C"
+        },
+        {
+          "label": "Supplementary",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:qjMakFHDy7sC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:u5HHmVD_uO8C"
+    },
+    {
+      "id": "paper-UeHWp8X0CEIC",
+      "title": "Study on computer modeling of sandstone compaction and prediction of reservoir physical properties",
+      "authors": [
+        "W WANG",
+        "N WANG",
+        "G MEI",
+        "D GE"
+      ],
+      "venue": "Journal of Geology",
+      "year": "2013",
+      "type": "journal",
+      "links": [
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:UeHWp8X0CEIC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:UeHWp8X0CEIC"
+    },
+    {
+      "id": "paper-TFP_iSt0sucC",
+      "title": "SeMa3D: Lifting Vision-Language Models for Unsupervised 3D Semantic Correspondence",
+      "authors": [
+        "Q Xiao",
+        "G Mei",
+        "B Yang",
+        "J Zhang",
+        "Z Liying",
+        "Y Kit-lun"
+      ],
+      "venue": "Manuscript",
+      "year": null,
+      "type": "manuscript",
+      "links": [
+        {
+          "label": "OpenReview",
+          "url": "https://openreview.net/forum?id=9GaM8Y4Ft5"
+        },
+        {
+          "label": "Google Scholar",
+          "url": "https://scholar.google.it/citations?view_op=view_citation&hl=en&user=VsmIGqsAAAAJ&pagesize=100&sortby=pubdate&citation_for_view=VsmIGqsAAAAJ:TFP_iSt0sucC"
+        }
+      ],
+      "scholar_id": "VsmIGqsAAAAJ:TFP_iSt0sucC"
+    }
+  ],
+  "excluded_records": [
+    {
+      "title": "The Eleventh NTIRE 2026 Efficient Super-Resolution Challenge Report",
+      "reason": "Organizer report: shown with the NTIRE service entry."
+    },
+    {
+      "title": "Adversarial robustness for unified multi-modal encoders via efficient calibration",
+      "reason": "Excluded at user request; arXiv author list does not include Guofeng Mei."
+    },
+    {
+      "title": "Robust 3D Point Cloud Registration Based on Deep Learning and Optimization",
+      "reason": "Doctoral thesis: linked from PhD education in CV."
+    },
+    {
+      "title": "Multi-dimensional data abnormality detection method and apparatus",
+      "reason": "Patent: shown in CV."
+    },
+    {
+      "title": "Supplementary material for Action-guided generation of 3D functionality segmentation data",
+      "reason": "Supplementary material: linked with its parent paper."
+    },
+    {
+      "title": "Supplementary Materials Bringing Masked Autoencoders Explicit Contrastive Properties for Point Cloud Self-Supervised Learning",
+      "reason": "Supplementary material: linked with its parent paper."
+    },
+    {
+      "title": "Supplementary Information Identifying structures of continuously-varying weighted networks",
+      "reason": "Supplementary material: linked with its parent paper."
+    }
+  ]
+}

@@ -101,3 +101,9 @@ html[data-theme='dark'] .paper-card[data-venue="preprint"] { --venue-color: #adb
 }
 @media (prefers-reduced-motion: reduce) { .paper-card { transition: none; } .paper-card:hover { transform: none; } }
 @media print { .publications-art, .publication-controls, .publication-year-nav { display: none; } .publications-header { display: block; background: none; border: 0; padding: 0; } .paper-card { break-inside: avoid; box-shadow: none; } }
+.publication-controls { flex-wrap: wrap; }
+.publication-type-filter { min-width: 210px; }
+.paper-meta { flex-wrap: wrap; }
+.paper-type { font-size: .7rem; color: var(--global-text-color-light); }
+.publication-source-note { margin: 2rem 0 0; color: var(--global-text-color-light); font-size: .75rem; line-height: 1.7; }
+@media (max-width: 575px) { .publication-search { flex-basis: 100%; } .publication-type-filter { min-width: 0; flex: 1; } }

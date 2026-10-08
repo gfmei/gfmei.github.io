@@ -79,3 +79,13 @@
   .services-page { max-width: none; margin-top: 0 !important; }
   .service-highlight, .conference-card, .journal-card { break-inside: avoid; }
 }
+.cv-patent-card { border: 1px solid var(--global-divider-color); border-radius: 12px; padding: 1.4rem; background: var(--global-card-bg-color); }
+.cv-patent-card h3 { font-size: 1.05rem; line-height: 1.6; font-weight: 500; }
+.cv-patent-card p, .cv-patent-card a { font-size: .88rem; }
+.cv-related-pages { display: flex; flex-wrap: wrap; gap: .6rem; margin: 1rem 0; }
+.cv-related-pages a { padding: .5rem .8rem; border: 1px solid var(--global-divider-color); border-radius: 7px; font-size: .8rem; scroll-margin-top: 90px; }
+.service-links { display: flex; flex-wrap: wrap; gap: 1.5rem; }
+.service-talks .talk-entry { border-radius: 12px; padding: 1.2rem; }
+.service-talks .talk-date { font-size: .8rem; }
+.service-talks .talk-entry h3 { font-size: 1.05rem; }
+@media (max-width: 575px) { .service-talks .talk-entry { grid-template-columns: 1fr; gap: .35rem; } }
