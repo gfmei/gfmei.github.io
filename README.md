@@ -26,7 +26,7 @@ I welcome research collaborations in these areas. [Get in touch](mailto:gfmeiwhu
 | [Home](https://gfmei.github.io/) | Research overview, collaboration, and news |
 | [Publications](https://gfmei.github.io/publications/) | Conference papers, journal articles, preprints, and manuscripts |
 | [CV](https://gfmei.github.io/CV/) | Education, work experience, skills, patent, and honors |
-| [Service](https://gfmei.github.io/others/) | Challenge organization, conference and journal reviewing, and invited talks |
+| [Service](https://gfmei.github.io/service/) | Challenge organization, conference and journal reviewing, and invited talks |
 
 ## GitHub activity
 
