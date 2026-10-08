@@ -45,6 +45,7 @@ Explore the complete list on my [publications page](https://gfmei.github.io/publ
 
 - Outstanding Reviewer: **ECCV 2026**, **ICCV 2025**, **CVPR 2025**, and **CVPR 2024**
 - Silver Reviewer: **ICML 2026**
+- Top Reviewer: **NeurIPS 2026**
 - Top Reviewer Award: **NeurIPS 2024**
 - Reviewer for TPAMI, TIP, TMM, TVCG, TCSVT, RA-L, Pattern Recognition, CVPR, ICCV, ICML, ICLR, NeurIPS, ECCV, and other leading venues
 
