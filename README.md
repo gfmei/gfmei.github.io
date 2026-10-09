@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Guofeng (Ryan) Mei</h1>
 
-  <p><strong>Researcher · 3D Computer Vision · Multimodal AI · Geometric Learning</strong></p>
+  <p><strong>Research Scientist · 3D Computer Vision · Multimodal AI · Geometric Learning</strong></p>
 
   <p>
     <a href="https://gfmei.github.io"><img src="https://img.shields.io/badge/Website-0066CC?style=flat-square&amp;logo=safari&amp;logoColor=white" alt="Website"></a>
@@ -15,7 +15,7 @@
 
 ## About me
 
-I am a Researcher at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. I work on 3D vision-language models, point cloud understanding, world models, embodied AI, and efficient learning.
+I am a Research Scientist at the [Technologies of Vision (TeV)](https://tev.fbk.eu/home) unit of **Fondazione Bruno Kessler (FBK)** in Trento, Italy. I work on 3D vision-language models, point cloud understanding, world models, embodied AI, and efficient learning.
 
 I welcome research collaborations in these areas. [Get in touch](mailto:gfmeiwhu@outlook.com).
 
